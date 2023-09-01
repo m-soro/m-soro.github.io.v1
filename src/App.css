@@ -1,0 +1,282 @@
+/***===== RESET STYLE =====***/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***===== ABOUT PAGE =====***/
+/***===== CONTACT PAGE =====***/
+/***===== HOME PAGE =====***/
+
+/***===== GLOBAL STYLE =====***/
+.App {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+  margin-bottom: 0;
+}
+
+p,
+ul,
+li,
+.StackBox > button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  --font-size: 16px;
+}
+
+swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-container::part(button-prev),
+swiper-container::part(button-next) {
+  --swiper-navigation-size: 20px;
+}
+
+button {
+  border-radius: 18px;
+  font-size: 0.9em;
+}
+
+a:hover,
+button:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.active {
+  background-color: transparent;
+}
+
+/***===== END GLOBAL STYLE =====***/
+
+/***===== PROJECT*S* PAGE =====***/
+.ProjectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.5em;
+}
+
+.ProjectCard {
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.ProjectCard:hover {
+  box-shadow: 0.1px 0.1px 4px var(--muted-color);
+}
+
+.StackBox > button {
+  margin-top: 1em;
+  width: 6.5em;
+  padding: 15px;
+}
+
+.ProjectDetails > p {
+  margin-top: 30px;
+}
+
+.TechStack img {
+  height: 45px;
+  width: auto;
+  margin-left: 5px;
+}
+
+.TechStack p {
+  color: var(--muted-color);
+  font-size: smaller;
+  margin-bottom: 15px;
+}
+
+/***===== END PROJECT*S* PAGE =====***/
+
+/***===== HEADER =====***/
+.Header .active,
+.ProjectsName:hover {
+  color: aqua;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.NameText {
+  font-family: "Zilla Slab", serif;
+  font-size: 2.3em;
+  font-weight: 900;
+  font-style: italic;
+}
+
+nav {
+  height: 8em;
+}
+
+details[role="list"] summary::after,
+li[role="list"] > a::after {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+/***===== END HEADER =====***/
+
+/***===== FOOTER  =====***/
+
+.Footer {
+  margin-top: 3em;
+  width: inherit;
+  box-shadow: inset 0px 10px 8px -14px var(--muted-color);
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer > p {
+  color: var(--muted-color);
+  text-align: center;
+  font-size: small;
+  padding: 0;
+  margin: 0;
+}
+/***===== END FOOTER  =====***/
+
+/***===== PROJECT PAGE =====***/
+.ProjectDetail {
+  border-radius: 8px;
+}
+
+.ProjectDetail > article > section > ul {
+  padding-left: 2em;
+}
+
+.ProjectDetail > article > section > ul > li {
+  padding-left: 0.5em;
+}
+
+.DemoButton,
+.BackToProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.ProjectNavButtons {
+  margin-top: 4em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProjectDates > span,
+.ProjectDates > p {
+  color: var(--muted-color);
+  font-size: smaller;
+}
+
+.ProjectDates {
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+}
+
+.ProjectDetail swiper-container {
+  max-width: 650px;
+  height: auto;
+}
+
+.ProjectSwiperContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TechIcons {
+  width: 50px;
+  height: auto;
+  margin-left: 5px;
+}
+
+/***===== END PROJECT PAGE =====***/
+
+/***===== RESUME PAGE =====***/
+.EachJob {
+  margin-top: 3.5em;
+}
+
+.EachJob > p {
+  margin-bottom: -2px;
+}
+
+.EachJob > ul {
+  margin-top: 1.2em;
+  margin-bottom: 1em;
+  padding-left: 2.5em;
+}
+
+.EachJob > ul > li {
+  margin-bottom: -20px;
+}
+
+.ExperienceText {
+  margin-bottom: -50px;
+}
+
+.Resume > section {
+  margin-bottom: -5px;
+}
+
+.TechSkills {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/***===== END RESUME PAGE =====***/
+
+@media screen and (max-width: 600px) {
+  .ProjectCard {
+    width: 95%;
+  }
+
+  .TechSkills {
+    justify-content: left;
+  }
+
+  .StackBox > button {
+    padding: 0.6em;
+  }
+  .TechIcons,
+  .TechStack img {
+    width: 35px;
+    height: auto;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ProjectDetail swiper-container {
+    width: 100%;
+    height: auto;
+  }
+}
