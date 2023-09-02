@@ -34,6 +34,8 @@ let ext = `.png?raw=true`;
 let imgUrl =
   "https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/";
 let imgExt = ".png?raw=true";
+// if gif
+let gifExt = ".gif?raw=true";
 
 export const ProjectData = [
   {
@@ -69,7 +71,7 @@ export const ProjectData = [
     projectName: "My Portfolio",
     images: [
       `${imgUrl}portfolio/portfolio01${imgExt}`,
-      `${imgUrl}portfolio/portfolio02.gif`,
+      `${imgUrl}portfolio/portfolio02${gifExt}`,
       `${imgUrl}portfolio/portfolio03${imgExt}`,
     ],
     summary: `My portfolio built with React with the goal of to be as low maintenance as much as possible.`,
@@ -100,7 +102,7 @@ export const ProjectData = [
     id: 3,
     projectName: "Hotel Webscraper",
     images: [
-      "src/assets/images/mostay/mostay01.png",
+      `${imgUrl}mostay/mostay01${imgExt}`,
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/mo_stay.png",
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/demo.gif",
     ],
@@ -126,7 +128,7 @@ export const ProjectData = [
     id: 4,
     projectName: "Transit Departures or Delays",
     images: [
-      "src/assets/images/wmata/wmata01.png",
+      `${imgUrl}wmata/wmata01${imgExt}`,
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/demo.gif",
     ],
@@ -152,7 +154,7 @@ export const ProjectData = [
     id: 5,
     projectName: "Pixel Art Maker",
     images: [
-      "src/assets/images/pong/pong01.png",
+      `${imgUrl}pixelart/pixelart01${imgExt}`,
       "https://github.com/m-soro/Intro-to-Programming/raw/main/pixel-art-maker.gif",
     ],
     summary: `Get creative! create your own pixel art!`,
@@ -177,7 +179,7 @@ export const ProjectData = [
     id: 6,
     projectName: "Explore Cities Bike Share",
     images: [
-      "src/assets/images/bikeshare/bikeshare01.png",
+      `${imgUrl}bikeshare/bikeshare01${imgExt}`,
       "src/assets/images/bikeshare/bikeshare02.png",
     ],
     summary: `Using python and pandas dataframe to investigate a real data set.`,
