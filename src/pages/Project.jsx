@@ -66,7 +66,6 @@ export default function Project() {
     try {
       const response = await fetch(project.repoAPI);
       const json = await response.json();
-
       const [createdAt, updatedAt] = [json.created_at, json.pushed_at];
       setCreated(createdAt);
       setUpdated(updatedAt);

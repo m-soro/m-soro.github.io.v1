@@ -15,7 +15,6 @@ export default function Projects() {
                 <Link to={`/projects/${project.id}`}>
                   <h4 className="ProjectsName">{project.projectName}</h4>
                 </Link>
-                <p>{project.createdDate}</p>
               </hgroup>
             </header>
             <div className="container-fluid">
