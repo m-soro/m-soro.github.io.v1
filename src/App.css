@@ -84,14 +84,19 @@ button:hover {
   transition: 0.5s;
 }
 
+.ProjectCard > header > hgroup p {
+  font-size: small;
+}
+
 .ProjectCard:hover {
-  box-shadow: 0.1px 0.1px 4px var(--muted-color);
+  box-shadow: 0.1px 0.1px 1px var(--muted-color);
 }
 
 .StackBox > button {
   margin-top: 1em;
-  width: 6.5em;
-  padding: 15px;
+  width: 6em;
+  padding: 10px;
+  font-size: smaller;
 }
 
 .ProjectDetails > p {
@@ -117,6 +122,7 @@ button:hover {
 .ProjectsName:hover {
   color: aqua;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+  transition: color 0.5s;
 }
 
 .NameText {
@@ -130,11 +136,35 @@ nav {
   height: 8em;
 }
 
+/* Menu styles */
+
 details[role="list"] summary::after,
 li[role="list"] > a::after {
   width: 0;
   height: 0;
-  visibility: hidden;
+}
+
+#root > div > div.Header > nav > ul:nth-child(2):hover {
+  opacity: 1;
+}
+
+#root > div > div.Header > nav > ul:nth-child(2) {
+  opacity: 0.7;
+  transition: opacity 0.4s;
+}
+
+#root > div > div.Header > nav > ul:nth-child(2) > li > details > ul:hover {
+  opacity: 1;
+}
+
+#root > div > div.Header > nav > ul:nth-child(2) > li > details > ul {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+[role="link"]:focus,
+a:focus {
+  background-color: transparent;
 }
 
 /***===== END HEADER =====***/

@@ -11,9 +11,12 @@ export default function Projects() {
         {ProjectData.map((project) => (
           <article className="ProjectCard" key={project.id}>
             <header>
-              <Link to={`/projects/${project.id}`}>
-                <h4 className="ProjectsName">{project.projectName}</h4>
-              </Link>
+              <hgroup>
+                <Link to={`/projects/${project.id}`}>
+                  <h4 className="ProjectsName">{project.projectName}</h4>
+                </Link>
+                <p>{project.createdDate}</p>
+              </hgroup>
             </header>
             <div className="container-fluid">
               <swiper-container
@@ -38,7 +41,13 @@ export default function Projects() {
                 <hgroup>
                   <p>built with</p>
                   {project.stack.map((icon, index) => {
-                    return <img src={icon} alt="tech-icon" key={index} />;
+                    return (
+                      <img
+                        src={icon}
+                        alt={icon.split(".")[1].split("/").pop()}
+                        key={index}
+                      />
+                    );
                   })}
                 </hgroup>
               </div>

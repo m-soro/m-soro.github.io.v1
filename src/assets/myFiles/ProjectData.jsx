@@ -1,6 +1,7 @@
-// github icons - https://github.com/m-soro/icons/blob/main/js01-64.png?raw=true
-// let url = `https://github.com/m-soro/icons/blob/main/`;
 // for the icons and images - run these files to -> https://tinypng.com/
+// check for created date @link https://replit.com/@msoro/checkCreatedDate#index.js
+// use the github repo's api link
+
 let url = `https://github.com/m-soro/icons/blob/main/icons/`;
 let ext = `.png?raw=true`;
 
@@ -29,11 +30,8 @@ export const ProjectData = [
       `Design wise, I kept the design to a minimum. I added some "keep playing" motivating messages every 20th score to make it more fun and also a chime every 100th score.`,
       `I had a lot fun building and playing this app. Read more details about it in the github repo.`,
     ],
-    stack: [
-      `${url}js01-64${ext}`,
-      `${url}html01-64${ext}`,
-      `${url}css01-64${ext}`,
-    ],
+    stack: [`${url}JavaScript${ext}`, `${url}HTML${ext}`, `${url}CSS${ext}`],
+    createdDate: "Aug 09 2023",
     demoLink: "https://m-soro.github.io/Project_1/",
     repoLink: "https://github.com/m-soro/Project_1",
     repoAPI: "https://api.github.com/repos/m-soro/Project_1",
@@ -66,11 +64,12 @@ export const ProjectData = [
       `Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
     ],
     stack: [
-      `${url}js01-64${ext}`,
-      `${url}python01-64${ext}`,
-      `${url}sql02-64${ext}`,
-      `${url}react02-64${ext}`,
+      `${url}JavaScript${ext}`,
+      `${url}Python${ext}`,
+      `${url}SQL${ext}`,
+      `${url}React${ext}`,
     ],
+    createdDate: "Oct 06 2020",
     demoLink: "https://m-soro.github.io/o_cans/",
     repoLink: "https://github.com/m-soro/o_cans",
     repoAPI: "https://api.github.com/repos/m-soro/business-analytics",
@@ -107,13 +106,14 @@ export const ProjectData = [
       `Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
     ],
     stack: [
-      `${url}js01-64${ext}`,
-      `${url}python01-64${ext}`,
-      `${url}sql02-64${ext}`,
-      `${url}react02-64${ext}`,
+      `${url}JavaScript${ext}`,
+      `${url}Python${ext}`,
+      `${url}SQL${ext}`,
+      `${url}React${ext}`,
     ],
+    createdDate: "Jun 27 2023",
     demoLink: "https://m-soro.github.io/Project_1/",
     repoLink: "https://github.com/m-soro/Project_1",
-    repoAPI: "https://api.github.com/repos/m-soro/business-analytics",
+    repoAPI: "https://api.github.com/repos/m-soro/Per_Scholas",
   },
 ];

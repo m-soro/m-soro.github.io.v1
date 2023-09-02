@@ -47,7 +47,12 @@ export default function Project() {
 
   const getIcons = () => {
     return project.stack.map((icon, index) => (
-      <img src={icon} alt="tech-icon" key={index} className="TechIcons" />
+      <img
+        src={icon}
+        alt={icon.split(".")[1].split("/").pop()}
+        key={index}
+        className="TechIcons"
+      />
     ));
   };
 
@@ -122,8 +127,14 @@ export default function Project() {
 
           <section>
             <hgroup>
-              <h6>Tags</h6>
-              {tags ? createTags() : <div></div>}
+              {tags ? (
+                <>
+                  <h6>Tags</h6>
+                  {createTags()}
+                </>
+              ) : (
+                <div></div>
+              )}
             </hgroup>
           </section>
 
