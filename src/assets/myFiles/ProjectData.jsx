@@ -19,6 +19,7 @@
  * make pretty screen shots of source code here @link https://carbon.now.sh/
  * project images url should be in project's separate images folder.
  * tech icons must be named properly this will appear as alt text in images
+ * images from github repo's source folder pattern ---> https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/[FOLDERNAME]/[IMAGENAME].png?raw=true
  *
  * IMPORTANT! REMEMBER TO RUN: `npm run build` and push to github to update!
  *
@@ -28,12 +29,18 @@
 let url = `https://github.com/m-soro/icons/blob/main/icons/`;
 let ext = `.png?raw=true`;
 
+// GITHUB'S REPO IMAGES
+// pattern `${imgUrl}[FOLDERNAME]/[IMAGENAME]${imgExt}`
+let imgUrl =
+  "https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/";
+let imgExt = ".png?raw=true";
+
 export const ProjectData = [
   {
     id: 1,
     projectName: "PONG!",
     images: [
-      "src/assets/images/pong/pong01.png",
+      `${imgUrl}pong/pong01${imgExt}`,
       "https://github.com/m-soro/Project_1/raw/main/image/demo-big-screen.gif?raw=true",
     ],
     summary: `My first project for Per Scholas Software Engineering Track. This is a Pong game in written in vanilla JavaScript.`,
@@ -61,9 +68,9 @@ export const ProjectData = [
     id: 2,
     projectName: "My Portfolio",
     images: [
-      "src/assets/images/portfolio/portfololio01.png",
-      "src/assets/images/portfolio/portfolio02.gif",
-      "src/assets/images/portfolio/portfolio03.png",
+      `${imgUrl}portfolio/portfolio01${imgExt}`,
+      `${imgUrl}portfolio/portfolio02.gif`,
+      `${imgUrl}portfolio/portfolio03${imgExt}`,
     ],
     summary: `My portfolio built with React with the goal of to be as low maintenance as much as possible.`,
 
