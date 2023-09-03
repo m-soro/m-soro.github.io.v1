@@ -94,6 +94,7 @@ button:hover {
   font-size: 1.8em;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
   color: var(--primary-hover);
+  transition: font-size 0.5s;
 }
 
 /***===== END GLOBAL STYLE =====***/
