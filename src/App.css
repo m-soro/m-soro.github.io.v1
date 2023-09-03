@@ -60,6 +60,7 @@ swiper-container::part(button-next):hover {
 swiper-container {
   --swiper-pagination-bullet-size: 10px;
   --swiper-pagination-color: var(--primary);
+  cursor: grabbing;
 }
 
 button {
@@ -97,16 +98,12 @@ button:hover {
   transition: 0.5s;
 }
 
-.ProjectCard > header > hgroup p {
-  font-size: small;
-}
-
 .ProjectCard:hover {
-  box-shadow: 0.1px 0.1px 1px var(--muted-color);
+  box-shadow: 0.1px 0.1px 5px var(--muted-color);
 }
 
 .StackBox > button {
-  margin-top: 1em;
+  margin-top: -0.4em;
   width: 6em;
   padding: 10px;
   font-size: smaller;
@@ -114,18 +111,24 @@ button:hover {
 
 .ProjectDetails > p {
   margin-top: 30px;
+  margin-bottom: -2px;
 }
 
 .TechStack img {
   height: 45px;
   width: auto;
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .TechStack p {
   color: var(--muted-color);
   font-size: smaller;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+article > footer {
+  padding: calc(var(--block-spacing-vertical) * 0.3)
+    var(--block-spacing-horizontal);
 }
 
 /***===== END PROJECT*S* PAGE =====***/
@@ -300,6 +303,14 @@ a:focus {
 @media screen and (max-width: 600px) {
   .ProjectCard {
     width: 95%;
+  }
+
+  .ProjectCard header {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+  .ProjectContainer {
+    gap: 0;
   }
 
   .TechSkills {

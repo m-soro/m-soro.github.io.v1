@@ -103,9 +103,10 @@ export default function Project() {
             <swiper-container
               slides-per-view="1"
               loop="true"
-              css-mode="true"
               navigation="true"
               pagination="true"
+              grabCursor="true"
+              simulateTouch="true"
               loopedSlides={project.images ? project.images.length : null}
             >
               {project.images ? getImages() : <div></div>}

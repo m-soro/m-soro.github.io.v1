@@ -21,10 +21,11 @@ export default function Projects() {
               <swiper-container
                 slides-per-view="1"
                 loop="true"
-                css-mode="true"
                 navigation="true"
                 pagination="true"
-                loopedSlides={project.images.length}
+                grabCursor="true"
+                simulateTouch="true"
+                loopedSlides={project.images ? project.images.length : null}
               >
                 {project.images.map((image, index) => (
                   <swiper-slide key={index}>
