@@ -180,7 +180,7 @@ export const ProjectData = [
     projectName: "Explore Cities Bike Share",
     images: [
       `${imgUrl}bikeshare/bikeshare01${imgExt}`,
-      "src/assets/images/bikeshare/bikeshare02.png",
+      `${imgUrl}bikeshare/bikeshare02${imgExt}`,
     ],
     summary: `Using python and pandas dataframe to investigate a real data set.`,
 
