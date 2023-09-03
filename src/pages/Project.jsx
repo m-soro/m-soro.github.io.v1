@@ -106,7 +106,7 @@ export default function Project() {
               css-mode="true"
               navigation="true"
               pagination="true"
-              // looped-slides={project.images.length}
+              loopedSlides={project.images ? project.images.length : null}
             >
               {project.images ? getImages() : <div></div>}
             </swiper-container>
