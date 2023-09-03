@@ -78,6 +78,24 @@ button:hover {
   background-color: transparent;
 }
 
+.BackToTopContainer {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.BackToTopContainer span {
+  font-size: 1.6em;
+  color: var(--primary);
+}
+
+.BackToTopContainer span:hover,
+.BackToTopContainer span:active {
+  font-size: 1.8em;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  color: var(--primary-hover);
+}
+
 /***===== END GLOBAL STYLE =====***/
 
 /***===== PROJECT*S* PAGE =====***/

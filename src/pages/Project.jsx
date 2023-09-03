@@ -31,9 +31,19 @@ export default function Project() {
     ));
   };
 
+  // const convertToLink = (string) => {
+  //   let stringArray = string.split(" ");
+  //   let url = stringArray.filter((url) => url.includes(".com", "http"));
+  //   return string.replace(url, <a href={url}>Link</a>);
+  //   // return string.replace(url, <a href={url}>Link</a>);
+  // };
+
   const getMoreDetails = () => {
     return project.moreDetail.map((detail, index) => (
-      <p key={index}>{detail}</p>
+      <p key={index}>
+        {detail}
+        {/* {detail.indexOf("https", 0) >= 1 ? convertToLink(detail) : detail} */}
+      </p>
     ));
   };
 
