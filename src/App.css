@@ -46,7 +46,20 @@ swiper-slide {
 
 swiper-container::part(button-prev),
 swiper-container::part(button-next) {
-  --swiper-navigation-size: 20px;
+  --swiper-navigation-size: 30px;
+  --swiper-navigation-width: 1px;
+  --swiper-navigation-color: var(--primary);
+}
+
+swiper-container::part(button-prev):hover,
+swiper-container::part(button-next):hover {
+  color: var(--primary-hover);
+  --swiper-navigation-size: 35px;
+}
+
+swiper-container {
+  --swiper-pagination-bullet-size: 10px;
+  --swiper-pagination-color: var(--primary);
 }
 
 button {
@@ -308,5 +321,20 @@ a:focus {
   .ProjectDetail swiper-container {
     width: 100%;
     height: auto;
+  }
+  swiper-container::part(button-prev),
+  swiper-container::part(button-next) {
+    --swiper-navigation-size: 25px;
+  }
+
+  swiper-container {
+    --swiper-pagination-bullet-size: 8px;
+    --swiper-pagination-color: var(--primary-color);
+  }
+
+  swiper-container::part(button-prev):hover,
+  swiper-container::part(button-next):hover {
+    color: var(--primary-hover);
+    --swiper-navigation-size: 30px;
   }
 }

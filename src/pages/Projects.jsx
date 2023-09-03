@@ -24,6 +24,7 @@ export default function Projects() {
                 css-mode="true"
                 navigation="true"
                 pagination="true"
+                // looped-slides={project.images.length}
               >
                 {project.images.map((image, index) => (
                   <swiper-slide key={index}>
