@@ -130,7 +130,6 @@ export const ProjectData = [
     images: [
       `${imgUrl}wmata/wmata01${imgExt}`,
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
-      "https://raw.githubusercontent.com/m-soro/mostay/main/files/demo.gif",
     ],
     summary: `A python script to check train times.`,
 
@@ -194,12 +193,31 @@ export const ProjectData = [
       `Writing this project really gave me a firm understanding of data types in python. I used pandas and numpy libraries to manipulate the data.`,
       `As for every project, I didn't just want to submit something that just meets the minimum. I challenged myself to come up with other features, such as additional filters and specifiying how many results to return.`,
       `I wrote an extensive description about this project here: https://m-soro.github.io/Data-Science-with-Python/projects/project2.html`,
-      `Create something cool and click demo! See the source code in github.`,
     ],
     stack: [`${url}Python${ext}`],
     demoLink:
       "https://colab.research.google.com/drive/1Uunf4ash0c2BRQKtqkhEs3PHSI3FNV3P?usp=sharing",
     repoLink: "https://github.com/m-soro/bikeshare_project",
     repoAPI: "https://api.github.com/repos/m-soro/bikeshare_project",
+  },
+  {
+    id: 7,
+    projectName: "Explore FBI NICS Background Checks",
+    images: [`${imgUrl}nics/nics01${imgExt}`, `${imgUrl}nics/nics02${imgExt}`],
+    summary: `This python project explores the FBI NICS background checks`,
+
+    projectBullets: [
+      "This project uses pythoon, pandas, and matplotlib to wrangle, clean and present data.",
+      "Building this project was a great excercise to help solidify my knowledge in python and its libraries.",
+    ],
+    moreDetail: [
+      `This is a project for Udacity and must meet requirements to pass.`,
+      `It was interesting building this project because I got a lot of practice and learned a lot about data types and operations that can be done with data.`,
+    ],
+    stack: [`${url}Python${ext}`],
+    demoLink:
+      "https://nbviewer.org/github/m-soro/Data_Analyst/blob/main/projects/project2/Project2_DAND_final.ipynb",
+    repoLink: "https://m-soro.github.io/Data_Analyst",
+    repoAPI: "https://api.github.com/repos/m-soro/Data_Analyst",
   },
 ];
