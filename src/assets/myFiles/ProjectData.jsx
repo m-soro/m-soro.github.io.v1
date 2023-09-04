@@ -16,6 +16,10 @@
  *
  * NOTES:
  * images and icons must be run thru @link https://tinypng.com/ to reduce file size.
+ * create iphone and desktop mockup here: @link https://mockuphone.com/device
+ * resize iphone mock up to: 250px * 467px using preview app
+ * make sure desktop mock up screen shot is 1920px * 1200px --if not, then resize @link https://www.adobe.com/express/feature/image/resize
+ * resize desktop mock up to: 816px * 816px using preview app
  * make pretty screen shots of source code here @link https://carbon.now.sh/
  * project images url should be in project's separate images folder.
  * tech icons must be named properly this will appear as alt text in images
@@ -74,7 +78,7 @@ export const ProjectData = [
     images: [
       `${imgUrl}portfolio/portfolio01${imgExt}`,
       `${imgUrl}portfolio/portfolio02${gifExt}`,
-      `${imgUrl}portfolio/portfolio03${imgExt}`,
+      `${imgUrl}portfolio/portfolio04${imgExt}`,
     ],
     summary: `My portfolio built with React with the goal of to be as low maintenance as much as possible.`,
 
