@@ -24,7 +24,7 @@ function App() {
     <div className="App container">
       <Header />
       <div className="BackToTopContainer">
-        {scrollTop > 0 ? <BackToTop /> : <div></div>}
+        {scrollTop > 300 ? <BackToTop /> : <div></div>}
       </div>
       <Footer />
     </div>
