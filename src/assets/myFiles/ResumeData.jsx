@@ -26,7 +26,7 @@ export const ResumeData = {
       institution: "Lyceum of the Philippines University, 2009",
     },
   ],
-  languange: "Tagalog",
+  languange: "English, Tagalog",
   profile:
     "Demonstrated interest in and an aptitude for a career in information technology, selected for a 12-month certification \
     training program in cybersecurity funded by a grant from the National Security Agency. Work experience in a professional environment, including technical consulting. Familiar with modern operating systems and common enterprise applications, including Windows, MacOS, Linux, MS Office and Google G Suite. Experienced in Python, JavaScript, HTML, CSS and SQL. Self-motivated with strong analytical and problem-solving skills.\
@@ -41,7 +41,7 @@ export const ResumeData = {
         "Created software that improved month-end processes by 75 percent.",
         "Received 4.8/5.0 in most recent performance appraisal.",
         "Awarded “Colleague of the Quarter.”",
-        "Oversee a staff of three purchasing agents.",
+        "Oversee purchasing agents.",
         "Build relationships with internal and external partners.",
         "Responsible for $1 million in annual procurement.",
         "Manage inventoried assets worth more than $300,000.",
