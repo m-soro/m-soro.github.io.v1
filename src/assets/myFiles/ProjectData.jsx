@@ -43,6 +43,7 @@ export const ProjectData = [
     projectName: "PONG!",
     images: [
       `${imgUrl}pong/pong01${imgExt}`,
+      `${imgUrl}pong/pong03${imgExt}`,
       "https://github.com/m-soro/Project_1/raw/main/image/demo-big-screen.gif?raw=true",
     ],
     summary: `My first project for Per Scholas Software Engineering Track. This is a Pong game in written in vanilla JavaScript.`,
