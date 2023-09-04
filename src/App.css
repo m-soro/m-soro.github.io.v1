@@ -82,6 +82,8 @@ button:hover {
   width: 100%;
   display: flex;
   justify-content: right;
+  margin-bottom: -2em;
+  padding-right: 1em;
 }
 
 .BackToTopContainer span {
@@ -123,9 +125,9 @@ button:hover {
 
 .StackBox > button {
   margin-top: -0.4em;
-  width: 6em;
+  width: fit-content;
   padding: 10px;
-  font-size: smaller;
+  font-size: small;
 }
 
 .ProjectDetails > p {

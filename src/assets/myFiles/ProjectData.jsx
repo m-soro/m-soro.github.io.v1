@@ -207,8 +207,9 @@ export const ProjectData = [
     summary: `This python project explores the FBI NICS background checks`,
 
     projectBullets: [
-      "This project uses pythoon, pandas, and matplotlib to wrangle, clean and present data.",
+      "Using the National Instant Criminal Background Check System (NICS) data. I'm using python, pandas, and matplotlib to wrangle, clean and present data.",
       "Building this project was a great excercise to help solidify my knowledge in python and its libraries.",
+      "In depth documentation about the project can be viewed by clicking the demo link.",
     ],
     moreDetail: [
       `This is a project for Udacity and must meet requirements to pass.`,

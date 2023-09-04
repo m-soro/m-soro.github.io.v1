@@ -9,6 +9,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = (event) => {
+      console.log(window.scrollY);
       setScrollTop(window.scrollY);
     };
 

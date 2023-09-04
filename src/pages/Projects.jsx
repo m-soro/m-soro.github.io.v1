@@ -54,7 +54,7 @@ export default function Projects() {
               </div>
 
               <button className="outline">
-                <Link to={`/projects/${project.id}`}>more</Link>
+                <Link to={`/projects/${project.id}`}>more details</Link>
               </button>
             </footer>
           </article>
