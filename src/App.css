@@ -18,12 +18,22 @@
 }
 .Home h1 {
   font-family: "DM Sans";
+  padding-left: 1rem;
   font-size: 3em;
   margin-bottom: 0.5em;
 }
 
-.Home p {
-  font-family: "DM Sans";
+.Home blockquote {
+  font-size: smaller;
+}
+
+.Home section img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.Home section img {
+  object-fit: contain !important;
 }
 
 /***===== GLOBAL STYLE =====***/
