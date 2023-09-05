@@ -27,6 +27,10 @@
   font-size: smaller;
 }
 
+.Home blockquote {
+  border-left: 0.25rem solid aqua;
+}
+
 .Home section img {
   height: 100% !important;
   width: 100% !important;
