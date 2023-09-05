@@ -9,6 +9,23 @@
 /***===== CONTACT PAGE =====***/
 /***===== HOME PAGE =====***/
 
+.Home {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Home h1 {
+  font-family: "DM Sans";
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.Home p {
+  font-family: "DM Sans";
+}
+
 /***===== GLOBAL STYLE =====***/
 .App {
   display: flex;

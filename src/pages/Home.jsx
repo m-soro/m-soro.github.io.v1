@@ -1,10 +1,18 @@
 export default function Home() {
   return (
-    <div className="Home">
-      <hgroup>
+    <div className="Home container">
+      <section>
         <h1>Hi,</h1>
-        <p>I'm Mark, Software Developer</p>
-      </hgroup>
+        <blockquote>
+          My name is Mark Soro. I am an aspiring software developer based in
+          Alexandria, Virginia, USA. I am passionate about creating practical,
+          user-friendly applications using JavaScript and Python.
+        </blockquote>
+        <p></p>
+      </section>
+      <section>
+        <img src="" alt="" />
+      </section>
     </div>
   );
 }

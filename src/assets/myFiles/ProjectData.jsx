@@ -46,12 +46,13 @@ export const ProjectData = [
     id: 1,
     projectName: "PONG!",
     images: [
-      `${imgUrl}pong/pong01${imgExt}`,
+      // `${imgUrl}pong/pong01${imgExt}`,
       `${imgUrl}pong/pong03${imgExt}`,
       `${imgUrl}pong/pong04${imgExt}`,
       "https://github.com/m-soro/Project_1/raw/main/image/demo-big-screen.gif?raw=true",
+      `${imgUrl}pong/pong01${imgExt}`,
     ],
-    summary: `My first project for Per Scholas Software Engineering Track. This is a Pong game in written in vanilla JavaScript.`,
+    summary: `My first project for Per Scholas Software Engineering Track. Pong, a collision based game in written in vanilla JavaScript.`,
 
     projectBullets: [
       "This app can be played with your phone or on the web.",
@@ -61,7 +62,7 @@ export const ProjectData = [
       "Minimal design and intuitive.",
     ],
     moreDetail: [
-      `This is a collision based game. I knew I wanted to create something interactive and that I would like to play. 
+      `I knew I wanted to create something interactive and that I would like to play. 
        I decided to do this project because I wanted to learn about collision based games.`,
       `My original plan was to create an object oriented game but that proved to be difficult. After this project was built I could see how I could re-write this following object oriented principles.`,
       `Design wise, I kept the design to a minimum. I added some "keep playing" motivating messages every 20th score to make it more fun and also a chime every 100th score.`,
@@ -76,9 +77,10 @@ export const ProjectData = [
     id: 2,
     projectName: "My Portfolio",
     images: [
-      `${imgUrl}portfolio/portfolio01${imgExt}`,
-      `${imgUrl}portfolio/portfolio02${gifExt}`,
+      // `${imgUrl}portfolio/portfolio01${imgExt}`,
       `${imgUrl}portfolio/portfolio04${imgExt}`,
+      `${imgUrl}portfolio/portfolio02${gifExt}`,
+      `${imgUrl}portfolio/portfolio01${imgExt}`,
     ],
     summary: `My portfolio built with React with the goal of to be as low maintenance as much as possible.`,
 
@@ -108,9 +110,10 @@ export const ProjectData = [
     id: 3,
     projectName: "Hotel Webscraper",
     images: [
-      `${imgUrl}mostay/mostay01${imgExt}`,
+      // `${imgUrl}mostay/mostay01${imgExt}`,
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/mo_stay.png",
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/demo.gif",
+      `${imgUrl}mostay/mostay01${imgExt}`,
     ],
     summary: `A python webscraper built for checking hotel's available discounted stays.`,
 
@@ -134,8 +137,8 @@ export const ProjectData = [
     id: 4,
     projectName: "Transit Departures or Delays",
     images: [
-      `${imgUrl}wmata/wmata01${imgExt}`,
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
+      `${imgUrl}wmata/wmata01${imgExt}`,
     ],
     summary: `A python script to check train times.`,
 
@@ -209,7 +212,7 @@ export const ProjectData = [
   {
     id: 7,
     projectName: "Explore FBI NICS Background Checks",
-    images: [`${imgUrl}nics/nics01${imgExt}`, `${imgUrl}nics/nics02${imgExt}`],
+    images: [`${imgUrl}nics/nics02${imgExt}`, `${imgUrl}nics/nics01${imgExt}`],
     summary: `This python project explores the FBI NICS background checks`,
 
     projectBullets: [
