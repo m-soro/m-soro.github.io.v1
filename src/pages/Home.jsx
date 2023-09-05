@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="Home container">
+    <div className="Home container fade-in">
       <section>
         <h1>Hi,</h1>
         <blockquote>
