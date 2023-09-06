@@ -9,12 +9,7 @@ export default function Home() {
           user-friendly applications using JavaScript and Python.
         </blockquote>
       </section>
-      <section>
-        {/* <img
-          src="https://www.headshotpro.com/_nuxt/img/33.dc7f7bd.jpg"
-          alt=""
-        /> */}
-      </section>
+      <section>{/* <img src="src/assets/images/me01.jpg" alt="" /> */}</section>
     </div>
   );
 }

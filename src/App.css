@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-/***===== ABOUT PAGE =====***/
 /***===== CONTACT PAGE =====***/
 /***===== HOME PAGE =====***/
 
@@ -41,7 +40,7 @@
 }
 
 .fade-in {
-  animation: fadeIn ease 2s;
+  animation: fadeIn ease 1.5s;
 }
 
 @keyframes fadeIn {
@@ -51,6 +50,17 @@
   100% {
     opacity: 1;
   }
+}
+
+/***===== ABOUT PAGE =====***/
+
+.About {
+  height: 50vh;
+}
+
+.About h1 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 /***===== GLOBAL STYLE =====***/
