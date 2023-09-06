@@ -9,7 +9,9 @@ export default function Home() {
           user-friendly applications using JavaScript and Python.
         </blockquote>
       </section>
-      <section>{/* <img src="src/assets/images/me01.jpg" alt="" /> */}</section>
+      <section>
+        {/* <img src="src/assets/images/z_profilePics/me01.jpg" alt="" /> */}
+      </section>
     </div>
   );
 }

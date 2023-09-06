@@ -51,7 +51,7 @@ export const ProjectData = [
       "https://github.com/m-soro/Project_1/raw/main/image/demo-big-screen.gif?raw=true",
       `${imgUrl}pong/pong01${imgExt}`,
     ],
-    summary: `My first project for Per Scholas Software Engineering Track. Pong, is a collision based game in written in vanilla JavaScript`,
+    summary: `My first project for Per Scholas Software Engineering Track. Pong, is a collision based game in written in vanilla JavaScript.`,
 
     projectBullets: [
       "This app can be played with your phone or on the web.",
@@ -80,7 +80,7 @@ export const ProjectData = [
       `${imgUrl}portfolio/portfolio02${gifExt}`,
       `${imgUrl}portfolio/portfolio01${imgExt}`,
     ],
-    summary: `My React portfolio, using GitHub API to pull relevant data`,
+    summary: `My React portfolio, using GitHub API to pull relevant data.`,
 
     projectBullets: [
       "I created this React portfolio with Pico.css with the goal of being easy to maintain.",
@@ -208,7 +208,7 @@ export const ProjectData = [
     id: 7,
     projectName: "Explore FBI NICS Background Checks",
     images: [`${imgUrl}nics/nics02${imgExt}`, `${imgUrl}nics/nics01${imgExt}`],
-    summary: `This Python project explores the FBI NICS background checks`,
+    summary: `This Python project explores the FBI NICS background checks.`,
 
     projectBullets: [
       "Using the National Instant Criminal Background Check System (NICS) data. I'm using Python, Pandas, and Matplotlib to wrangle, clean and present data.",
