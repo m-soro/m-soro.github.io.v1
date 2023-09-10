@@ -76,16 +76,18 @@ export const ProjectData = [
     id: 2,
     projectName: "Open Peaks",
     images: [
+      `${imgUrl}openpeaks/06${gifExt}`,
+      `${imgUrl}openpeaks/04${imgExt}`,
+      `${imgUrl}openpeaks/05${gifExt}`,
       `${imgUrl}openpeaks/01${imgExt}`,
       `${imgUrl}openpeaks/02${imgExt}`,
       `${imgUrl}openpeaks/03${imgExt}`,
-      `${imgUrl}openpeaks/04${imgExt}`,
     ],
     summary: `A React App that lets you check skiing and snowboarding conditions around the world!`,
 
     projectBullets: [
-      "Uses async await to fetch data from RapidAPI.",
-      "Uses npm react-parallax.",
+      "Completely responsive for desktop and mobile.",
+      "Built with React. Uses async and await to fetch data from RapidAPI.",
     ],
     moreDetail: [
       `This is the second project for Per Scholas Software Engineering Track module 2.`,
