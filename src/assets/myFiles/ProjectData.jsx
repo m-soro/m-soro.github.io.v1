@@ -76,7 +76,7 @@ export const ProjectData = [
     id: 2,
     projectName: "Open Peaks",
     images: [
-      `${imgUrl}openpeaks/06${gifExt}`,
+      `${imgUrl}openpeaks/06${imgExt}`,
       `${imgUrl}openpeaks/04${imgExt}`,
       `${imgUrl}openpeaks/05${gifExt}`,
       `${imgUrl}openpeaks/01${imgExt}`,
