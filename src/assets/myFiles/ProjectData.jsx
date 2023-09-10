@@ -74,6 +74,35 @@ export const ProjectData = [
   },
   {
     id: 2,
+    projectName: "Open Peaks",
+    images: [
+      `${imgUrl}openpeaks/01${imgExt}`,
+      `${imgUrl}openpeaks/02${imgExt}`,
+      `${imgUrl}openpeaks/03${imgExt}`,
+      `${imgUrl}openpeaks/04${imgExt}`,
+    ],
+    summary: `A React App that lets you check skiing and snowboarding conditions around the world!`,
+
+    projectBullets: [
+      "Uses async await to fetch data from RapidAPI.",
+      "Uses npm react-parallax.",
+    ],
+    moreDetail: [
+      `This is the second project for Per Scholas Software Engineering Track module 2.`,
+      `More information and source code in my GitHub repo.`,
+    ],
+    stack: [
+      `${url}JavaScript${ext}`,
+      `${url}React${ext}`,
+      `${url}HTML${ext}`,
+      `${url}CSS${ext}`,
+    ],
+    demoLink: "https://m-soro.github.io/Project_2/",
+    repoLink: "https://github.com/m-soro/Project_2",
+    repoAPI: "https://api.github.com/repos/m-soro/Project_2",
+  },
+  {
+    id: 3,
     projectName: "React Portfolio",
     images: [
       `${imgUrl}portfolio/portfolio04${imgExt}`,
@@ -105,7 +134,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/m-soro.github.io",
   },
   {
-    id: 3,
+    id: 4,
     projectName: "Hotel Availability Webscraper",
     images: [
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/mo_stay.png",
@@ -131,7 +160,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/mostay",
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Transit Departures or Delays",
     images: [
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
@@ -155,7 +184,7 @@ export const ProjectData = [
       "https://api.github.com/repos/m-soro/wmata_dc_metro_train_times_v2",
   },
   {
-    id: 5,
+    id: 6,
     projectName: "Pixel Art Maker",
     images: [
       `${imgUrl}pixelart/pixelart01${imgExt}`,
@@ -179,7 +208,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/Pixel-Art-Maker",
   },
   {
-    id: 6,
+    id: 7,
     projectName: "Explore Cities Bike Share",
     images: [
       `${imgUrl}bikeshare/bikeshare01${imgExt}`,
@@ -205,7 +234,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/bikeshare_project",
   },
   {
-    id: 7,
+    id: 8,
     projectName: "Explore FBI NICS Background Checks",
     images: [`${imgUrl}nics/nics02${imgExt}`, `${imgUrl}nics/nics01${imgExt}`],
     summary: `This Python project explores the FBI NICS background checks.`,
