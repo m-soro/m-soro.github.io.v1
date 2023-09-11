@@ -6,15 +6,25 @@
 }
 
 /***===== CONTACT PAGE =====***/
+
+.Contact {
+  /* border: 2px solid purple; */
+}
+
 /***===== HOME PAGE =====***/
 
 .Home {
   height: 50vh;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
+
+.Home img {
+  /* STYLE FOR PROFILE PIC */
+}
+
 .Home h1 {
   font-family: "DM Sans";
   padding-left: 1rem;
@@ -27,16 +37,7 @@
 }
 
 .Home blockquote {
-  border-left: 0.25rem solid aqua;
-}
-
-.Home section img {
-  height: 100% !important;
-  width: 100% !important;
-}
-
-.Home section img {
-  object-fit: contain !important;
+  border-left: 0.3rem solid aqua;
 }
 
 .fade-in {
@@ -56,6 +57,7 @@
 
 .About {
   height: 50vh;
+  /* border: 2px solid orange; */
 }
 
 .About h1 {
@@ -69,6 +71,20 @@
   justify-content: space-between;
   flex-direction: column;
   min-height: 100vh;
+  /* border: 2px solid red; */
+
+  /* background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  ); */
+
+  /* Moving gradient */
+  /* background-image: radial-gradient(
+    circle at var(--x) var(--y),
+    #446b9f 0,
+    transparent 1%
+  ); */
 }
 
 h1,
@@ -156,11 +172,17 @@ button:hover {
 /***===== END GLOBAL STYLE =====***/
 
 /***===== PROJECT*S* PAGE =====***/
+.Projects {
+  /* border: 2px solid aquamarine; */
+}
+
 .ProjectContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 0.5em;
+  background-image: transparent;
+  /* border: 2px solid green; */
 }
 
 .ProjectCard {
@@ -340,6 +362,12 @@ a:focus {
 /***===== END PROJECT PAGE =====***/
 
 /***===== RESUME PAGE =====***/
+.ProfileBullets {
+  margin-top: 1.2em;
+  margin-bottom: 2em;
+  padding-left: 2.5em;
+}
+
 .EachJob {
   margin-top: 3.5em;
 }
@@ -373,6 +401,17 @@ a:focus {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.TechnicalCertifications {
+  margin-top: 0;
+  padding: 0.1em 0;
+  margin-bottom: 1em;
+}
+
+.TechnicalCertifications li {
+  list-style-type: none;
+}
+
 /***===== END RESUME PAGE =====***/
 
 @media screen and (max-width: 600px) {

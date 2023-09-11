@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="Home container fade-in">
-      <section>
+    <div className="Home fade-in">
+      <section className="container">
         <h1>Hi,</h1>
         <blockquote>
           My name is Mark Soro. I am an aspiring software developer based in

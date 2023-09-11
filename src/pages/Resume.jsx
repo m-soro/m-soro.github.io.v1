@@ -7,8 +7,17 @@ export default function Resume() {
         <h4>{ResumeData.name}</h4>
         <p>{ResumeData.location}</p>
       </section>
-      <h4>Profile</h4>
-      <p className="ProfileText">{ResumeData.profile}</p>
+
+      <section>
+        <h4>Profile</h4>
+        <ul className="ProfileBullets">
+          {ResumeData.profile.map((bullet, index) => (
+            // eslint-disable-next-line react/jsx-key
+            <li key={index}>{bullet}</li>
+          ))}
+        </ul>
+      </section>
+
       <section>
         <h4>Tech Skills</h4>
         <div className="TechSkills">
@@ -43,6 +52,18 @@ export default function Resume() {
             <p>{info.institution}</p>
             <p></p>
           </hgroup>
+        ))}
+        <h4>Technical Certifications</h4>
+        <br />
+        {ResumeData.technicalCertifications.map((certificate, index) => (
+          <ul key={index} className="TechnicalCertifications">
+            <li>
+              <a href={certificate.certificateUrl}>
+                {certificate.certificateName}
+              </a>
+            </li>
+            <li>{certificate.certificateDetails}</li>
+          </ul>
         ))}
       </section>
       <br />

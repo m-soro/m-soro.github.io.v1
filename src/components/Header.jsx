@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <HashRouter>
-      <div className="Header">
+      <div className="Header container">
         <nav>
           <ul>
             <li className="NameText">

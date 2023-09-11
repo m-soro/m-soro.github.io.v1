@@ -76,12 +76,10 @@ export const ProjectData = [
     id: 2,
     projectName: "Open Peaks",
     images: [
-      `${imgUrl}openpeaks/06${imgExt}`,
-      `${imgUrl}openpeaks/04${imgExt}`,
-      `${imgUrl}openpeaks/05${gifExt}`,
       `${imgUrl}openpeaks/01${imgExt}`,
       `${imgUrl}openpeaks/02${imgExt}`,
       `${imgUrl}openpeaks/03${imgExt}`,
+      `${imgUrl}openpeaks/05${gifExt}`,
     ],
     summary: `A React App that lets you check skiing and snowboarding conditions around the world!`,
 

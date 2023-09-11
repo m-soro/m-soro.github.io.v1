@@ -80,6 +80,7 @@ export default function Project() {
       setCreated(createdAt);
       setUpdated(updatedAt);
       setTags(json.topics);
+      console.log(json);
     } catch (error) {
       console.log(error);
     }
