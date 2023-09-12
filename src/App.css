@@ -22,7 +22,17 @@
 }
 
 .Home img {
-  /* STYLE FOR PROFILE PIC */
+  width: 10rem;
+  height: auto;
+  margin: 2rem 4rem 0 0;
+  border-radius: 50%;
+  filter: grayscale(90%);
+}
+
+.Home img:hover {
+  filter: grayscale(10%);
+  transition: filter 1000ms, box-shadow 1000ms;
+  box-shadow: 2px 2px 4px 3px var(--muted-color);
 }
 
 .Home h1 {
@@ -30,10 +40,12 @@
   padding-left: 1rem;
   font-size: 3em;
   margin-bottom: 0.5em;
+  letter-spacing: 5px;
 }
 
 .Home blockquote {
   font-size: smaller;
+  letter-spacing: 1px;
 }
 
 .Home blockquote {
@@ -71,20 +83,6 @@
   justify-content: space-between;
   flex-direction: column;
   min-height: 100vh;
-  /* border: 2px solid red; */
-
-  /* background: linear-gradient(
-    109.6deg,
-    rgba(0, 0, 0, 0.93) 11.2%,
-    rgb(63, 61, 61) 78.9%
-  ); */
-
-  /* Moving gradient */
-  /* background-image: radial-gradient(
-    circle at var(--x) var(--y),
-    #446b9f 0,
-    transparent 1%
-  ); */
 }
 
 h1,
@@ -461,5 +459,26 @@ a:focus {
   swiper-container::part(button-next):hover {
     color: var(--primary-hover);
     --swiper-navigation-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Home img {
+    margin: 4rem 0 0 0;
+    padding: 0;
+  }
+
+  .Home blockquote {
+    margin-top: 0.5rem;
+    font-size: small;
+    letter-spacing: 0.5px;
+  }
+
+  .Home h1 {
+    font-size: xx-large;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    letter-spacing: 3px;
   }
 }
