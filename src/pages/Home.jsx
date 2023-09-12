@@ -10,7 +10,10 @@ export default function Home() {
         </blockquote>
       </section>
       <section>
-        <img src="src/assets/images/z_profilePics/me_sq.jpg" alt="" />
+        <img
+          src="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/z_profilePics/me_sq.jpg?raw=true"
+          alt=""
+        />
       </section>
     </div>
   );
