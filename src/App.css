@@ -68,13 +68,37 @@
 /***===== ABOUT PAGE =====***/
 
 .About {
-  height: 50vh;
-  /* border: 2px solid orange; */
+  height: auto;
+}
+
+.About p,
+.About figcaption {
+  font-size: smaller;
+  letter-spacing: 0.5px;
 }
 
 .About h1 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+.About article {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About img {
+  height: 480px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border-radius: 16px;
+}
+
+.About figcaption {
+  font-size: xx-small;
 }
 
 /***===== GLOBAL STYLE =====***/
@@ -480,5 +504,17 @@ a:focus {
     margin-bottom: 1rem;
     padding-bottom: 0;
     letter-spacing: 3px;
+  }
+
+  .About img {
+    height: 380px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 16px;
+  }
+
+  .About figcaption {
+    font-size: x-small;
   }
 }
