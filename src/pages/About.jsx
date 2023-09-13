@@ -31,7 +31,10 @@ export default function About() {
       </p>
       <article>
         <figure>
-          <img src="src/assets/images/z_profilePics/me002.jpg" alt="" />
+          <img
+            src="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/z_profilePics/me002.jpg?raw=true"
+            alt=""
+          />
           <figcaption>In my U.S. citizenship oath taking ceremony</figcaption>
         </figure>
       </article>
