@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="About">
-      <h1>About</h1>
+      <h1>About me</h1>
       <p>
         I will soon complete Per Scholas four-month full time Software
         Engineering Track as one important step of my pursuit of a career in
