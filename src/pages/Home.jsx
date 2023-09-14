@@ -11,7 +11,7 @@ export default function Home() {
       </section>
       <section>
         <img
-          src="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/z_profilePics/me_sq.jpg?raw=true"
+          src="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/z_profilePics/me_sq.png?raw=true"
           alt=""
         />
       </section>
