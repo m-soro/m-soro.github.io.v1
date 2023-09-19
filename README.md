@@ -4,4 +4,4 @@
 
 - My goal is a minimal and responsive design.
 
-- And very important, is something that will be low maintenance as much as possible, so I have more time to code =)
+- And very important, is something that will be low maintenance as much as possible. So I have more time to 👨‍💻🚴🏋️⛷️
