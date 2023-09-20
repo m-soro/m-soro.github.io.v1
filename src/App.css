@@ -11,12 +11,13 @@
   height: 100%;
 }
 
-.Contact-Options ul li {
+.Contact-Options div {
   list-style-type: none;
   font-size: larger;
   padding: 0.9rem 0;
   letter-spacing: 1.5px;
   font-weight: 300;
+  position: relative;
 }
 
 .Contact-Options {
@@ -24,8 +25,26 @@
   height: 50vh;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  flex-direction: column;
 }
 
+.Contact-Options div::after {
+  content: "";
+  position: absolute;
+  background-color: aqua;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  transform: scale(0, 1);
+  transform-origin: 0% 100%;
+  transition: transform 0.3s ease;
+}
+
+.Contact-Options div:hover::after {
+  transform: scale(1, 1);
+}
 /***===== HOME PAGE =====***/
 
 .Home {
