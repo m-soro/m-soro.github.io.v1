@@ -3,9 +3,21 @@ import { ResumeData } from "/src/assets/myFiles/ResumeData.jsx";
 export default function Resume() {
   return (
     <div className="Resume">
-      <section>
-        <h4>{ResumeData.name}</h4>
-        <p>{ResumeData.location}</p>
+      <section className="NameLocationDownload">
+        <div>
+          <h4>{ResumeData.name}</h4>
+          <p>{ResumeData.location}</p>
+        </div>
+        <div>
+          <a
+            href="src/assets/myFiles/Mark_Soro_Software_Developer.pdf"
+            download="Mark_Soro_Software_Developer"
+            role="button"
+            className="outline DownloadResume"
+          >
+            Download a copy
+          </a>
+        </div>
       </section>
 
       <section>

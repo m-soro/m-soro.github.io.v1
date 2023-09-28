@@ -417,6 +417,16 @@ a:focus {
 /***===== END PROJECT PAGE =====***/
 
 /***===== RESUME PAGE =====***/
+.NameLocationDownload {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DownloadResume {
+  padding: 0.5em;
+  font-size: smallest;
+}
+
 .ProfileBullets {
   margin-top: 1.2em;
   margin-bottom: 2em;
