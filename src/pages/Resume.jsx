@@ -26,23 +26,6 @@ export default function Resume() {
           ))}
         </div>
       </section>
-      <section>
-        <h4 className="ExperienceText">Experience</h4>
-        {ResumeData.workExp.map((info, index) => (
-          <section className="EachJob" key={index}>
-            <h5>{info.jobTitle}</h5>
-            <p>{info.companyName}</p>
-            <p>{info.location}</p>
-            <p>{info.duration}</p>
-
-            {info.bullets.map((bullet, index) => (
-              <ul key={index}>
-                <li>{bullet}</li>
-              </ul>
-            ))}
-          </section>
-        ))}
-      </section>
       <section className="Education">
         <h4>Education</h4>
         <br />
@@ -66,9 +49,27 @@ export default function Resume() {
           </ul>
         ))}
       </section>
+      <section>
+        <h4 className="ExperienceText">Experience</h4>
+        {ResumeData.workExp.map((info, index) => (
+          <section className="EachJob" key={index}>
+            <h5>{info.jobTitle}</h5>
+            <p>{info.companyName}</p>
+            <p>{info.location}</p>
+            <p>{info.duration}</p>
+
+            {info.bullets.map((bullet, index) => (
+              <ul key={index}>
+                <li>{bullet}</li>
+              </ul>
+            ))}
+          </section>
+        ))}
+      </section>
+
       <br />
       <section>
-        <h5>Language</h5>
+        <h5>Languages</h5>
         <p>{ResumeData.languange}</p>
       </section>
     </div>
