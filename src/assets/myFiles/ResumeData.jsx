@@ -2,7 +2,7 @@ export const ResumeData = {
   name: "Mark Soro",
   location: "Alexandria, VA",
   techSkills: [
-    "JavaScript",
+    "JavaScript ES6",
     "Python",
     "React",
     "HTML",
@@ -16,7 +16,7 @@ export const ResumeData = {
   education: [
     {
       field: "Software Engineering Certificate",
-      institution: "Per Scholas, NCR, 2023",
+      institution: "Per Scholas, National Capital Region, 2023",
     },
     {
       field: "Cybersecurity System Administration Certificate",
@@ -30,10 +30,11 @@ export const ResumeData = {
   ],
   languange: "English, Tagalog",
   profile: [
-    "Worked in professional enviornments, including technical consulting",
-    "Self Motivated with strong analytical and problem-solving skills",
-    "Excellent organizational and leadership skills",
-    "Strong oral and written communication skills.",
+    "Motivated software developer proficient in fundamental web development and server-side languages",
+    "Skilled in creating practical, user friendly and responsive applications",
+    "Completed intensive sixteen week full-stack software engineering program and six month cybersecurity system administration certificate",
+    "Organized and collaborative with strong oral and written communication skills",
+    "Analytical, precise and solution driven",
   ],
   workExp: [
     {

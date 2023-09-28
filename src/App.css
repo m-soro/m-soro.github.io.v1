@@ -231,9 +231,6 @@ button:hover {
 /***===== END GLOBAL STYLE =====***/
 
 /***===== PROJECT*S* PAGE =====***/
-.Projects {
-  /* border: 2px solid aquamarine; */
-}
 
 .ProjectContainer {
   display: flex;
@@ -241,7 +238,6 @@ button:hover {
   justify-content: space-evenly;
   gap: 0.5em;
   background-image: transparent;
-  /* border: 2px solid green; */
 }
 
 .ProjectCard {
