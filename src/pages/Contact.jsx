@@ -10,6 +10,12 @@ export default function Contact() {
   const messageInput = React.useRef();
   const form = useRef();
 
+  const resetForm = () => {
+    nameInput.current.value = "";
+    emailInput.current.value = "";
+    messageInput.current.value = "";
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -29,9 +35,8 @@ export default function Contact() {
         }
       );
     setIsShown((current) => !current);
+    setTimeout(resetForm, 500);
   };
-
-  // http://localhost:5173/
 
   return (
     <div className="Contact">
