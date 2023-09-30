@@ -578,4 +578,11 @@ a:focus {
   .About figcaption {
     font-size: x-small;
   }
+
+  .contact-form {
+    width: 90vw;
+  }
+  .Contact-Options {
+    width: 90vw;
+  }
 }
