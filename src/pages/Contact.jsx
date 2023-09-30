@@ -40,8 +40,8 @@ export default function Contact() {
         <h4>Send me a message</h4>
         <br />
         <p>
-          Hello, I would like to hear from you. Say hi back or give feed back
-          below.
+          Hello, 👋 I would like to hear from you. Say hi, or comment. Let's
+          chat.
         </p>
         <br />
         <form ref={form} onSubmit={sendEmail}>
