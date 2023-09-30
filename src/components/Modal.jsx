@@ -18,7 +18,8 @@ export default function Modal({ name, email, message }) {
             <header>
               <button
                 aria-label="Close"
-                className="close"
+                className="close outline"
+                style={{ border: "none" }}
                 onClick={handleClick}
               ></button>
               <div className="contact-modal-header">
