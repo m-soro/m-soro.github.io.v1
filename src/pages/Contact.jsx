@@ -48,12 +48,9 @@ export default function Contact() {
         />
       )}
       <article className="contact-form">
-        <h4>Send me a message</h4>
+        <h4>Get in touch</h4>
         <br />
-        <p>
-          Hello, 👋 I would like to hear from you. Say hi, or comment. Let's
-          chat.
-        </p>
+        <p>Hello 👋 say hi or send a comment. I would love to hear from you!</p>
         <br />
         <form ref={form} onSubmit={sendEmail}>
           <p> Name:</p>
