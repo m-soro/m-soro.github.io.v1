@@ -54,11 +54,11 @@ export default function Contact() {
         <br />
         <form ref={form} onSubmit={sendEmail}>
           <p> Name:</p>
-          <input type="text" name="user_name" ref={nameInput} />
+          <input type="text" name="user_name" ref={nameInput} required />
           <p>Email:</p>
-          <input type="email" name="user_email" ref={emailInput} />
+          <input type="email" name="user_email" ref={emailInput} required />
           <p>Message:</p>
-          <textarea name="message" rows="3" ref={messageInput} />
+          <textarea name="message" rows="3" ref={messageInput} required />
           <input type="submit" value="send" className="outline send-button" />
         </form>
       </article>
