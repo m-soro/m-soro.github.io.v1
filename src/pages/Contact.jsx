@@ -50,7 +50,10 @@ export default function Contact() {
       <article className="contact-form">
         <h4>Get in touch</h4>
         <br />
-        <p>Hello 👋 say hi or send a comment. I would love to hear from you!</p>
+        <p>
+          Hello 👋 say hi, send a comment or ask a question. I would love to
+          hear from you!
+        </p>
         <br />
         <form ref={form} onSubmit={sendEmail}>
           <p> Name:</p>
