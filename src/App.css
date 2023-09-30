@@ -14,8 +14,11 @@
   flex-direction: column;
 }
 
-.contact-form {
-  width: 50vw;
+.contact-form,
+.email-socials-article {
+  width: 60vw;
+  margin: 0.5em;
+  /* padding: 0; */
 }
 
 .contact-form p {
@@ -24,6 +27,26 @@
 
 .send-button {
   width: auto !important;
+}
+
+.contact-modal-texts {
+  text-align: left;
+}
+
+.contact-modal-texts p {
+  margin-bottom: 10px;
+}
+
+.contact-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+
+.contact-modal-header > .material-symbols-outlined {
+  margin-top: 1px;
+  padding: 0;
 }
 
 .Contact-Options div {
@@ -36,15 +59,11 @@
 }
 
 .Contact-Options {
-  width: 50vw;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   cursor: pointer;
   flex-direction: row;
-  background-color: transparent;
-  margin-top: 2em;
-  padding-top: 0;
 }
 
 .Contact-Options div::after {
@@ -582,7 +601,7 @@ a:focus {
   .contact-form {
     width: 90vw;
   }
-  .Contact-Options {
+  .email-socials-article {
     width: 90vw;
   }
 }

@@ -1,17 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Modal from "../components/Modal";
 
 export default function Contact() {
+  const [isShown, setIsShown] = useState(false);
+
   const nameInput = React.useRef();
   const emailInput = React.useRef();
   const messageInput = React.useRef();
   const form = useRef();
-
-  const resetInput = () => {
-    nameInput.current.value = "";
-    emailInput.current.value = "";
-    messageInput.current.value = "";
-  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -31,11 +28,20 @@ export default function Contact() {
           console.log(error.text);
         }
       );
-    resetInput();
+    setIsShown((current) => !current);
   };
+
+  // http://localhost:5173/
 
   return (
     <div className="Contact">
+      {isShown && (
+        <Modal
+          name={nameInput.current.value}
+          email={emailInput.current.value}
+          message={messageInput.current.value}
+        />
+      )}
       <article className="contact-form">
         <h4>Send me a message</h4>
         <br />
@@ -55,15 +61,18 @@ export default function Contact() {
         </form>
       </article>
       <div>
-        <article className="Contact-Options">
-          <div>
-            <a href="mailto:napoleon_soro@rocketmail.com">Email</a>
-          </div>
-          <div>
-            <a href="https://www.linkedin.com/in/marksoro">LinkedIn</a>
-          </div>
-          <div>
-            <a href="https://github.com/m-soro/">GitHub</a>
+        <article className="email-socials-article">
+          <h4>Email and Socials</h4>
+          <div className="Contact-Options">
+            <div>
+              <a href="mailto:napoleon_soro@rocketmail.com">Email</a>
+            </div>
+            <div>
+              <a href="https://www.linkedin.com/in/marksoro">LinkedIn</a>
+            </div>
+            <div>
+              <a href="https://github.com/m-soro/">GitHub</a>
+            </div>
           </div>
         </article>
       </div>
