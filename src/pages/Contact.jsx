@@ -21,10 +21,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_capp2er",
-        "template_8qwcpz2",
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         form.current,
-        "qeAgLDozcphE9CWCH"
+        import.meta.env.VITE_PUBLIC_KEY
       )
       .then(
         (result) => {
