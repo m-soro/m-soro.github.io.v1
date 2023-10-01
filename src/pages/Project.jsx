@@ -66,21 +66,26 @@ export default function Project() {
     ));
   };
 
-  const createTags = () => {
-    if (Array.isArray(tags)) {
-      return <p style={{ fontSize: "smaller" }}>{tags.sort().join(" || ")}</p>;
-    }
+  const createTags = (tags) => {
+    return tags.map((tag, index) => {
+      return (
+        <li className="Project-Tags" key={index}>
+          {tag}
+        </li>
+      );
+    });
   };
 
   const getData = async () => {
     try {
-      const response = await fetch(project.repoAPI);
-      const json = await response.json();
-      const [createdAt, updatedAt] = [json.created_at, json.pushed_at];
-      setCreated(createdAt);
-      setUpdated(updatedAt);
-      setTags(json.topics);
-      console.log(json);
+      let response = await fetch(project.repoAPI);
+      if (response.ok) {
+        const json = await response.json();
+        const [createdAt, updatedAt] = [json.created_at, json.pushed_at];
+        setCreated(createdAt);
+        setUpdated(updatedAt);
+        setTags(json.topics);
+      }
     } catch (error) {
       console.log(error);
     }
@@ -142,7 +147,8 @@ export default function Project() {
               {tags ? (
                 <>
                   <h6>Tags</h6>
-                  {createTags()}
+                  <ul className="Tags-Container">{createTags(tags)}</ul>
+                  <p></p>
                 </>
               ) : (
                 <div></div>

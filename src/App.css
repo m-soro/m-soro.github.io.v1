@@ -452,6 +452,21 @@ a:focus {
   margin-left: 5px;
 }
 
+.Tags-Container {
+  display: flex;
+  font-size: small;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 0.5rem;
+  row-gap: 0.2rem;
+}
+
+.Project-Tags {
+  list-style-type: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 /***===== END PROJECT PAGE =====***/
 
 /***===== RESUME PAGE =====***/

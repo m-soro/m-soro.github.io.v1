@@ -44,7 +44,7 @@ let gifExt = ".gif?raw=true";
 export const ProjectData = [
   {
     id: 1,
-    projectName: "PONG!",
+    projectName: "Pong!",
     images: [
       `${imgUrl}pong/pong03${imgExt}`,
       `${imgUrl}pong/pong04${imgExt}`,
@@ -81,15 +81,15 @@ export const ProjectData = [
       `${imgUrl}openpeaks/03${imgExt}`,
       `${imgUrl}openpeaks/05${gifExt}`,
     ],
-    summary: `A React App that lets you check skiing and snowboarding conditions around the world!`,
+    summary: `A React app that lets you check skiing and snowboarding conditions around the world!`,
 
     projectBullets: [
       "Completely responsive for desktop and mobile.",
-      "Built with React. Uses async and await to fetch data from RapidAPI.",
+      "Built with React. Uses async and await function to fetch data from two RapidAPI endpoints.",
     ],
     moreDetail: [
       `This is the second project for Per Scholas Software Engineering Track module 2.`,
-      `More information and source code in my GitHub repo.`,
+      `View the comprehensive documentation and source code in my GitHub Repo.`,
     ],
     stack: [
       `${url}JavaScript${ext}`,
@@ -109,7 +109,7 @@ export const ProjectData = [
       `${imgUrl}portfolio/portfolio02${gifExt}`,
       `${imgUrl}portfolio/portfolio01${imgExt}`,
     ],
-    summary: `My React portfolio, using GitHub API to pull relevant data.`,
+    summary: `My React portfolio using the GitHub API to pull relevant data.`,
 
     projectBullets: [
       "I created this React portfolio with Pico.css with the goal of being easy to maintain.",
@@ -141,17 +141,18 @@ export const ProjectData = [
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/demo.gif",
       `${imgUrl}mostay/mostay01${imgExt}`,
     ],
-    summary: `A Python webscraper built for checking available discounted stays.`,
+    summary: `A Python webscraper built for checking available hotel discounted stays.`,
 
     projectBullets: [
-      "I used this program to keep track of hotel availabilities.",
+      "I used this program to keep track of discounted hotel availabilities.",
       "Returns three months availabilities of each properties selected.",
-      "Written in python and used pillow library to handle images.",
+      "Written in python and used pillow library to manipulate screenshots.",
+      "I had a great time building this project, that I made a front end as well using the Flask library.",
     ],
     moreDetail: [
       `This is the first version of this program. Back when I was still a hotel worker, we get amazing hotel discount benefits, the problem is that its too difficult to chain which locations that are available within reasonable distance from each other.`,
-      `Instead of just checking each hotel's website all the time, I created this program so I could easily plan to potentially hotel hop after I exhausted my discounted nights from another property.`,
-      `For the second version of this app, I created a front end using Flask library which is deployed in Heroku(back when it was free). The second version source code can be viewed here: https://github.com/m-soro/getmostay.`,
+      `Instead of just checking each hotel's website all the time, I created this terminal program so I could easily plan to potentially hotel hop after I exhausted my discounted nights from another property.`,
+      `For the second version of this app, I created a front end using Flask library which is deployed in Heroku(back when it was free). You view the second version source code here 👉 https://github.com/m-soro/getmostay.`,
       `More details about this project can be found in my GitHub repo.`,
     ],
     stack: [`${url}Python${ext}`],
@@ -166,14 +167,14 @@ export const ProjectData = [
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
       `${imgUrl}wmata/wmata01${imgExt}`,
     ],
-    summary: `A Python script to check train times.`,
+    summary: `A Python terminal program to check train times.`,
 
     projectBullets: [
       "I used this Python terminal program to check train times or delays.",
-      "This terminal app makes an API call to WMATA.",
+      "This terminal app makes an API call to Washington Metropolitan Area Transit Authority (WMATA).",
     ],
     moreDetail: [
-      `Even though I live nearby the train station, I *sometimes* still miss the train which causes me to be late.`,
+      `Even though I live nearby the 5 minutes away from train station, I *sometimes* still miss the train which causes me to be late.`,
       `Instead of downloading another app in my phone or checking the website every morning, I run this script in my terminal to check for up to date departures or delays.`,
       `More information can be viewed in my GitHub repo.`,
     ],
@@ -190,7 +191,7 @@ export const ProjectData = [
       `${imgUrl}pixelart/pixelart01${imgExt}`,
       "https://github.com/m-soro/Intro-to-Programming/raw/main/pixel-art-maker.gif",
     ],
-    summary: `Get creative and create your own pixel art!`,
+    summary: `Pixel Art Maker is written in vanilla JavaScript, where you can create your own pixel art!`,
 
     projectBullets: [
       "This is my very first JavaScript app.",
@@ -225,7 +226,7 @@ export const ProjectData = [
       `This is project from Udacity Data Science with python. To pass, this project must meet the rubric requirements.`,
       `Writing this project really gave me a firm understanding of data types in python. I used pandas and numpy libraries to manipulate the data.`,
       `As for every project, I didn't just want to submit something that just meets the minimum. I challenged myself to come up with other features, such as additional filters and specifiying how many results to return.`,
-      `I wrote an extensive description about this project here: https://m-soro.github.io/Data-Science-with-Python/projects/project2.html`,
+      `View my 🖊️ extensive documentation here 👉 https://m-soro.github.io/Data-Science-with-Python/projects/project2.html`,
     ],
     stack: [`${url}Python${ext}`],
     demoLink:
@@ -245,7 +246,7 @@ export const ProjectData = [
     moreDetail: [
       "Building this project was a great excercise to help solidify my knowledge in Python and its libraries.",
       `It was interesting building this project because I got a lot of practice and learned a lot about data types and operations that can be done with data.`,
-      "I wrote an in depth documentation about the steps taken and interpretation of data can be viewed by clicking the demo link.",
+      "View in depth 📄 documentation, processes involved and data interpretation by cliking the demo link.",
     ],
     stack: [`${url}Python${ext}`],
     demoLink:
