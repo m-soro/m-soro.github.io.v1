@@ -51,17 +51,35 @@ export default function Contact() {
         <h4>Get in touch</h4>
         <br />
         <p>
-          Hello 👋 say hi, send a comment or ask a question. I would love to
-          hear from you!
+          Hello 👋 say hi, send a comment, tell me how you found my page or ask
+          a question. I would love to hear from you!
         </p>
         <br />
         <form ref={form} onSubmit={sendEmail}>
-          <p> Name:</p>
-          <input type="text" name="user_name" ref={nameInput} required />
-          <p>Email:</p>
-          <input type="email" name="user_email" ref={emailInput} required />
-          <p>Message:</p>
-          <textarea name="message" rows="3" ref={messageInput} required />
+          {/* <p> Name:</p> */}
+          <input
+            type="text"
+            name="user_name"
+            ref={nameInput}
+            placeholder="Name"
+            required
+          />
+          {/* <p>Email:</p> */}
+          <input
+            type="email"
+            name="user_email"
+            placeholder="Email"
+            ref={emailInput}
+            required
+          />
+          {/* <p>Message:</p> */}
+          <textarea
+            name="message"
+            rows="3"
+            placeholder="Message"
+            ref={messageInput}
+            required
+          />
           <input type="submit" value="send" className="outline send-button" />
         </form>
       </article>
