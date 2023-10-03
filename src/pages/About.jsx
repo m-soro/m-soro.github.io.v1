@@ -16,7 +16,7 @@ export default function About() {
         personal expenses to be able to take time off to complete the program.
       </p>
       <p>
-        I was priviledge to become a United States citizen in 2023, after
+        I was priviledged to become a United States citizen in 2023, after
         arriving from the Philippines with a little more than some provisions
         and a point of contact for my exchange program.
       </p>
