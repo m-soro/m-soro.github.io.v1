@@ -112,12 +112,12 @@ export const ProjectData = [
       `${imgUrl}openpeaksv2/05${imgExt}`,
       `${imgUrl}openpeaksv2/06${imgExt}`,
     ],
-    summary: `A MERN stack application (MongoDB, Express, React and Nodejs). Users can create an account to track conditions of their favorite snow sports destination.`,
+    summary: `A MERN stack application (MongoDB, Express, React and Nodejs). Users can create an account to track conditions of their favorite skiing and snowboarding destinations.`,
 
     projectBullets: [
       "This is the expanded version of my second project.",
       "Complete with user authentication and full CRUD features.",
-      "Created two applications that communicates with each other.",
+      "Built two applications that communicates with each other.",
     ],
     moreDetail: [
       `This is my third and my capstone project for Per Scholas Software Engineering track.`,
