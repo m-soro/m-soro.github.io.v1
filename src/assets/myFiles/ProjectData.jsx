@@ -135,7 +135,7 @@ export const ProjectData = [
       `${url}HTML${ext}`,
       `${url}CSS${ext}`,
     ],
-    demoLink: "https://m-soro.github.io/Project_3/",
+    demoLink: "https://openpeaks.onrender.com/",
     repoLink: "https://github.com/m-soro/Project_3",
     repoAPI: "https://api.github.com/repos/m-soro/Project_3",
   },
