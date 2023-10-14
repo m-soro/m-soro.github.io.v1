@@ -103,6 +103,45 @@ export const ProjectData = [
   },
   {
     id: 3,
+    projectName: "Open Peaks Version 2",
+    images: [
+      `${imgUrl}openpeaksv2/01${imgExt}`,
+      `${imgUrl}openpeaksv2/02${imgExt}`,
+      `${imgUrl}openpeaksv2/03${imgExt}`,
+      `${imgUrl}openpeaksv2/04${gifExt}`,
+      `${imgUrl}openpeaksv2/05${gifExt}`,
+      `${imgUrl}openpeaksv2/06${gifExt}`,
+    ],
+    summary: `A MERN stack application (MongoDB, Express, React and Nodejs). Users can create an account to track conditions of their favorite snow sports destination.`,
+
+    projectBullets: [
+      "This is the expanded version of my second project.",
+      "Complete with user authentication and full CRUD features.",
+      "Created two applications that communicates with each other.",
+    ],
+    moreDetail: [
+      `This is my third and my capstone project for Per Scholas Software Engineering track.`,
+      `Users can sign up, create multiple lists of their favorite resorts, it can also edited (list name only) and deleted.`,
+      `Once list is created you are taken into your "dashboard", where you can get an overview of your listed resort's latest chair and lift statistics.`,
+      `This app is completely mobile friendly/responsive and minimally styled and designed.`,
+      `Back end is deployed in Render. Front end is deployed in both Render and Netlify.`,
+      `More details can be found in my GitHub repo.`,
+    ],
+    stack: [
+      `${url}JavaScript${ext}`,
+      `${url}MongoDB${ext}`,
+      `${url}Express${ext}`,
+      `${url}React${ext}`,
+      `${url}NodeJS${ext}`,
+      `${url}HTML${ext}`,
+      `${url}CSS${ext}`,
+    ],
+    demoLink: "https://m-soro.github.io/Project_3/",
+    repoLink: "https://github.com/m-soro/Project_3",
+    repoAPI: "https://api.github.com/repos/m-soro/Project_3",
+  },
+  {
+    id: 4,
     projectName: "React Portfolio",
     images: [
       `${imgUrl}portfolio/portfolio04${imgExt}`,
@@ -134,7 +173,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/m-soro.github.io",
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Hotel Availability Webscraper",
     images: [
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/mo_stay.png",
@@ -161,7 +200,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/mostay",
   },
   {
-    id: 5,
+    id: 6,
     projectName: "Transit Departures or Delays",
     images: [
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
@@ -185,7 +224,7 @@ export const ProjectData = [
       "https://api.github.com/repos/m-soro/wmata_dc_metro_train_times_v2",
   },
   {
-    id: 6,
+    id: 7,
     projectName: "Pixel Art Maker",
     images: [
       `${imgUrl}pixelart/pixelart01${imgExt}`,
@@ -209,7 +248,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/Pixel-Art-Maker",
   },
   {
-    id: 7,
+    id: 8,
     projectName: "Explore Cities Bike Share",
     images: [
       `${imgUrl}bikeshare/bikeshare01${imgExt}`,
@@ -235,7 +274,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/bikeshare_project",
   },
   {
-    id: 8,
+    id: 9,
     projectName: "Explore FBI NICS Background Checks",
     images: [`${imgUrl}nics/nics02${imgExt}`, `${imgUrl}nics/nics01${imgExt}`],
     summary: `This Python project explores the FBI NICS background checks.`,

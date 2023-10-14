@@ -3,9 +3,8 @@ export default function About() {
     <div className="About">
       <h1>About me</h1>
       <p>
-        I will soon complete Per Scholas four-month full time Software
-        Engineering Track as one important step of my pursuit of a career in
-        software development.
+        Completed Per Scholas four-month full time Software Engineering Track as
+        one important step of my pursuit of a career in software development.
       </p>
       <p>
         Before beginning the tuition-free course which I was selected for, I
