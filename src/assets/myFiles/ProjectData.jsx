@@ -110,7 +110,6 @@ export const ProjectData = [
       `${imgUrl}openpeaksv2/03${imgExt}`,
       `${imgUrl}openpeaksv2/04${imgExt}`,
       `${imgUrl}openpeaksv2/05${imgExt}`,
-      `${imgUrl}openpeaksv2/06${imgExt}`,
     ],
     summary: `A MERN stack application (MongoDB, Express, React and Nodejs). Users can create an account to track conditions of their favorite skiing and snowboarding destinations.`,
 
