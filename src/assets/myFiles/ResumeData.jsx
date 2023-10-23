@@ -30,7 +30,7 @@ export const ResumeData = {
   ],
   languange: "English, Tagalog",
   profile: [
-    "Motivated software developer proficient in fundamental web development and server-side languages",
+    "Motivated aspiring software developer proficient in fundamental web development and server-side languages",
     "Skilled in creating practical, user friendly and responsive applications",
     "On track to complete intensive sixteen week full-stack software engineering program and six month cybersecurity system administration certificate",
     "Organized and collaborative with strong oral and written communication skills",
