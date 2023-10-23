@@ -3,31 +3,35 @@ export default function About() {
     <div className="About">
       <h1>About me</h1>
       <p>
-        I recently completed the Per Scholas four-month full time Software
-        Engineering Track as one important step of my pursuit of a career in
-        software development.
+        I recently successfully completed the intensive four-month full-time
+        Software Engineering Certificate Program at Per Scholas, a pivotal
+        milestone in my journey towards a career in software development.
       </p>
       <p>
-        Before beginning the tuition-free course which I was selected for, I
-        self studied and created projects of interest to me to prepare myself.
+        Prior to embarking on this tuition-free program, which I was fortunate
+        to be selected for, I dedicated significant time to self-study and
+        worked on various personal projects aligned with my interests,
+        diligently preparing myself for the challenges ahead.
       </p>
       <p>
-        Working full-time in another field allowed me to save enough for
-        personal expenses to be able to take time off to complete the program.
+        Balancing a full-time role in a different field, I managed to set aside
+        enough resources to cover personal expenses, affording me the
+        opportunity to immerse myself in the program.
       </p>
       <p>
-        I was priviledged to become a United States citizen in 2023, after
-        arriving from the Philippines with a little more than some provisions
-        and a point of contact for my exchange program.
+        In 2023, I had the privilege of attaining United States citizenship, a
+        significant milestone since my initial arrival from the Philippines with
+        little more than a single contact person for my exchange program.
       </p>
       <p>
-        As a first generation immigrant, I am grateful for every opportunity
-        this country has given me. I like to think that my strengths are my
-        perseverance, optimism and determination.
+        Being a first-generation American, I hold immense gratitude for the
+        opportunities this country has afforded me. I believe my greatest
+        strengths lie in my unwavering perseverance, boundless optimism, and
+        unyielding determination.
       </p>
       <p>
-        I am fluent in English and Tagalog and live in the DC area with my
-        partner.
+        Fluent in both English and Tagalog, I currently reside in the vibrant DC
+        area with my partner.
       </p>
       <article>
         <figure>
