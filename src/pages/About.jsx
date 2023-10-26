@@ -4,8 +4,8 @@ export default function About() {
       <h1>About me</h1>
       <p>
         I recently successfully completed the intensive four-month full-time
-        Software Engineering Certificate Program at Per Scholas, a pivotal
-        milestone in my journey towards a career in software development.
+        Software Engineering Certificate Program at Per Scholas, an important
+        step in my journey towards a career in software development.
       </p>
       <p>
         Prior to embarking on this tuition-free program, which I was fortunate
@@ -14,8 +14,8 @@ export default function About() {
         diligently preparing myself for the challenges ahead.
       </p>
       <p>
-        Balancing a full-time role in a different field, I managed to set aside
-        enough resources to cover personal expenses, affording me the
+        While working in a full-time role in a different field, I managed to set
+        aside enough resources to cover personal expenses, affording me the
         opportunity to immerse myself in the program.
       </p>
       <p>
@@ -24,10 +24,9 @@ export default function About() {
         little more than a single contact person for my exchange program.
       </p>
       <p>
-        Being a first-generation American, I hold immense gratitude for the
-        opportunities this country has afforded me. I believe my greatest
-        strengths lie in my unwavering perseverance, boundless optimism, and
-        unyielding determination.
+        Being a first-generation American, I am grateful for the opportunities
+        this country has afforded me. I believe my greatest strengths lie in my
+        perseverance, optimism, and determination.
       </p>
       <p>
         Fluent in both English and Tagalog, I currently reside in the vibrant DC
