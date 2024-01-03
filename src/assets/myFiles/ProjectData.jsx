@@ -51,7 +51,7 @@ export const ProjectData = [
       "https://github.com/m-soro/Project_1/raw/main/image/demo-big-screen.gif?raw=true",
       `${imgUrl}pong/pong01${imgExt}`,
     ],
-    summary: `My first project for Per Scholas Software Engineering Track. Pong, is a collision based game in written in vanilla JavaScript.`,
+    summary: `My first project for Per Scholas Software Engineering Track. Pong, is a collision based game in written in vanilla JavaScript, HTML and CSS. Features three levels of difficulty. Users have the options to select background color, toggle sounds and music.`,
 
     projectBullets: [
       "This app can be played with your phone or on the web.",
@@ -81,7 +81,7 @@ export const ProjectData = [
       `${imgUrl}openpeaks/03${imgExt}`,
       `${imgUrl}openpeaks/05${gifExt}`,
     ],
-    summary: `A React app that lets you check skiing and snowboarding conditions around the world!`,
+    summary: `A Single Page React Application that utilizes two API endpoints fetch and render ski data to clients. `,
 
     projectBullets: [
       "Completely responsive for desktop and mobile.",
