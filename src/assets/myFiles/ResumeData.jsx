@@ -30,11 +30,10 @@ export const ResumeData = {
   ],
   languange: "English, Tagalog",
   profile: [
-    "Motivated aspiring software developer proficient in fundamental web development and server-side languages",
-    "Skilled in creating practical, user friendly and responsive applications",
-    "On track to complete intensive sixteen week full-stack software engineering program and six month cybersecurity system administration certificate",
-    "Organized and collaborative with strong oral and written communication skills",
-    "Analytical, precise and solution driven",
+    "Motivated software engineering graduate proficient in fundamental web development and server-side languages",
+    "Skilled in creating practical, user-friendly, and responsive applications",
+    "Completed an intensive sixteen-week full-stack software engineering program and a six-month cybersecurity system administration certificate",
+    "Analytical, precise, and solution driven. Organized and collaborative with strong oral and written communication skills",
   ],
   workExp: [
     {
