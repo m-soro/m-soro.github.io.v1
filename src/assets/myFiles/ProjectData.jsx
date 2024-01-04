@@ -66,7 +66,7 @@ export const ProjectData = [
       `Open Peaks Version 2 was my epic finale during the Full Stack Software Engineering program at Per Scholas! 🚀 It's this cool, 
       all-in-one MERN app tailor-made for ski and snowboard enthusiasts eager to explore and compare top-notch snow destinations. 🏂❄️.`,
       `My mission? Creating this slick platform where logged-in users effortlessly handle their ski resort bucket lists. 
-      With MongoDB, Express, React, and Node.js in my tool box, I ensured data flowed seamlessly between back-end and front-end. Ensuring smooth data flow 🌊`,
+      With MongoDB, Express, React, and Node.js in my tool box, I facilitated seamless data flow between the back-end and front-end, ensuring a smooth data flow. 🌊`,
       `CRUD operations were the key! Users could Create, Read, Update, and Delete their favorite ski spots. 
       Incorporated Material UI and Pico.css to enhance the visuals—resulting in picture-perfect designs that shine on any device! 🎨✨`,
       `Working on User authentication felt like a bumpy ride—I had to ensure data moved flawlessly between different parts while keeping everything locked up tight. 
