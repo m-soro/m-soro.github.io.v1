@@ -30,6 +30,7 @@
  */
 
 // ICONS URL
+
 let url = `https://github.com/m-soro/icons/blob/main/icons/`;
 let ext = `.png?raw=true`;
 
@@ -44,66 +45,7 @@ let gifExt = ".gif?raw=true";
 export const ProjectData = [
   {
     id: 1,
-    projectName: "Pong!",
-    images: [
-      `${imgUrl}pong/pong03${imgExt}`,
-      `${imgUrl}pong/pong04${imgExt}`,
-      "https://github.com/m-soro/Project_1/raw/main/image/demo-big-screen.gif?raw=true",
-      `${imgUrl}pong/pong01${imgExt}`,
-    ],
-    summary: `My first project for Per Scholas Software Engineering Track. Pong, is a collision based game in written in vanilla JavaScript, HTML and CSS. Features three levels of difficulty. Users have the options to select background color, toggle sounds and music.`,
-
-    projectBullets: [
-      "This app can be played with your phone or on the web.",
-      "Control by dragging the paddle with your mouse or keyboard keys if played on the web.",
-      "Three levels of difficulty.",
-      "Options to toggle sounds and background music.",
-      "Minimal design and intuitive.",
-    ],
-    moreDetail: [
-      `I knew I wanted to create something interactive and that I would like to play. 
-       I decided to do this project because I wanted to learn about collision based games.`,
-      `My original plan was to create an object oriented game but that proved to be difficult. After this project was built I could see how I could re-write this following object oriented principles.`,
-      `Design wise, I kept the design to a minimum. I added some "keep playing" motivating messages every 20th score to make it more fun and also a chime every 100th score.`,
-      `I had a lot fun building and playing this app. Read more details about it in my GitHub repo.`,
-    ],
-    stack: [`${url}JavaScript${ext}`, `${url}HTML${ext}`, `${url}CSS${ext}`],
-    demoLink: "https://m-soro.github.io/Project_1/",
-    repoLink: "https://github.com/m-soro/Project_1",
-    repoAPI: "https://api.github.com/repos/m-soro/Project_1",
-  },
-  {
-    id: 2,
-    projectName: "Open Peaks",
-    images: [
-      `${imgUrl}openpeaks/01${imgExt}`,
-      `${imgUrl}openpeaks/02${imgExt}`,
-      `${imgUrl}openpeaks/03${imgExt}`,
-      `${imgUrl}openpeaks/05${gifExt}`,
-    ],
-    summary: `A Single Page React Application that utilizes two API endpoints fetch and render ski data to clients. `,
-
-    projectBullets: [
-      "Completely responsive for desktop and mobile.",
-      "Built with React. Uses async and await function to fetch data from two RapidAPI endpoints.",
-    ],
-    moreDetail: [
-      `This is the second project for Per Scholas Software Engineering Track module 2.`,
-      `View the comprehensive documentation and source code in my GitHub Repo.`,
-    ],
-    stack: [
-      `${url}JavaScript${ext}`,
-      `${url}React${ext}`,
-      `${url}HTML${ext}`,
-      `${url}CSS${ext}`,
-    ],
-    demoLink: "https://m-soro.github.io/Project_2/",
-    repoLink: "https://github.com/m-soro/Project_2",
-    repoAPI: "https://api.github.com/repos/m-soro/Project_2",
-  },
-  {
-    id: 3,
-    projectName: "Open Peaks Version 2",
+    projectName: `Capstone Project - Open Peaks Version 2`,
     images: [
       `${imgUrl}openpeaksv2/01${imgExt}`,
       `${imgUrl}openpeaksv2/02${imgExt}`,
@@ -112,20 +54,27 @@ export const ProjectData = [
       `${imgUrl}openpeaksv2/04${imgExt}`,
       `${imgUrl}openpeaksv2/05${imgExt}`,
     ],
-    summary: `A MERN stack application (MongoDB, Express, React and Nodejs). Users can create an account to track conditions of their favorite skiing and snowboarding destinations.`,
+    summary: `A MERN stack app for snow enthusiasts🏂⛷️. Discover, compare, and curate your dream ski and snowboarding destinations worldwide 🌍 Your dashboard is your personalized ticket to create, manage, and tailor lists of top-notch ski resorts. It's your ski buddy for the most epic snow-filled journeys! 🏔️✨. 
+    `,
 
     projectBullets: [
-      "This is the expanded version of my second project.",
-      "Complete with user authentication and full CRUD features.",
-      "Built two applications that communicates with each other.",
+      `Open Peaks Version 2 is the upgraded and improved version of my second project.`,
+      "Equipped with user authentication and provides complete CRUD (Create, Read, Update, Delete) functionality, allowing users to effortlessly manage their preferred ski resort list.",
+      "The project is actually two interconnected applications that seamlessly communicate with each other. This connectivity ensures a smooth transfer of data and interactions across various sections of the system, resulting in a more unified and streamlined user experience.",
     ],
     moreDetail: [
-      `This is my third and my capstone project for Per Scholas Software Engineering track.`,
-      `Users can sign up, create multiple lists of their favorite resorts, it can also edited (list name only) and deleted.`,
-      `Once list is created you are taken into your "dashboard", where you can get an overview of your listed resort's latest chair and lift statistics.`,
-      `This app is completely mobile friendly/responsive and minimally styled and designed.`,
-      `Back end is deployed in Render. Front end is deployed in both Render and Netlify.`,
-      `More details can be found in my GitHub repo.`,
+      `Open Peaks Version 2 was my epic finale during the Full Stack Software Engineering program at Per Scholas! 🚀 It's this cool, 
+      all-in-one MERN app tailor-made for ski and snowboard enthusiasts eager to explore and compare top-notch snow destinations. 🏂❄️.`,
+      `My mission? Creating this slick platform where logged-in users effortlessly handle their ski resort bucket lists. 
+      With MongoDB, Express, React, and Node.js in my tool box, I ensured data flowed seamlessly between back-end and front-end. Ensuring smooth data flow 🌊`,
+      `CRUD operations were the key! Users could Create, Read, Update, and Delete their favorite ski spots. 
+      Incorporated Material UI and Pico.css to enhance the visuals—resulting in picture-perfect designs that shine on any device! 🎨✨`,
+      `Working on User authentication felt like a bumpy ride—I had to ensure data moved flawlessly between different parts while keeping everything locked up tight. 
+      And wrangling data from external APIs was like navigating a ski slope: exhilarating but demanding!⛷️`,
+      `Where is this app deployed you ask? Well, the backend chills ❄️ in Render, while the frontend says Hi! 👋 from Render and Netlify.`,
+      `Open Peaks Version 2 is my ticket to showcasing top-notch web app skills, especially for fellow snow enthusiasts. 
+      Full-stack proficiency, nifty user authentication, and sleek design — that's what it's all about! 🌟`,
+      `If you want more details and insights in this snow-filled app, head on over to my GitHub repo! 🌨️✨`,
     ],
     stack: [
       `${url}JavaScript${ext}`,
@@ -140,6 +89,77 @@ export const ProjectData = [
     repoLink: "https://github.com/m-soro/Project_3",
     repoAPI: "https://api.github.com/repos/m-soro/Project_3",
   },
+  {
+    id: 2,
+    projectName: "Open Peaks",
+    images: [
+      `${imgUrl}openpeaks/01${imgExt}`,
+      `${imgUrl}openpeaks/02${imgExt}`,
+      `${imgUrl}openpeaks/03${imgExt}`,
+      `${imgUrl}openpeaks/05${gifExt}`,
+    ],
+    summary: `"Open Peaks" is a React-fueled app that spills the beans on ski resorts—snow stats, chairlift vibes, and up-to-date weather! 🏔️❄️ Plus, it's as slick and easy to use as your favorite pair of ski boots! 🎿✨.`,
+
+    projectBullets: [
+      "Using React, I made this single page app that shows details about ski resorts conditions 🏔️.",
+      "I used two different sources (API endpoints) to collect data, ensuring the website dynamically update based on the fetched information.",
+      "To make the site more interactive, I incorporated a special scrolling effect using the react-parallax NPM package.",
+      "I made sure the website was resilient by implementing error handling methods, ensuring smooth data retrieval and does not crash even when things went wrong.",
+      "I wanted the app to look sleek and attractive, so I prioritized clean design and loaded it with beautiful imagery.",
+    ],
+    moreDetail: [
+      `"Open Peaks" is a website I built using React.js. The main idea behind it was to make a website where people can easily check out info about different ski resorts ⛷️. 
+      I used two APIs to grab all the details about these resorts, like how much snow 🌨️ they've got, if the chairlifts are working 🚠, and what the weather's like there.`,
+      `I worked hard on making the website interesting for folks who use it 🏂. I wanted it to be fun to look at and easy to use. So, I added some cool parallax effect when you scroll through the site. 
+      It gives a neat feeling like you're moving along with the page.`,
+      `The tough part was making sure all the images didn't slow down how fast the site loads. I had to make the images smaller without making them look distorted to keep things speedy. 
+      Also, I made sure that if something goes wrong while getting the info, the site won't crash—it'll show an error message instead. 👍`,
+      `Oh, and this website works well on all devices! Whether you're on a computer, a tablet, or a phone 📱, it should look good and work smoothly.`,
+      `Although I faced some troubles with the data being a bit inconsistent sometimes, causing some mix-ups with the resort info, the project went pretty well overall. 
+      I'm planning to make an even cooler version called Open Peaks Version 2. This new one will let users create their own accounts, log in, and save their favorite ski spots. Pretty neat right? 😎`,
+      `As an extra help for my classmates, I made a video tutorial 🧑‍💻 to show other developers how to easily put their similar websites on GitHub Pages and Netlify.`,
+      `If you're curious and want to know more about how I built this app, check out the source code or see my video tutorial, you can find all that cool ❄️ stuff in my on GitHub Repo!`,
+    ],
+    stack: [
+      `${url}JavaScript${ext}`,
+      `${url}React${ext}`,
+      `${url}HTML${ext}`,
+      `${url}CSS${ext}`,
+    ],
+    demoLink: "https://m-soro.github.io/Project_2/",
+    repoLink: "https://github.com/m-soro/Project_2",
+    repoAPI: "https://api.github.com/repos/m-soro/Project_2",
+  },
+  {
+    id: 3,
+    projectName: "Pong!",
+    images: [
+      `${imgUrl}pong/pong03${imgExt}`,
+      `${imgUrl}pong/pong04${imgExt}`,
+      "https://github.com/m-soro/Project_1/raw/main/image/demo-big-screen.gif?raw=true",
+      `${imgUrl}pong/pong01${imgExt}`,
+    ],
+    summary: `Pong! 🏏 It's my very first project at Per Scholas — an arcade-style game made using plain ol' JavaScript, HTML, and CSS! Sounds simple but, this project is all about giving you an interactive experience with moves that'll keep you glued. And guess what? It's super responsive too! 🚀✨`,
+
+    projectBullets: [
+      "A classic collision-based game where a player controls the paddle to hit the ball back and forth.",
+      "It features multiple levels of difficulty, dynamic elements, sound effects, interactive controls, and UI enhancements for an engaging user experience.",
+      "The player controls the paddle using keyboard or mouse.",
+      "The game maintains a minimalist and clean design to focus on gameplay rather than excessive visuals.",
+    ],
+    moreDetail: [
+      `Pong! was my very first project at Per Scholas, where I dived into creating an old-school arcade-style 🏏  game. 
+      Using technologies like JavaScript, HTML, and CSS - the building blocks of the web 🏗️ I created this game to explore how objects in games interact.`,
+      `Initially, I aimed to build the game by following "object-oriented principles." However, that turned out to be a bit tricky, so I adapted a plan to work around it.`,
+      `In terms of design, I kept things minimal and neat. To add some extra fun 😉 I included messages like "Keep it up!" 👍 when players hit every 20 points 🎉, and there's a cool chime that plays whenever the score reaches 100 points.`,
+      `Creating and playing this game was super enjoyable 😁. If you're interested in knowing more about how I made it or want to check out my source code, feel free to take a look at my GitHub page where I've shared all the details!`,
+    ],
+    stack: [`${url}JavaScript${ext}`, `${url}HTML${ext}`, `${url}CSS${ext}`],
+    demoLink: "https://m-soro.github.io/Project_1/",
+    repoLink: "https://github.com/m-soro/Project_1",
+    repoAPI: "https://api.github.com/repos/m-soro/Project_1",
+  },
+
   {
     id: 4,
     projectName: "React Portfolio",
