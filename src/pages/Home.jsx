@@ -4,9 +4,11 @@ export default function Home() {
       <section className="container">
         <h1>Hi,</h1>
         <blockquote>
-          My name is Mark Soro. I am an aspiring software developer based in
-          Alexandria, Virginia, USA. I am passionate about creating practical,
-          user-friendly applications using JavaScript and Python.
+          I'm Mark Soro, an aspiring software developer passionate about
+          creating intuitive and user-friendly applications using JavaScript,
+          Python and more. Based in Alexandria, Virginia, I thrive on the
+          creative challenge of coding and transforming ideas to digital
+          experiences.
         </blockquote>
       </section>
       <section>

@@ -3,34 +3,33 @@ export default function About() {
     <div className="About">
       <h1>About me</h1>
       <p>
-        I recently successfully completed the intensive four-month full-time
-        Software Engineering Certificate Program at Per Scholas, an important
-        step in my journey towards a career in software development.
+        I recently completed a rigorous four-month Software Engineering
+        Certificate Program at Per Scholas—a pivotal step in my software
+        development journey. 🎓
       </p>
       <p>
-        Prior to embarking on this tuition-free program, which I was fortunate
-        to be selected for, I dedicated significant time to self-study and
-        worked on various personal projects aligned with my interests,
-        diligently preparing myself for the challenges ahead.
+        Before diving into this awesome tuition-free program, I spent
+        considerable time self-studying and working on personal projects that
+        align with my interests, gearing up for the challenges ahead. 💻📚
       </p>
       <p>
-        While working in a full-time role in a different field, I managed to set
-        aside enough resources to cover personal expenses, affording me the
-        opportunity to immerse myself in the program.
+        Balancing a full-time role in a different field, I managed to set aside
+        enough resources to cover my expenses, allowing me to fully immerse
+        myself in the program. 💼💡
       </p>
       <p>
-        In 2023, I had the privilege of attaining United States citizenship, a
-        significant milestone since my initial arrival from the Philippines with
-        little more than a single contact person for my exchange program.
+        In 2023, I finally got my United States citizenship—huge moment
+        considering I first landed from the Philippines with just one contact
+        person. Being a first-gen American, I'm truly thankful for the
+        opportunities this country has opened up for me. 🇵🇭🇺🇸
       </p>
       <p>
-        Being a first-generation American, I am grateful for the opportunities
-        this country has afforded me. I believe my greatest strengths lie in my
-        perseverance, optimism, and determination.
+        My top strengths? Definitely my never-give-up attitude, positivity, and
+        sheer determination. 💪✨
       </p>
       <p>
-        Fluent in both English and Tagalog, I currently reside in the vibrant DC
-        area with my partner.
+        Fluent in both English and Tagalog, I'm soaking up life in the buzzing
+        DC area with my amazing partner! 🌟🏙️
       </p>
       <article>
         <figure>

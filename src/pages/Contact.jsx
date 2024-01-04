@@ -51,8 +51,10 @@ export default function Contact() {
         <h4>Get in touch</h4>
         <br />
         <p>
-          Hello 👋 say hi, send a comment, tell me how you found my page or ask
-          a question. I would love to hear from you!
+          Hey there! 👋 Whether you want to say hi, drop a comment, share how
+          you stumbled upon my page, or ask a question – I'm all ears! Your
+          feedback is greatly appreciated. Feel free to reach out; I'm excited
+          to connect with you! 🌟💬
         </p>
         <br />
         <form ref={form} onSubmit={sendEmail}>
@@ -86,6 +88,12 @@ export default function Contact() {
       <div>
         <article className="email-socials-article">
           <h4>Email and Socials</h4>
+          <br />
+          <p>
+            Hey! 🌟 Thanks for stopping by! Want to stay connected? Feel free to
+            send me an email me or reach out on my social media links below.
+            Let's connect and share ideas! 🚀💡
+          </p>
           <div className="Contact-Options">
             <div>
               <a href="mailto:napoleon_soro@rocketmail.com">Email</a>

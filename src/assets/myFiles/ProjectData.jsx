@@ -56,7 +56,7 @@ export const ProjectData = [
     ],
     summary: `A MERN stack app for snow enthusiasts🏂⛷️. Discover, compare, and curate your dream ski and snowboarding 
     destinations worldwide 🌍 Your dashboard is your personalized ticket to create, manage, and tailor lists of 
-    top-notch ski resorts. It's your ski buddy for the most epic snow-filled journeys! 🏔️✨. 
+    top-notch ski resorts. It's your ski buddy for an epic snow-filled journey! 🏔️✨. 
     `,
 
     projectBullets: [
@@ -180,7 +180,7 @@ export const ProjectData = [
       `In terms of design, I kept things minimal and neat. To add some extra fun 😉 I included messages like "Keep it up!" 👍 
       when players hit every 20 points 🎉, and there's a cool chime that plays whenever the score reaches 100 points.`,
       `Creating and playing this game was super enjoyable 😁. If you're interested in knowing more about how I made it 
-      or want to check out my source code, feel free to take a look at my GitHub page where I've shared all the details!`,
+      or want to check out my source code, feel free to take a look at my GitHub Repo where I've shared all the details!`,
     ],
     stack: [`${url}JavaScript${ext}`, `${url}HTML${ext}`, `${url}CSS${ext}`],
     demoLink: "https://m-soro.github.io/Project_1/",
