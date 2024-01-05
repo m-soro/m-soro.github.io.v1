@@ -210,15 +210,15 @@ export const ProjectData = [
       it's all dynamically pulled in. Plus, it's super responsive, looking slick on any device!`,
     ],
     moreDetail: [
-      `Creating a portfolio isn't just about showcasing work; it's an ongoing journey towards an effortlessly sleek and perpetually updated platform. 
-      My approach? Steering clear of tangled, hardcoded dates 🗓️. Everything, from data to components, adheres to a meticulously organized structure, 
-      ensuring a seamless rendering process.🌟`,
-      `Picture a portfolio that isn't just responsive but embodies minimalism, pristine cleanliness, and an unmistakably polished aesthetic—all while 
-      remaining an absolute delight to maintain. That's the main idea behind this project.`,
-      `Powered by the GitHub API 🚀 , this platform intelligently extracts relevant keywords, creation, and update dates, offering visitors real-time 
-      insights into each project's latest activity.`,
-      `But that's not all—the inclusion of the NPM package swiper elevates the experience, enabling users to effortlessly swipe through a visual 
-      cascade of images, adding a touch of interactivity to the browsing journey.`,
+      `Creating a portfolio isn't just about showcasing work; it's an ongoing journey towards an effortlessly sleek and perpetually 
+      updated platform. My approach? Steering clear of tangled, hardcoded dates 🗓️. Everything, from data to components, adheres to 
+      a meticulously organized structure, ensuring a seamless rendering process.🌟`,
+      `Picture a portfolio that isn't just responsive but embodies minimalism, pristine cleanliness, and an unmistakably polished 
+      aesthetic—all while remaining an absolute delight to maintain. That's the main idea behind this project.`,
+      `Powered by the GitHub API 🚀 , this platform intelligently extracts relevant keywords, creation, and update dates, offering 
+      visitors real-time insights into each project's latest activity.`,
+      `But that's not all—the inclusion of the NPM package swiper elevates the experience, enabling users to effortlessly swipe 
+      through a visual cascade of images, adding a touch of interactivity to the browsing journey.`,
       `Seeking engagement? The interactive contact form using EmailJS invites visitors to share thoughts, drop a line, or simply connect.👋💬`,
       `Curious to peek behind the scenes? 🔍 Dive into the source code on my GitHub Repo!`,
     ],
@@ -254,9 +254,15 @@ export const ProjectData = [
       This upgrade enhanced accessibility and added a touch of sophistication to the experience.`,
     ],
     moreDetail: [
-      `Let's time travel back in my days working at hotels, one of the coolest perks was scoring fantastic discounts at various properties. But here's the catch: figuring out which hotels had available rooms nearby each property was a real challenge. 🏨💻`,
-      `So, I put on my coding hat and created the first version of this program! Instead of endlessly checking each hotel's website, I created a nifty terminal tool. Its job? To help me plan potential hotel hops after I'd used up my discounted nights elsewhere. 🌟✨`,
-      `Now, for the sequel – Version 2! 🎬🍿 I took things a step further and built a sleek front-end using the Flask library 🌐✨, which I then deployed on Heroku (back when it was still in its free glory days!). You can check out the source code for this second iteration right here 👉 https://github.com/m-soro/getmostay.`,
+      `Let's time travel back in my days working at hotels, one of the coolest perks was scoring fantastic discounts 
+      at various properties. But here's the catch: figuring out which hotels had available rooms nearby each property 
+      was a real challenge. 🏨💻`,
+      `So, I put on my coding hat and created the first version of this program! Instead of endlessly checking each 
+      hotel's website, I created a nifty terminal tool. Its job? To help me plan potential hotel hops after I'd used up my 
+      discounted nights elsewhere. 🌟✨`,
+      `Now, for the sequel – Version 2! 🎬🍿 I took things a step further and built a sleek front-end using the 
+      Flask library 🌐✨, which I then deployed on Heroku (back when it was still in its free glory days!). 
+      You can check out the source code for this second iteration right here 👉 https://github.com/m-soro/getmostay.`,
       `For more details about this awesome project, make sure to dive into my GitHub Repo! 🚀🔍✨`,
     ],
     stack: [`${url}Python${ext}`],
@@ -271,7 +277,8 @@ export const ProjectData = [
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
       `${imgUrl}wmata/wmata01${imgExt}`,
     ],
-    summary: `Ever felt the frantic rush to catch that train, only to miss it by a hair? 🤦‍♂️ Enter this Python wizardry — a savvy terminal program that whispers live train times and delays from the Washington Metropolitan Area Transit Authority (WMATA). 🚇`,
+    summary: `Ever felt the frantic rush to catch that train, only to miss it by a hair? 🤦‍♂️ Enter this Python wizardry — 
+    a savvy terminal program that whispers live train times and delays from the Washington Metropolitan Area Transit Authority (WMATA). 🚇`,
 
     projectBullets: [
       `This trusty terminal app is my go-to for peeking at real-time train departures and potential delays.`,
@@ -279,8 +286,10 @@ export const ProjectData = [
       `Bid farewell to frantic app checks—this script keeps your commute on track with a quick keystroke.`,
     ],
     moreDetail: [
-      `Mornings can be chaotic, and missing the train used to be my signature move. 🚉🤦‍♂️  But with this script, I bid adieu to frantic app downloads and frantic webpage checks.`,
-      `Now, a quick tap on my terminal reveals the latest departures and alerts, keeping my commute right on track! May your journeys be hassle-free and right on time! 🕥`,
+      `Mornings can be chaotic, and missing the train used to be my signature move. 🚉🤦‍♂️  But with this script, 
+      I bid adieu to frantic app downloads and frantic webpage checks.`,
+      `Now, a quick tap on my terminal reveals the latest departures and alerts, keeping my commute right on track! 
+      May your journeys be hassle-free and right on time! 🕥`,
       `Discover more about this transit tale within my GitHub repository.🔍🌟`,
     ],
     stack: [`${url}Python${ext}`],
@@ -296,17 +305,19 @@ export const ProjectData = [
       `${imgUrl}pixelart/pixelart01${imgExt}`,
       "https://github.com/m-soro/Intro-to-Programming/raw/main/pixel-art-maker.gif",
     ],
-    summary: `Pixel Art Maker is written in vanilla JavaScript, where you can create your own pixel art!`,
+    summary: `Explore the world of creativity with Pixel Art Maker, a JavaScript pixel playground where your pixel designs comes to life! 🎨 🖼️✨`,
 
     projectBullets: [
-      "This is my very first JavaScript app.",
-      "Building this project got me started with my programming journey!",
+      `Get creative in this pixel playground where you can create fun designs pixel by pixel. Build your art using a wide spectrum of vibrant colors!`,
+      `This project marked the beginning of my exciting exploration into the world of programming and problem-solving.`,
+      `Beyond the basics, this project goes the extra mile. I didn't settle for the minimum; I incorporated a personalized touch by adding a dynamic header, 
+      footer, and collapsible instructions, elevating the user experience.`,
     ],
     moreDetail: [
-      `As this was my very first project, it thought me a lot about problem solving. Building this project made me very interested in learning how to code.`,
-      `Even though this is my very first project, I just didnt want to create something that meets the minimum. I added a header and footer and a collapsible that contains instructions.`,
-      `Coming up with ideas and then proceeding to make it happen, even faced with challenges is the aspect that I love about programming.`,
-      `Create something cool and click demo! See the source code in GitHub.`,
+      `This project signifies the first step in my coding journey. Through trial, error, and persistent tinkering, I explored the fascinating world of JavaScript, revealing the joys of codes. 💻🚀`,
+      `Beyond just code, I added a few touches to make this more than just a basic pixel art tool. By adding a dynamic header, a footer that pops, and collapsible instructions, I strived to bridge the gap between creativity and user experience. 🌟🎩`,
+      `This project isn't just about painting pixels; it's about imagination, problem-solving, and overcoming challenges. It speaks volumes about the joy of bringing ideas to life through code, even when faced with hurdles. 🧩🌟`,
+      `Create your pixelated masterpiece now and dive into the project! Explore the source code on my GitHub Repo! 🎉🔍`,
     ],
     stack: [`${url}JavaScript${ext}`, `${url}HTML${ext}`, `${url}CSS${ext}`],
     demoLink: "https://m-soro.github.io/Pixel-Art-Maker",
