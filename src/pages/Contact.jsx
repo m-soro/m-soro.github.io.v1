@@ -91,8 +91,8 @@ export default function Contact() {
           <br />
           <p>
             Hey! 🌟 Thanks for stopping by! Want to stay connected? Feel free to
-            send me an email me or reach out on my social media links below.
-            Let's connect and share ideas! 🚀💡
+            send me an email or reach out on my social media links below. Let's
+            connect and share ideas! 🚀💡
           </p>
           <div className="Contact-Options">
             <div>
