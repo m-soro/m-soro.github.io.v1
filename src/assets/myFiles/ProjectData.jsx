@@ -271,7 +271,7 @@ export const ProjectData = [
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
       `${imgUrl}wmata/wmata01${imgExt}`,
     ],
-    summary: `Ever felt the frantic rush to catch that train, only to miss it by a hair? 🤦‍♂️ Enter this Python wizardry — a savvy terminal program that whispers live train times and delays from the Washington Metropolitan Area Transit Authority (WMATA). 🚇🏙️`,
+    summary: `Ever felt the frantic rush to catch that train, only to miss it by a hair? 🤦‍♂️ Enter this Python wizardry — a savvy terminal program that whispers live train times and delays from the Washington Metropolitan Area Transit Authority (WMATA). 🚇`,
 
     projectBullets: [
       `This trusty terminal app is my go-to for peeking at real-time train departures and potential delays.`,
