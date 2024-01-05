@@ -47,12 +47,13 @@ export const ProjectData = [
     id: 1,
     projectName: `Capstone Project - Open Peaks Version 2`,
     images: [
+      `${imgUrl}openpeaksv2/07${imgExt}`,
+      `${imgUrl}openpeaksv2/04${imgExt}`,
+      `${imgUrl}openpeaksv2/05${imgExt}`,
       `${imgUrl}openpeaksv2/01${imgExt}`,
       `${imgUrl}openpeaksv2/02${imgExt}`,
       `${imgUrl}openpeaksv2/03${imgExt}`,
       `${imgUrl}openpeaksv2/demo${gifExt}`,
-      `${imgUrl}openpeaksv2/04${imgExt}`,
-      `${imgUrl}openpeaksv2/05${imgExt}`,
     ],
     summary: `A MERN stack app for snow enthusiasts🏂⛷️. Discover, compare, and curate your dream ski and snowboarding 
     destinations worldwide 🌍 Your dashboard is your personalized ticket to create, manage, and tailor lists of 
