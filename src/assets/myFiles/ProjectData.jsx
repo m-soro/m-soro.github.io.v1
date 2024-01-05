@@ -326,7 +326,7 @@ export const ProjectData = [
   },
   {
     id: 8,
-    projectName: "Explore Cities Bike Share",
+    projectName: "Bike Insights",
     images: [
       `${imgUrl}bikeshare/bikeshare01${imgExt}`,
       `${imgUrl}bikeshare/bikeshare02${imgExt}`,
@@ -357,15 +357,22 @@ export const ProjectData = [
     id: 9,
     projectName: "Explore FBI NICS Background Checks",
     images: [`${imgUrl}nics/nics02${imgExt}`, `${imgUrl}nics/nics01${imgExt}`],
-    summary: `This Python project explores the FBI NICS background checks.`,
+    summary: `Step into the heart of American firearm checks with this NICS data science project! 🔎 I delved into two decades of data, decoding the intricacies behind background checks. Uncover the trends, peek into the political pulse, and witness how holidays and societal events shape the nation's firearm ownership landscape.`,
 
     projectBullets: [
-      "Using the National Instant Criminal Background Check System (NICS) data. I'm using Python, Pandas, and Matplotlib to wrangle, clean and present data.",
+      `Dive into the heartbeat of firearm ownership - discover the pulse of background checks across days, months, and years, revealing the cadence of gun sales.`,
+      `Journey through two decades of background check data and see the connections between politics, holidays, and societal rhythms, uncovering trends that illuminate the pulse of firearm activities.`,
+      `Go beyond the numbers, venture into the world of data exploration, where histograms, line charts, and bar plots paint a vibrant canvas of insights.`,
     ],
     moreDetail: [
-      "Building this project was a great excercise to help solidify my knowledge in Python and its libraries.",
-      `It was interesting building this project because I got a lot of practice and learned a lot about data types and operations that can be done with data.`,
-      "View in depth 📄 documentation, processes involved and data interpretation by cliking the demo link.",
+      `Ever wondered what happens behind the scenes when someone tries to buy a firearm? In this project I discover insights into the National Instant Criminal Background Check System (NICS) - the gatekeeper to firearm ownership in the United States.`,
+      `This project is a data-driven expedition where numbers and trends tell stories. The journey begins with the basics, sifting through vast datasets, cleaning them up, and preparing for the unknown.`,
+      `As I delve deeper, colorful visualizations paint a vivid picture. 📊 Histograms tower with the distribution of handgun, long gun, and other firearm background checks over two decades. I uncover peaks on Fridays and Mondays and unveil the mystery behind why December, March, and November buzz with background check activity.`,
+      `But wait, there's more! Politics enters the scene as I notice spikes during election years. States like New Jersey, Hawaii, and the District of Columbia emerge with intriguing background check stats.`,
+      `The plot thickens as limitations rear their heads. Our dataset lacks the full story, unable to reveal demographics or directly correlate checks with actual purchases. Yet, I press on, unearthing remarkable growth rates in states like the District of Columbia, where background checks skyrocketed by a whopping 67,458% from 2000 to 2020! 🚀`,
+      `Finally, amidst the data treasures lies a golden nugget of insight: Fridays and Mondays light up with checks, holiday months sparkle with firearm wishes, and political climates cast shadows on background check trends. 📈`,
+      `This journey isn't just about numbers; it's about unraveling the hidden tales within datasets, exploring trends, and understanding the intricacies between firearm ownership, politics, and societal rhythms. 🌐`,
+      `If you're eager to explore the raw data, charts, and scripts behind this analysis, find all these in my GitHub Repo.🌟`,
     ],
     stack: [`${url}Python${ext}`],
     demoLink:
