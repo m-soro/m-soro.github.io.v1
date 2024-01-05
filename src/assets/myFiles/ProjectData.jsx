@@ -314,9 +314,12 @@ export const ProjectData = [
       footer, and collapsible instructions, elevating the user experience.`,
     ],
     moreDetail: [
-      `This project signifies the first step in my coding journey. Through trial, error, and persistent tinkering, I explored the fascinating world of JavaScript, revealing the joys of codes. 💻🚀`,
-      `Beyond just code, I added a few touches to make this more than just a basic pixel art tool. By adding a dynamic header, a footer that pops, and collapsible instructions, I strived to bridge the gap between creativity and user experience. 🌟🎩`,
-      `This project isn't just about painting pixels; it's about imagination, problem-solving, and overcoming challenges. It speaks volumes about the joy of bringing ideas to life through code, even when faced with hurdles. 🧩🌟`,
+      `This project signifies the first step in my coding journey. Through trial, error, and persistent tinkering, I explored the 
+      fascinating world of JavaScript, revealing the joys of codes. 💻🚀`,
+      `Beyond just code, I added a few touches to make this more than just a basic pixel art tool. By adding a dynamic header, 
+      a footer that pops, and collapsible instructions, I strived to bridge the gap between creativity and user experience. 🌟🎩`,
+      `This project isn't just about painting pixels; it's about imagination, problem-solving, and overcoming challenges. 
+      It speaks volumes about the joy of bringing ideas to life through code, even when faced with hurdles. 🧩🌟`,
       `Create your pixelated masterpiece now and dive into the project! Explore the source code on my GitHub Repo! 🎉🔍`,
     ],
     stack: [`${url}JavaScript${ext}`, `${url}HTML${ext}`, `${url}CSS${ext}`],
@@ -326,25 +329,34 @@ export const ProjectData = [
   },
   {
     id: 8,
-    projectName: "Bike Insights",
+    projectName: `Discovering Bikeshare Trends`,
     images: [
       `${imgUrl}bikeshare/bikeshare01${imgExt}`,
       `${imgUrl}bikeshare/bikeshare02${imgExt}`,
     ],
-    summary: `Hop on a virtual ride through the bustling streets of Chicago, New York City, and Washington with the Bikeshare Explorer project - 
-    an interactive Python journey into the heart of urban mobility! 🚲💨`,
+    summary: `Hop on a virtual ride through the bustling streets of Chicago, New York City, and Washington with the Bikeshare 
+    Explorer project - an interactive Python journey into the heart of urban mobility! 🚲💨`,
 
     projectBullets: [
-      `Take a thrilling dive into city dynamics! Explore popular biking routes, discover hotspots, and unravel fascinating urban travel patterns across Chicago, New York City, and Washington.`,
-      `Buckle up for an interactive journey! Customize filters, unveil ride statistics, and peek into user demographics, all while steering through Python-powered data exploration.`,
-      `Dive into the code, unveil the secrets behind lambdas, functions, and Pandas, as Python transforms raw data into an immersive urban adventure.`,
+      `Take a thrilling dive into city dynamics! Explore popular biking routes, discover hotspots, and unravel fascinating urban 
+      travel patterns across Chicago, New York City, and Washington.`,
+      `Buckle up for an interactive journey! Customize filters, unveil ride statistics, and peek into user demographics, all while 
+      steering through Python-powered data exploration.`,
+      `Dive into the code, unveil the secrets behind lambdas, functions, and Pandas, as Python transforms raw data into an 
+      immersive urban adventure.`,
     ],
     moreDetail: [
-      `Dive into this data science project with Udacity's Data Science with Python course! 🚀 This project was an exciting expedition into Python's data types, where Pandas and NumPy became my trusty companions on this data adventure.`,
-      `This project wasn't just an assignment; it was an adventure! Exploring the fascinating nuances of data types in Python, I wielded the mighty Pandas and NumPy libraries to uncover the secrets hidden within the datasets. 🕵️`,
-      `But hey, I'm all about going beyond expectations! I spiced things up by adding more flair—think enhanced filters and custom result settings—transforming a data exploration project into a playground of endless possibilities!`,
-      `This journey wasn't merely about crunching numbers; it was about discovering stories within the data. 📊✨ And guess what? I've meticulously documented every twist and turn of this incredible expedition, offering a peek into the exciting world of data exploration right here 👉 https://m-soro.github.io/Data-Science-with-Python/projects/project2.html`,
-      `Join me on this thrilling data-driven odyssey! Python, Pandas, and NumPy await to unlock the secrets hidden in every dataset, turning raw information into a vibrant storybook of insights and adventures!`,
+      `Dive into this data science project with Udacity's Data Science with Python course! 🚀 This project was an exciting expedition 
+      into Python's data types, where Pandas and NumPy became my trusty companions on this data adventure.`,
+      `This project wasn't just an assignment; it was an adventure! Exploring the fascinating nuances of data types in Python, I wielded 
+      the mighty Pandas and NumPy libraries to uncover the secrets hidden within the datasets. 🕵️`,
+      `But hey, I'm all about going beyond expectations! I spiced things up by adding more flair—think enhanced filters and custom result 
+      settings—transforming a data exploration project into a playground of endless possibilities!`,
+      `This journey wasn't merely about crunching numbers; it was about discovering stories within the data. 📊✨ And guess what? 
+      I've meticulously documented every twist and turn of this incredible expedition, offering a peek into the exciting world of 
+      data exploration right here 👉 https://m-soro.github.io/Data-Science-with-Python/projects/project2.html`,
+      `Join me on this thrilling data-driven odyssey! Python, Pandas, and NumPy await to unlock the secrets hidden in every dataset, 
+      turning raw information into a vibrant storybook of insights and adventures!`,
       `If you're hungry for more  or curious to see the source code hop over to my GitHub Repo! 🌟💻 `,
     ],
     stack: [`${url}Python${ext}`],
@@ -357,21 +369,35 @@ export const ProjectData = [
     id: 9,
     projectName: "Decoding Trends in NICS Background Checks",
     images: [`${imgUrl}nics/nics02${imgExt}`, `${imgUrl}nics/nics01${imgExt}`],
-    summary: `Step into the heart of American firearm checks with this NICS data science project! 🔎 I delved into two decades of data, decoding the intricacies behind background checks. Uncover the trends, peek into the political pulse, and witness how holidays and societal events shape the nation's firearm ownership landscape.`,
+    summary: `Step into the heart of American firearm checks with this NICS data science project! 🔎 I delved into two decades of data, 
+    decoding the intricacies behind background checks. Uncover the trends, peek into the political pulse, and witness how holidays 
+    and societal events shape the nation's firearm ownership landscape.`,
 
     projectBullets: [
-      `Dive into the heartbeat of firearm ownership - discover the pulse of background checks across days, months, and years, revealing the cadence of gun sales.`,
-      `Journey through two decades of background check data and see the connections between politics, holidays, and societal rhythms, uncovering trends that illuminate the pulse of firearm activities.`,
-      `Go beyond the numbers, venture into the world of data exploration, where histograms, line charts, and bar plots paint a vibrant canvas of insights.`,
+      `Dive into the heartbeat of firearm ownership - discover the pulse of background checks across days, months, and years, 
+      revealing the cadence of gun sales.`,
+      `Journey through two decades of background check data and see the connections between politics, holidays, and societal 
+      rhythms, uncovering trends that illuminate the pulse of firearm activities.`,
+      `Go beyond the numbers, venture into the world of data exploration, where histograms, line charts, and bar plots paint 
+      a vibrant canvas of insights.`,
     ],
     moreDetail: [
-      `Ever wondered what happens behind the scenes when someone tries to buy a firearm? In this project I discover insights into the National Instant Criminal Background Check System (NICS) - the gatekeeper to firearm ownership in the United States.`,
-      `This project is a data-driven expedition where numbers and trends tell stories. The journey begins with the basics, sifting through vast datasets, cleaning them up, and preparing for the unknown.`,
-      `As I delve deeper, colorful visualizations paint a vivid picture. 📊 Histograms tower with the distribution of handgun, long gun, and other firearm background checks over two decades. I uncover peaks on Fridays and Mondays and unveil the mystery behind why December, March, and November buzz with background check activity.`,
-      `But wait, there's more! Politics enters the scene as I notice spikes during election years. States like New Jersey, Hawaii, and the District of Columbia emerge with intriguing background check stats.`,
-      `The plot thickens as limitations rear their heads. Our dataset lacks the full story, unable to reveal demographics or directly correlate checks with actual purchases. Yet, I press on, unearthing remarkable growth rates in states like the District of Columbia, where background checks skyrocketed by a whopping 67,458% from 2000 to 2020! 🚀`,
-      `Finally, amidst the data treasures lies a golden nugget of insight: Fridays and Mondays light up with checks, holiday months sparkle with firearm wishes, and political climates cast shadows on background check trends. 📈`,
-      `This journey isn't just about numbers; it's about unraveling the hidden tales within datasets, exploring trends, and understanding the intricacies between firearm ownership, politics, and societal rhythms. 🌐`,
+      `Ever wondered what happens behind the scenes when someone tries to buy a firearm? In this project I discover insights into the 
+      National Instant Criminal Background Check System (NICS) - the gatekeeper to firearm ownership in the United States.`,
+      `This project is a data-driven expedition where numbers and trends tell stories. The journey begins with the basics, sifting 
+      through vast datasets, cleaning them up, and preparing for the unknown.`,
+      `As I delve deeper, colorful visualizations paint a vivid picture. 📊 Histograms tower with the distribution of handgun, long gun, 
+      and other firearm background checks over two decades. I uncover peaks on Fridays and Mondays and unveil the mystery 
+      behind why December, March, and November buzz with background check activity.`,
+      `But wait, there's more! Politics enters the scene as I notice spikes during election years. States like New Jersey, Hawaii, 
+      and the District of Columbia emerge with intriguing background check stats.`,
+      `The plot thickens as limitations rear their heads. Our dataset lacks the full story, unable to reveal demographics or 
+      directly correlate checks with actual purchases. Yet, I press on, unearthing remarkable growth rates in states like the 
+      District of Columbia, where background checks skyrocketed by a whopping 67,458% from 2000 to 2020! 🚀`,
+      `Finally, amidst the data treasures lies a golden nugget of insight: Fridays and Mondays light up with checks, holiday months 
+      sparkle with firearm wishes, and political climates cast shadows on background check trends. 📈`,
+      `This journey isn't just about numbers; it's about unraveling the hidden tales within datasets, exploring trends, and 
+      understanding the intricacies between firearm ownership, politics, and societal rhythms. 🌐`,
       `If you're eager to explore the raw data, charts, and scripts behind this analysis, find all these in my GitHub Repo.🌟`,
     ],
     stack: [`${url}Python${ext}`],
