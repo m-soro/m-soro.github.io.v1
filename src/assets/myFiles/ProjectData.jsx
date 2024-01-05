@@ -245,23 +245,25 @@ export const ProjectData = [
 
     projectBullets: [
       `I utilized this tool to efficiently monitor and manage discounted hotel availabilities. 
-      No more manual searching through various hotel websites! `,
+      No more manual searching through various hotel websites!`,
       `Returns an insightful three-month availability status for each selected property. 
       This quick glance at upcoming vacancies made planning a breeze.`,
       `Created in Python, this tool employed the powerful Pillow library to seamlessly capture and manipulate screenshots. 
       The magic behind handling the visuals!`,
       `I had a lot of fun building this project that I extended it! I created a user-friendly front-end using Flask. 
       This upgrade enhanced accessibility and added a touch of sophistication to the experience.`,
+      `Please note: This project specifically caters to the Mandarin Oriental Website. Unfortunately, as I am not an employee 
+      of Mandarin Oriental anymore, access to discount codes is not available to be used with this tool.`,
     ],
     moreDetail: [
-      `Let's time travel back in my days working at hotels, one of the coolest perks was scoring fantastic discounts 
+      `Let's time travel back to my days working at hotels. One of the coolest perks was scoring fantastic discounts 
       at various properties. But here's the catch: figuring out which hotels had available rooms nearby each property 
       was a real challenge. 🏨💻`,
       `So, I put on my coding hat and created the first version of this program! Instead of endlessly checking each 
       hotel's website, I created a nifty terminal tool. Its job? To help me plan potential hotel hops after I'd used up my 
       discounted nights elsewhere. 🌟✨`,
       `Now, for the sequel – Version 2! 🎬🍿 I took things a step further and built a sleek front-end using the 
-      Flask library 🌐✨, which I then deployed on Heroku (back when it was still in its free glory days!). 
+      Flask library 🌐✨, which I then deployed on Heroku (back when it was still in its free glory days!) 😭. 
       You can check out the source code for this second iteration right here 👉 https://github.com/m-soro/getmostay.`,
       `For more details about this awesome project, make sure to dive into my GitHub Repo! 🚀🔍✨`,
     ],
@@ -278,7 +280,7 @@ export const ProjectData = [
       `${imgUrl}wmata/wmata01${imgExt}`,
     ],
     summary: `Ever felt the frantic rush to catch that train, only to miss it by a hair? 🤦‍♂️ Enter this Python wizardry — 
-    a savvy terminal program that whispers live train times and delays from the Washington Metropolitan Area Transit Authority (WMATA). 🚇`,
+    a savvy terminal program that fetches live train times and delays from the Washington Metropolitan Area Transit Authority (WMATA). 🚇`,
 
     projectBullets: [
       `This trusty terminal app is my go-to for peeking at real-time train departures and potential delays.`,
