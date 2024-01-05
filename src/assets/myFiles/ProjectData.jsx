@@ -45,7 +45,7 @@ let gifExt = ".gif?raw=true";
 export const ProjectData = [
   {
     id: 1,
-    projectName: `Capstone Project - Open Peaks Version 2`,
+    projectName: `Capstone - Open Peaks Version 2`,
     images: [
       `${imgUrl}openpeaksv2/07${imgExt}`,
       `${imgUrl}openpeaksv2/04${imgExt}`,
@@ -81,7 +81,7 @@ export const ProjectData = [
       between different parts while keeping everything locked up tight. 
       And wrangling data from external APIs was like navigating a ski slope: exhilarating but demanding!⛷️`,
       `Where is this app deployed you ask? Well, the backend chills ❄️ in Render, while the frontend says Hi! 👋 from Render and Netlify.`,
-      `Open Peaks Version 2 is my ticket to exhibit top-notch web app skills, especially for fellow snow enthusiasts. 
+      `Open Peaks Version 2 is showcases my top-notch web app skills, especially for fellow snow enthusiasts. 
       Full-stack proficiency, nifty user authentication, and sleek design — that's what it's all about! 🌟`,
       `If you want more details and insights in this snow-filled app, head on over to my GitHub Repo! 🌨️✨`,
     ],
@@ -234,25 +234,31 @@ export const ProjectData = [
   },
   {
     id: 5,
-    projectName: "Hotel Availability Webscraper",
+    projectName: "Vacancy Spotter",
     images: [
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/mo_stay.png",
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/demo.gif",
       `${imgUrl}mostay/mostay01${imgExt}`,
     ],
-    summary: `A Python webscraper built for checking available hotel discounted stays.`,
+    summary: `Unlock hotel availabilities with a snap! 🏨🔍 My hotel web scraper streamlines finding discounts and reveals 
+    three months of vacancies at a glance. Powered by Python, this tool evolved from solid backend functionality to a user-friendly front-end using Flask, 
+    making vacation planning a delightful breeze. 🌟🖥️ `,
 
     projectBullets: [
-      "I used this program to keep track of discounted hotel availabilities.",
-      "Returns three months availabilities of each properties selected.",
-      "Written in python and used pillow library to manipulate screenshots.",
-      "I had a great time building this project, that I made a front end as well using the Flask library.",
+      `I utilized this tool to efficiently monitor and manage discounted hotel availabilities. 
+      No more manual searching through various hotel websites! `,
+      `Returns an insightful three-month availability status for each selected property. 
+      This quick glance at upcoming vacancies made planning a breeze.`,
+      `Created in Python, this tool employed the powerful Pillow library to seamlessly capture and manipulate screenshots. 
+      The magic behind handling the visuals!`,
+      `I had a lot of fun building this project that I extended it! I created a user-friendly front-end using Flask. 
+      This upgrade enhanced accessibility and added a touch of sophistication to the experience.`,
     ],
     moreDetail: [
-      `This is the first version of this program. Back when I was still a hotel worker, we get amazing hotel discount benefits, the problem is that its too difficult to chain which locations that are available within reasonable distance from each other.`,
-      `Instead of just checking each hotel's website all the time, I created this terminal program so I could easily plan to potentially hotel hop after I exhausted my discounted nights from another property.`,
-      `For the second version of this app, I created a front end using Flask library which is deployed in Heroku(back when it was free). You view the second version source code here 👉 https://github.com/m-soro/getmostay.`,
-      `More details about this project can be found in my GitHub repo.`,
+      `Let's time travel back in my days working at hotels, one of the coolest perks was scoring fantastic discounts at various properties. But here's the catch: figuring out which hotels had available rooms nearby each property was a real challenge. 🏨💻`,
+      `So, I put on my coding hat and created the first version of this program! Instead of endlessly checking each hotel's website, I created a nifty terminal tool. Its job? To help me plan potential hotel hops after I'd used up my discounted nights elsewhere. 🌟✨`,
+      `Now, for the sequel – Version 2! 🎬🍿 I took things a step further and built a sleek front-end using the Flask library 🌐✨, which I then deployed on Heroku (back when it was still in its free glory days!). You can check out the source code for this second iteration right here 👉 https://github.com/m-soro/getmostay.`,
+      `For more details about this awesome project, make sure to dive into my GitHub Repo! 🚀🔍✨`,
     ],
     stack: [`${url}Python${ext}`],
     demoLink: "https://m-soro.github.io/mostay/",
@@ -266,16 +272,16 @@ export const ProjectData = [
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
       `${imgUrl}wmata/wmata01${imgExt}`,
     ],
-    summary: `A Python terminal program to check train times.`,
+    summary: `Ever felt the frantic rush to catch that train, only to miss it by a hair? 🤦‍♂️ Enter this Python wizardry — a savvy terminal program that whispers live train times and delays from the Washington Metropolitan Area Transit Authority (WMATA). 🚇🏙️`,
 
     projectBullets: [
-      "I used this Python terminal program to check train times or delays.",
-      "This terminal app makes an API call to Washington Metropolitan Area Transit Authority (WMATA).",
+      `This trusty terminal app is my go-to for peeking at real-time train departures and potential delays.`,
+      `With a simple API call, it taps into WMATA's treasure trove of transit information.`,
     ],
     moreDetail: [
-      `Even though I live nearby the 5 minutes away from train station, I *sometimes* still miss the train which causes me to be late.`,
-      `Instead of downloading another app in my phone or checking the website every morning, I run this script in my terminal to check for up to date departures or delays.`,
-      `More information can be viewed in my GitHub repo.`,
+      `Mornings can be chaotic, and missing the train used to be my signature move 🚉🤦‍♂️. But with this script, I bid adieu to frantic app downloads and frantic webpage checks.`,
+      `Now, a quick tap on my terminal reveals the latest departures and alerts, keeping my commute right on track! May your journeys be hassle-free and right on time!🕥`,
+      `Discover more about this transit tale within my GitHub repository.🔍🌟`,
     ],
     stack: [`${url}Python${ext}`],
     demoLink: "https://m-soro.github.io/wmata_dc_metro_train_times_v2/",

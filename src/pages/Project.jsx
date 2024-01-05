@@ -166,7 +166,7 @@ export default function Project() {
               <Link to="/projects">back</Link>
             </button>
             <button className="outline DemoButton">
-              <a href={project.demoLink}>demo</a>
+              <a href={project.demoLink}>launch it!</a>
             </button>
           </div>
         </section>
