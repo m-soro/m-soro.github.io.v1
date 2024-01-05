@@ -355,7 +355,7 @@ export const ProjectData = [
   },
   {
     id: 9,
-    projectName: "Explore FBI NICS Background Checks",
+    projectName: "Decoding Trends in NICS Background Checks",
     images: [`${imgUrl}nics/nics02${imgExt}`, `${imgUrl}nics/nics01${imgExt}`],
     summary: `Step into the heart of American firearm checks with this NICS data science project! 🔎 I delved into two decades of data, decoding the intricacies behind background checks. Uncover the trends, peek into the political pulse, and witness how holidays and societal events shape the nation's firearm ownership landscape.`,
 
