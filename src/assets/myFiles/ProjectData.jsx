@@ -196,19 +196,30 @@ export const ProjectData = [
       `${imgUrl}portfolio/portfolio02${gifExt}`,
       `${imgUrl}portfolio/portfolio01${imgExt}`,
     ],
-    summary: `My React portfolio using the GitHub API to pull relevant data.`,
+    summary: `My React portfolio 🚀 harnesses the power of the GitHub API to provide dynamic, real-time project insights. 
+    Featuring an elegantly clean design ✨, intuitive navigation 🧭, and seamless functionality, it offers users a polished 
+    and interactive browsing experience.`,
 
     projectBullets: [
-      "I created this React portfolio with Pico.css with the goal of being easy to maintain.",
-      "This single page app is created with React and deployed in Github Pages.",
-      "Uses Github API to pull relevant data. Shows latest activity of each project.",
+      `A React-powered portfolio that's as smooth as it gets, blending a sleek design with effortless maintenance. 
+      Mix in Pico.css to deliver a crisp and polished appearance!`,
+      `Think easy updates! I've organized everything in separate bits and bobs, so tweaking, adding, or updating 
+      is a breeze without messing with pesky details.`,
+      `GitHub API magic at work! Stay updated with the latest buzz on each project - from creation dates, updated dates and keyword tags, 
+      it's all dynamically pulled in. Plus, it's super responsive, looking slick on any device!`,
     ],
     moreDetail: [
-      `One problem with portfolio website is the difficulty of maintenance. I built this to potentially avoid that problem.`,
-      `As much as possible, I do not want hard code anything specifically dates. The data and components are kept separate and follows a structure to render.`,
-      `I wanted to create a portfolio that is responsive, minimal, clean and looks polished that will be a breeze for me to maintain.`,
-      `I'm using GitHub API to call relevant keywords that appears in tags section, created date and updated date to show latest activity of each project.`,
-      `View the source code in my GitHub repo.`,
+      `Creating a portfolio isn't just about showcasing work; it's an ongoing journey towards an effortlessly sleek and perpetually updated platform. 
+      My approach? Steering clear of tangled, hardcoded dates 🗓️. Everything, from data to components, adheres to a meticulously organized structure, 
+      ensuring a seamless rendering process.🌟`,
+      `Picture a portfolio that isn't just responsive but embodies minimalism, pristine cleanliness, and an unmistakably polished aesthetic—all while 
+      remaining an absolute delight to maintain. That's the main idea behind this project.`,
+      `Powered by the GitHub API 🚀 , this platform intelligently extracts relevant keywords, creation, and update dates, offering visitors real-time 
+      insights into each project's latest activity.`,
+      `But that's not all—the inclusion of the NPM package swiper elevates the experience, enabling users to effortlessly swipe through a visual 
+      cascade of images, adding a touch of interactivity to the browsing journey.`,
+      `Seeking engagement? The interactive contact form using EmailJS invites visitors to share thoughts, drop a line, or simply connect.👋💬`,
+      `Curious to peek behind the scenes? 🔍 Dive into the source code on my GitHub Repo!`,
     ],
     stack: [
       `${url}JavaScript${ext}`,
