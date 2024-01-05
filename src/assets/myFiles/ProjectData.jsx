@@ -240,9 +240,8 @@ export const ProjectData = [
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/demo.gif",
       `${imgUrl}mostay/mostay01${imgExt}`,
     ],
-    summary: `Unlock hotel availabilities with a snap! 🏨🔍 My hotel web scraper streamlines finding discounts and reveals 
-    three months of vacancies at a glance. Powered by Python, this tool evolved from solid backend functionality to a user-friendly front-end using Flask, 
-    making vacation planning a delightful breeze. 🌟🖥️ `,
+    summary: `Unlock hotel availabilities with a snap! 🔍 My hotel web scraper streamlines finding discounts and reveals 
+    three months of vacancies at a glance. Make vacation planning a delightful breeze. 🌟🖥️ `,
 
     projectBullets: [
       `I utilized this tool to efficiently monitor and manage discounted hotel availabilities. 
@@ -267,7 +266,7 @@ export const ProjectData = [
   },
   {
     id: 6,
-    projectName: "Transit Departures or Delays",
+    projectName: "Terminal Transit Ticker",
     images: [
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
       `${imgUrl}wmata/wmata01${imgExt}`,
@@ -277,10 +276,11 @@ export const ProjectData = [
     projectBullets: [
       `This trusty terminal app is my go-to for peeking at real-time train departures and potential delays.`,
       `With a simple API call, it taps into WMATA's treasure trove of transit information.`,
+      `Bid farewell to frantic app checks—this script keeps your commute on track with a quick keystroke.`,
     ],
     moreDetail: [
-      `Mornings can be chaotic, and missing the train used to be my signature move 🚉🤦‍♂️. But with this script, I bid adieu to frantic app downloads and frantic webpage checks.`,
-      `Now, a quick tap on my terminal reveals the latest departures and alerts, keeping my commute right on track! May your journeys be hassle-free and right on time!🕥`,
+      `Mornings can be chaotic, and missing the train used to be my signature move. 🚉🤦‍♂️  But with this script, I bid adieu to frantic app downloads and frantic webpage checks.`,
+      `Now, a quick tap on my terminal reveals the latest departures and alerts, keeping my commute right on track! May your journeys be hassle-free and right on time! 🕥`,
       `Discover more about this transit tale within my GitHub repository.🔍🌟`,
     ],
     stack: [`${url}Python${ext}`],
