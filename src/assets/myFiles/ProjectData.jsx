@@ -331,18 +331,21 @@ export const ProjectData = [
       `${imgUrl}bikeshare/bikeshare01${imgExt}`,
       `${imgUrl}bikeshare/bikeshare02${imgExt}`,
     ],
-    summary: `Using python and pandas dataframe to investigate a real data set.`,
+    summary: `Hop on a virtual ride through the bustling streets of Chicago, New York City, and Washington with the Bikeshare Explorer project - 
+    an interactive Python journey into the heart of urban mobility! 🚲💨`,
 
     projectBullets: [
-      "I learned a lot from this project about manipulating data. It was written in python using google colab.",
-      "With this project I cleaned the data and manipulated it. Visualize and interpreted it.",
-      "This project made me really like coding in python with all of its built in methods and clean syntax.",
+      `Take a thrilling dive into city dynamics! Explore popular biking routes, discover hotspots, and unravel fascinating urban travel patterns across Chicago, New York City, and Washington.`,
+      `Buckle up for an interactive journey! Customize filters, unveil ride statistics, and peek into user demographics, all while steering through Python-powered data exploration.`,
+      `Dive into the code, unveil the secrets behind lambdas, functions, and Pandas, as Python transforms raw data into an immersive urban adventure.`,
     ],
     moreDetail: [
-      `This is project from Udacity Data Science with python. To pass, this project must meet the rubric requirements.`,
-      `Writing this project really gave me a firm understanding of data types in python. I used pandas and numpy libraries to manipulate the data.`,
-      `As for every project, I didn't just want to submit something that just meets the minimum. I challenged myself to come up with other features, such as additional filters and specifiying how many results to return.`,
-      `View my 🖊️ extensive documentation here 👉 https://m-soro.github.io/Data-Science-with-Python/projects/project2.html`,
+      `Dive into this data science project with Udacity's Data Science with Python course! 🚀 This project was an exciting expedition into Python's data types, where Pandas and NumPy became my trusty companions on this data adventure.`,
+      `This project wasn't just an assignment; it was an adventure! Exploring the fascinating nuances of data types in Python, I wielded the mighty Pandas and NumPy libraries to uncover the secrets hidden within the datasets. 🕵️`,
+      `But hey, I'm all about going beyond expectations! I spiced things up by adding more flair—think enhanced filters and custom result settings—transforming a data exploration project into a playground of endless possibilities!`,
+      `This journey wasn't merely about crunching numbers; it was about discovering stories within the data. 📊✨ And guess what? I've meticulously documented every twist and turn of this incredible expedition, offering a peek into the exciting world of data exploration right here 👉 https://m-soro.github.io/Data-Science-with-Python/projects/project2.html`,
+      `Join me on this thrilling data-driven odyssey! Python, Pandas, and NumPy await to unlock the secrets hidden in every dataset, turning raw information into a vibrant storybook of insights and adventures!`,
+      `If you're hungry for more  or curious to see the source code hop over to my GitHub Repo! 🌟💻 `,
     ],
     stack: [`${url}Python${ext}`],
     demoLink:
