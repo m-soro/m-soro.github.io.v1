@@ -90,9 +90,9 @@ export default function Contact() {
           <h4>Email and Socials</h4>
           <br />
           <p>
-            Hey! 🌟 Thanks for stopping by! Want to stay connected? Feel free to
-            send me an email or reach out on my social media links below. Let's
-            connect and share ideas! 🚀💡
+            Hey! 🌟 Thanks for stopping by! Want to stay connected? Feel free
+            reach out on my social media links below. Let's connect and share
+            ideas! 🚀💡
           </p>
           <div className="Contact-Options">
             <div>

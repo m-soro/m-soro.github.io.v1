@@ -81,7 +81,7 @@ export const ProjectData = [
       between different parts while keeping everything locked up tight. 
       And wrangling data from external APIs was like navigating a ski slope: exhilarating but demanding!⛷️`,
       `Where is this app deployed you ask? Well, the backend chills ❄️ in Render, while the frontend says Hi! 👋 from Render and Netlify.`,
-      `Open Peaks Version 2 is showcases my top-notch web app skills, especially for fellow snow enthusiasts. 
+      `Open Peaks Version 2 showcases my top-notch web app skills, especially for fellow snow enthusiasts. 
       Full-stack proficiency, nifty user authentication, and sleek design — that's what it's all about! 🌟`,
       `If you want more details and insights in this snow-filled app, head on over to my GitHub Repo! 🌨️✨`,
     ],
@@ -292,7 +292,7 @@ export const ProjectData = [
       I bid adieu to app downloads and frantic webpage checks.`,
       `Now, a quick tap on my terminal reveals the latest departures and alerts, keeping my commute right on track! 
       May your journeys be hassle-free and right on time! 🕥`,
-      `Discover more about this transit tale within my GitHub repository.🔍🌟`,
+      `Discover more about this transit tale within my GitHub Repo.🔍🌟`,
     ],
     stack: [`${url}Python${ext}`],
     demoLink: "https://m-soro.github.io/wmata_dc_metro_train_times_v2/",
@@ -357,8 +357,6 @@ export const ProjectData = [
       `This journey wasn't merely about crunching numbers; it was about discovering stories within the data. 📊✨ And guess what? 
       I've meticulously documented every twist and turn of this incredible expedition, offering a peek into the exciting world of 
       data exploration right here 👉 https://m-soro.github.io/Data-Science-with-Python/projects/project2.html`,
-      `Join me on this thrilling data-driven odyssey! Python, Pandas, and NumPy await to unlock the secrets hidden in every dataset, 
-      turning raw information into a vibrant storybook of insights and adventures!`,
       `If you're hungry for more  or curious to see the source code hop over to my GitHub Repo! 🌟💻 `,
     ],
     stack: [`${url}Python${ext}`],
@@ -369,7 +367,7 @@ export const ProjectData = [
   },
   {
     id: 9,
-    projectName: "Decoding Trends in NICS Background Checks",
+    projectName: "Decoding Trends in FBI NICS Background Checks",
     images: [`${imgUrl}nics/nics02${imgExt}`, `${imgUrl}nics/nics01${imgExt}`],
     summary: `Step into the heart of American firearm checks with this NICS data science project! 🔎 I delved into two decades of data, 
     decoding the intricacies behind background checks. Uncover the trends, peek into the political pulse, and witness how holidays 
