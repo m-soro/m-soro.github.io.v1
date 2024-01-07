@@ -6,7 +6,7 @@ register();
 export default function Projects() {
   return (
     <div className="Projects">
-      <h2>Projects</h2>
+      <h3>Code Collections</h3>
       <div className="ProjectContainer">
         {ProjectData.map((project) => (
           <article className="ProjectCard" key={project.id}>
