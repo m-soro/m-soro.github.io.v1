@@ -1,11 +1,11 @@
 export default function About() {
   return (
     <div className="About">
-      <h1>About me</h1>
+      <h1>My Tech Journey</h1>
       <p>
-        I recently completed a rigorous four-month Software Engineering
-        Certificate Program at Per Scholas—a pivotal step in my software
-        development journey. 🎓
+        Hey there, welcome to my side of the web! I recently completed a
+        rigorous four-month Software Engineering Certificate Program at Per
+        Scholas—a pivotal step in my software development journey. 🎓
       </p>
       <p>
         Before diving into this awesome tuition-free program, I spent
@@ -24,8 +24,8 @@ export default function About() {
         opportunities this country has opened up for me. 🇵🇭🇺🇸
       </p>
       <p>
-        My top strengths? Definitely my never-give-up attitude, positivity, and
-        sheer determination. 💪✨
+        What sets me apart? Definitely my never-give-up attitude, positivity,
+        and sheer determination. 💪✨
       </p>
       <p>
         Fluent in both English and Tagalog, I'm soaking up life in the buzzing
