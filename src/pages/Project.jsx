@@ -134,7 +134,7 @@ export default function Project() {
           {project.projectBullets ? <ul>{getBullets()}</ul> : <div></div>}
         </section>
         <section>
-          <h4>Behind the bytes</h4>
+          <h6>💻 Behind the bytes: {project.projectName}</h6>
           <br />
           <hgroup>
             {project.moreDetail ? <div>{getMoreDetails()}</div> : <div></div>}
