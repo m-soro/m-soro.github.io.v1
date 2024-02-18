@@ -479,54 +479,11 @@ a:focus {
   font-size: small;
 }
 
-.ProfileBullets {
-  margin-top: 1.2em;
-  margin-bottom: 2em;
-  padding-left: 2.5em;
-}
-
-.EachJob {
-  margin-top: 3.5em;
-}
-
-.EachJob > p {
-  margin-bottom: -2px;
-}
-
-.EachJob > ul {
-  margin-top: 1.2em;
-  margin-bottom: 1em;
-  padding-left: 2.5em;
-}
-
-.EachJob > ul > li {
-  margin-bottom: -20px;
-}
-
-.ExperienceText {
-  margin-bottom: -50px;
-}
-
-.Resume > section {
-  margin-bottom: -5px;
-}
-
-.TechSkills {
+.PdfContainer {
   display: flex;
-  flex-direction: row;
-  column-gap: 1em;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.TechnicalCertifications {
-  margin-top: 0;
-  padding: 0.1em 0;
-  margin-bottom: 1em;
-}
-
-.TechnicalCertifications li {
-  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /***===== END RESUME PAGE =====***/
@@ -578,6 +535,11 @@ a:focus {
   swiper-container::part(button-next):hover {
     color: var(--primary-hover);
     --swiper-navigation-size: 30px;
+  }
+
+  .react-pdf__Page {
+    border: 1px solid var(--primary);
+    max-width: 50vw !important;
   }
 }
 

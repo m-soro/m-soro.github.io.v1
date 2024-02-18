@@ -1,9 +1,34 @@
+import { useState } from "react";
+import resume from "../assets/myFiles/Mark_Soro_CV.pdf";
+import "react-pdf/dist/Page/AnnotationLayer.css";
+import "react-pdf/dist/Page/TextLayer.css";
+import { pdfjs, Document, Page } from "react-pdf";
 import { ResumeData } from "/src/assets/myFiles/ResumeData.jsx";
 
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  "pdfjs-dist/build/pdf.worker.min.js",
+  import.meta.url
+).toString();
+
 export default function Resume() {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+  const [zoom, setZoom] = useState(1);
+  const [cursor, setCursor] = useState("zoom-in");
+
+  const onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+    setPageNumber(1);
+  };
+
+  const toggleZoom = () => {
+    setZoom(zoom === 1 ? 1.5 : 1);
+    setCursor(zoom === 1 ? "zoom-out" : "zoom-in");
+  };
+
   return (
     <div className="Resume">
-      <section className="NameLocationDownload">
+      <div className="NameLocationDownload">
         <div>
           <h4>{ResumeData.name}</h4>
           <p>{ResumeData.location}</p>
@@ -18,72 +43,20 @@ export default function Resume() {
             Download a copy
           </a>
         </div>
-      </section>
-
-      <section>
-        <h4>Profile</h4>
-        <ul className="ProfileBullets">
-          {ResumeData.profile.map((bullet, index) => (
-            // eslint-disable-next-line react/jsx-key
-            <li key={index}>{bullet}</li>
-          ))}
-        </ul>
-      </section>
-
-      <section>
-        <h4>Tech Skills</h4>
-        <div className="TechSkills">
-          {ResumeData.techSkills.map((skill, index) => (
-            <p key={index}>{skill}</p>
-          ))}
+      </div>
+      <div className="PdfContainer">
+        <div>
+          <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
+            <div style={{ cursor }}>
+              <Page onClick={toggleZoom} scale={zoom} pageNumber={pageNumber} />
+            </div>
+          </Document>
         </div>
-      </section>
-      <section className="Education">
-        <h4>Education</h4>
         <br />
-        {ResumeData.education.map((info, index) => (
-          <hgroup key={index}>
-            <h5>{info.field}</h5>
-            <p>{info.institution}</p>
-            <p></p>
-          </hgroup>
-        ))}
-        <h4>Technical Certifications</h4>
-        <br />
-        {ResumeData.technicalCertifications.map((certificate, index) => (
-          <ul key={index} className="TechnicalCertifications">
-            <li>
-              <a href={certificate.certificateUrl}>
-                {certificate.certificateName}
-              </a>
-            </li>
-            <li>{certificate.certificateDetails}</li>
-          </ul>
-        ))}
-      </section>
-      <section>
-        <h4 className="ExperienceText">Experience</h4>
-        {ResumeData.workExp.map((info, index) => (
-          <section className="EachJob" key={index}>
-            <h5>{info.jobTitle}</h5>
-            <p>{info.companyName}</p>
-            <p>{info.location}</p>
-            <p>{info.duration}</p>
-
-            {info.bullets.map((bullet, index) => (
-              <ul key={index}>
-                <li>{bullet}</li>
-              </ul>
-            ))}
-          </section>
-        ))}
-      </section>
-
-      <br />
-      <section>
-        <h5>Languages</h5>
-        <p>{ResumeData.languange}</p>
-      </section>
+        <p>
+          Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
+        </p>
+      </div>
     </div>
   );
 }
