@@ -13,7 +13,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 export default function Resume() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
-  const [zoom, setZoom] = useState(1);
+  const [zoom, setZoom] = useState(1.2);
   const [cursor, setCursor] = useState("zoom-in");
 
   const onDocumentLoadSuccess = ({ numPages }) => {
@@ -22,8 +22,8 @@ export default function Resume() {
   };
 
   const toggleZoom = () => {
-    setZoom(zoom === 1 ? 1.5 : 1);
-    setCursor(zoom === 1 ? "zoom-out" : "zoom-in");
+    setZoom(zoom === 1.2 ? 1.5 : 1.2);
+    setCursor(zoom === 1.2 ? "zoom-out" : "zoom-in");
   };
 
   return (

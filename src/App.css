@@ -514,6 +514,12 @@ a:focus {
     height: auto;
     margin-left: 5px;
   }
+
+  canvas.react-pdf__Page__canvas {
+    max-height: 65vh !important;
+    width: auto !important;
+    cursor: auto;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -535,11 +541,6 @@ a:focus {
   swiper-container::part(button-next):hover {
     color: var(--primary-hover);
     --swiper-navigation-size: 30px;
-  }
-
-  .react-pdf__Page {
-    border: 1px solid var(--primary);
-    max-width: 50vw !important;
   }
 }
 
