@@ -16,7 +16,7 @@ export default function Header() {
         <nav>
           <ul>
             <li className="NameText">
-              <NavLink to="/" end>
+              <NavLink to="/" end className="">
                 ./mark
               </NavLink>
             </li>

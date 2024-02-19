@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { ProjectData } from "/src/assets/myFiles/ProjectData.jsx";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 export default function Project() {
   const [project, setProject] = useState("");
@@ -50,7 +52,9 @@ export default function Project() {
   const getImages = () => {
     return project.images.map((image, index) => (
       <swiper-slide key={index}>
-        <img src={image} alt={project.projectName} />
+        <Zoom>
+          <img src={image} alt={project.projectName} />
+        </Zoom>
       </swiper-slide>
     ));
   };
@@ -103,7 +107,7 @@ export default function Project() {
   };
 
   return (
-    <div className="ProjectDetail">
+    <div className="ProjectDetail fade-in">
       <article>
         <section>
           <h1>{project.projectName}</h1>

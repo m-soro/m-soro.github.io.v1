@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="About">
+    <div className="About fade-in">
       <h1>My Tech Journey</h1>
       <p>
         Hey there, welcome to my side of the web! I recently completed a

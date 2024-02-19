@@ -44,7 +44,7 @@ export default function Resume() {
           </a>
         </div>
       </div>
-      <div className="PdfContainer">
+      <div className="PdfContainer fade-in">
         <div>
           <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
             <div style={{ cursor }}>

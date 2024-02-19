@@ -39,7 +39,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="Contact">
+    <div className="Contact fade-in">
       {isShown && (
         <Modal
           name={nameInput.current.value}
