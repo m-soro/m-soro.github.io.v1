@@ -257,6 +257,10 @@ button:hover {
   color: aqua;
 }
 
+.BackToTopContainer small {
+  color: aqua;
+}
+
 .BackToTopContainer span:hover,
 .BackToTopContainer span:active {
   font-size: 1.8em;

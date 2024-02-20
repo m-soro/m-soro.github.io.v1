@@ -8,7 +8,7 @@ export default function BackToTop() {
   return (
     // <img src="src/assets/images/rocketBlue.svg" onClick={scrollToTop} alt="" />
     <div className="BackToTopContainer" onClick={scrollToTop}>
-      <small style={{ color: "aqua" }}>Back to top</small>
+      <small>Back to top</small>
       <span className="material-symbols-outlined">stat_2</span>
     </div>
   );
