@@ -1,7 +1,6 @@
 import { ProjectData } from "/src/assets/myFiles/ProjectData.jsx";
 import { Link } from "react-router-dom";
 import { register } from "swiper/element/bundle";
-import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 register();
 
@@ -31,9 +30,7 @@ export default function Projects() {
               >
                 {project.images.map((image, index) => (
                   <swiper-slide key={index}>
-                    <Zoom>
-                      <img src={image} alt={project.projectName} />
-                    </Zoom>
+                    <img src={image} alt={project.projectName} />
                   </swiper-slide>
                 ))}
               </swiper-container>
