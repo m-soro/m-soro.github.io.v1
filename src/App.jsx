@@ -21,9 +21,7 @@ function App() {
   return (
     <div className="App container-fluid">
       <Header />
-      <div className="BackToTopContainer">
-        {scrollTop > 300 ? <BackToTop /> : <div></div>}
-      </div>
+      <div>{scrollTop > 300 ? <BackToTop /> : <div></div>}</div>
       <Footer />
     </div>
   );

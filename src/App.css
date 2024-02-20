@@ -254,14 +254,14 @@ button:hover {
 
 .BackToTopContainer span {
   font-size: 1.6em;
-  color: var(--primary);
+  color: aqua;
 }
 
 .BackToTopContainer span:hover,
 .BackToTopContainer span:active {
   font-size: 1.8em;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
-  color: var(--primary-hover);
+  color: aqua;
   transition: font-size 0.5s;
 }
 
