@@ -1,7 +1,6 @@
 import { ProjectData } from "/src/assets/myFiles/ProjectData.jsx";
 import { Link } from "react-router-dom";
 import { register } from "swiper/element/bundle";
-import "react-medium-image-zoom/dist/styles.css";
 register();
 
 export default function Projects() {

@@ -214,18 +214,18 @@ swiper-container::part(button-prev),
 swiper-container::part(button-next) {
   --swiper-navigation-size: 30px;
   --swiper-navigation-width: 1px;
-  --swiper-navigation-color: var(--primary);
+  --swiper-navigation-color: aqua;
 }
 
 swiper-container::part(button-prev):hover,
 swiper-container::part(button-next):hover {
-  color: var(--primary-hover);
+  --swiper-navigation-color: aqua;
   --swiper-navigation-size: 35px;
 }
 
 swiper-container {
   --swiper-pagination-bullet-size: 10px;
-  --swiper-pagination-color: var(--primary);
+  --swiper-pagination-color: aqua;
   cursor: grabbing;
 }
 
