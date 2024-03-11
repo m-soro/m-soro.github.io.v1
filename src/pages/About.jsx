@@ -35,7 +35,7 @@ export default function About() {
         <figure>
           <img
             src="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/z_profilePics/me002.jpg?raw=true"
-            alt="Mark Soro, in his US Citizenhip ceremony"
+            alt="Mark Soro, in his U.S. Citizenhip ceremony"
           />
           <figcaption>In my U.S. citizenship oath taking ceremony</figcaption>
         </figure>
