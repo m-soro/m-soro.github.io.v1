@@ -25,13 +25,13 @@ export default function About() {
       </p>
       <p>
         What sets me apart? Definitely my never-give-up attitude, optimism, and
-        relentless determination. 💪
+        unrelenting determination. 💪
       </p>
       <p>
         Fluent in both English and Tagalog, I'm soaking up life in the buzzing
         DC area with my amazing partner! 🌟🏙️
       </p>
-      <article> 
+      <article>
         <figure>
           <img
             src="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/z_profilePics/me002.jpg?raw=true"
