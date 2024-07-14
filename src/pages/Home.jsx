@@ -4,11 +4,17 @@ export default function Home() {
       <section className="container">
         <h1>Hi,</h1>
         <blockquote className="loader">
-          I'm Mark, software developer based in Alexandria, Virginia, passionate
-          about creating intuitive and user-friendly applications using
-          JavaScript, Python and more. While relatively new to the field, I
-          thrive on the creative challenge of coding and transforming ideas to
-          digital experiences.
+          <p>
+            I'm Mark, a Salesforce-certified software developer based in
+            Alexandria, Virginia. I specialize in creating intuitive and
+            user-friendly applications using Apex, JavaScript, Python, and the
+            Salesforce platform.
+          </p>
+          <p>
+            With hands-on experience in developing and customizing robust
+            Salesforce applications, I thrive on the creative challenge of
+            transforming ideas into seamless digital experiences.
+          </p>
         </blockquote>
       </section>
       <section>
