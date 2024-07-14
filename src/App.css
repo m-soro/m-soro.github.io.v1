@@ -560,6 +560,10 @@ a:focus {
     letter-spacing: 0.5px;
   }
 
+  .home-text {
+    font-size: xx-small;
+  }
+
   .Home h1 {
     font-size: xx-large;
     margin-top: 3rem;
