@@ -6,14 +6,15 @@ export default function Home() {
         <blockquote className="loader">
           <p>
             I'm Mark, a Salesforce-certified software developer based in
-            Alexandria, Virginia. I specialize in creating intuitive and
-            user-friendly applications using Apex, JavaScript, Python, and the
-            Salesforce platform.
+            Alexandria, Virginia. I specialize in creating intuitive
+            applications using Apex, JavaScript, Python, and web technologies.
           </p>
           <p>
-            With hands-on experience in developing and customizing robust
-            Salesforce applications, I thrive on the creative challenge of
-            transforming ideas into seamless digital experiences.
+            With experience in developing and customizing robust Salesforce
+            applications, I thrive on transforming ideas into seamless digital
+            experiences. My diverse skill set and passion for coding enable me
+            to excel in both Salesforce-specific projects and general software
+            development roles.
           </p>
         </blockquote>
       </section>
