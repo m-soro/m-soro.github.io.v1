@@ -45,6 +45,69 @@ let gifExt = ".gif?raw=true";
 export const ProjectData = [
   {
     id: 1,
+    projectName: `Watt Wise - Utility Management Solution`,
+    images: [
+      `${imgUrl}wattwise/01${imgExt}`,
+      `${imgUrl}wattwise/02${imgExt}`,
+      `${imgUrl}wattwise/03${imgExt}`,
+      `${imgUrl}wattwise/04${imgExt}`,
+      `${imgUrl}wattwise/05${imgExt}`,
+      `${imgUrl}wattwise/06${imgExt}`,
+    ],
+    summary: `A cutting-edge Salesforce solution for managing utility ⚡🌱. 
+              Empower customers to manage, monitor, and optimize utility services through a personalized portal 🌍. 
+              Internal users enjoy streamlined account management, detailed tracking, and efficient scheduling. 
+              Watt Wise offers real-time billing, seamless service transfers, and robust customer support. 
+              Your ultimate energy companion for a sustainable and efficient future! 🌿💡. 
+    `,
+
+    projectBullets: [
+      `As part of the Meter Data Management Services Team, I developed custom components using Apex, JavaScript, and CSS to display aggregated utility data in a client-side portal. This enhances account managers' ability to oversee customer utility usage and optimizes the user experience with seamless data integration and intuitive interfaces`,
+      `Customers benefit from a personalized portal that offers real-time billing updates, seamless service transfers, and robust customer support. This ensures a smooth, efficient, and user-friendly way to manage their utility services, track usage, and handle service requests.`,
+      `Internal end-users enjoy streamlined account management, detailed usage tracking, and efficient service scheduling. By implementing custom metadata types and scheduled flows, the project ensures accurate invoicing and billing, while Agile collaboration and tools like DevOps Center and Jira drive continuous improvement and project success.`,
+    ],
+    moreDetail: [
+      `Watt Wise is a comprehensive utility management platform built within the Salesforce ecosystem. Our project replicates the functionality of the Salesforce Energy and Utilities Cloud without incurring additional costs, providing essential tools to manage customer accounts, utility usage, billing, and service requests. This platform features a customer portal for self-service and internal tools for efficient customer support. ⚡🌿`,
+      `🌟 My Contributions (Meter Data Management System Team) 🛠️`,
+      `󠁛󠁛󠁛󠁝✅ Developed Custom Components: Utilized Apex, JavaScript, and CSS to display aggregated utility data in a client-side portal, enhancing account managers' ability to oversee customer utility usage.`,
+      `✅ Implemented Custom Metadata Types: Facilitated accurate invoicing and billing through custom metadata types and scheduled flows.`,
+      `✅ Configured Salesforce Org: Created custom objects and optimized record pages for better user experience.`,
+      `✅ Integrated Components: Ensured seamless functionality and improved user experience by integrating custom components.`,
+      `✅ Agile Collaboration: Participated in Agile sprints, story pointing, and utilized DevOps Center and Jira for project management.`,
+      `🌟 Key Features of Watt Wise 💡`,
+      `✅ Customer Portal: View meter usage, billing statements, payment methods, and manage services.`,
+      `✅ Service Management: Add new services, transfer services, and schedule appointments.`,
+      `✅ Billing and Payments: View bills, set up payment methods, and pay invoices.`,
+      `✅ Usage Tracking: Detailed utility usage with data fetched via external API callouts.`,
+      `✅ Internal Tools: Access detailed customer information, manage service appointments, and handle support cases.`,
+      `✅ Scalable Design: Flexible and customizable for various business needs.`,
+      `🌟 Benefits for Customer Portal Users 👥`,
+      `✅ Enhanced Oversight: Utilize custom components to get a comprehensive view of customer utility usage.`,
+      `✅ Efficient Billing: Accurate invoicing and billing facilitated by custom metadata and scheduled flows.`,
+      `✅ Streamlined Operations: Easily manage customer accounts, service appointments, and support cases through optimized tools.`,
+      `🌟 Development Process 🚀`,
+      `✅ Agile Methodology: Adopted one-week sprints, daily stand-ups, and weekly planning/retrospective ceremonies for continuous improvement and flexibility.`,
+      `✅ Collaboration Tools: Utilized GitHub for version control, Jira for task management, and DevOps Center for deployment and operations.`,
+      `✅ Planning and Design: Created detailed entity relationship diagrams (ERDs) and process flow diagrams to ensure a seamless system architecture and user experience.`,
+      `🌟 Team Organization 🏅`,
+      `✅ Meter Data Management System (MDMS) Team: Integrated and managed utility and meter services, handled endpoints for meter data, and maintained meter history.`,
+      `✅ Customer Information System (CIS) Team: Managed customer accounts, profiles, and billing information, enabling invoice viewing and bill payment.`,
+      `✅ Service and Support Team: Provided customer service information and assistance, implemented service appointment scheduling, and managed cases.`,
+    ],
+    stack: [
+      `${url}Salesforce${ext}`,
+      `${url}SQL${ext}`,
+      `${url}JavaScript${ext}`,
+      `${url}HTML${ext}`,
+      `${url}CSS${ext}`,
+    ],
+    demoLink: "https://awcomputing-4e9.my.salesforce.com/",
+    repoLink: "https://github.com/skillstorm-congo/20240422-Sf-AFS-Project3",
+    repoAPI:
+      "https://api.github.com/repos/skillstorm-congo/20240422-Sf-AFS-Project3",
+  },
+  {
+    id: 2,
     projectName: `Capstone - Open Peaks Version 2`,
     images: [
       `${imgUrl}openpeaksv2/07${imgExt}`,
@@ -99,7 +162,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/Project_3",
   },
   {
-    id: 2,
+    id: 3,
     projectName: "Open Peaks",
     images: [
       `${imgUrl}openpeaks/01${imgExt}`,
@@ -153,7 +216,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/Project_2",
   },
   {
-    id: 3,
+    id: 4,
     projectName: "Pong!",
     images: [
       `${imgUrl}pong/pong03${imgExt}`,
@@ -190,7 +253,7 @@ export const ProjectData = [
   },
 
   {
-    id: 4,
+    id: 5,
     projectName: "React Portfolio",
     images: [
       `${imgUrl}portfolio/portfolio04${imgExt}`,
@@ -233,7 +296,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/m-soro.github.io",
   },
   {
-    id: 5,
+    id: 6,
     projectName: "Vacancy Spotter",
     images: [
       "https://raw.githubusercontent.com/m-soro/mostay/main/files/mo_stay.png",
@@ -273,7 +336,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/mostay",
   },
   {
-    id: 6,
+    id: 7,
     projectName: "Terminal Transit Ticker",
     images: [
       "https://raw.githubusercontent.com/m-soro/wmata_dc_metro_train_times_v2/main/files/demo.gif",
@@ -301,7 +364,7 @@ export const ProjectData = [
       "https://api.github.com/repos/m-soro/wmata_dc_metro_train_times_v2",
   },
   {
-    id: 7,
+    id: 8,
     projectName: "Pixel Art Maker",
     images: [
       `${imgUrl}pixelart/pixelart01${imgExt}`,
@@ -330,7 +393,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/Pixel-Art-Maker",
   },
   {
-    id: 8,
+    id: 9,
     projectName: `Discovering Bikeshare Trends`,
     images: [
       `${imgUrl}bikeshare/bikeshare01${imgExt}`,
@@ -366,7 +429,7 @@ export const ProjectData = [
     repoAPI: "https://api.github.com/repos/m-soro/bikeshare_project",
   },
   {
-    id: 9,
+    id: 10,
     projectName: "Decoding Trends in FBI NICS Background Checks",
     images: [`${imgUrl}nics/nics02${imgExt}`, `${imgUrl}nics/nics01${imgExt}`],
     summary: `Step into the heart of American firearm checks with this NICS data science project! 🔎 I delved into two decades of data, 
