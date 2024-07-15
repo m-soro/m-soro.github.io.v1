@@ -3,14 +3,16 @@ export default function About() {
     <div className="About fade-in">
       <h1>My Tech Journey</h1>
       <p>
-        Hey there, welcome to my side of the web! I recently completed a
-        rigorous four-month Software Engineering Certificate Program at Per
-        Scholas a major step in my software development journey.
+        Hey there, welcome to my side of the web! 🌐 I’m a passionate Salesforce
+        developer with a background in web development using the MERN stack.
+        Last year, I completed a transformative four-month Software Engineering
+        Certificate Program at Per Scholas, a major step in my software
+        development journey.
       </p>
       <p>
         Before focusing into this awesome tuition-free program, I spent
         considerable time self-studying and working on personal projects that
-        are interest interest of mine, gearing up for the challenges ahead.
+        are of interest of mine, gearing up for the challenges ahead.
       </p>
       <p>
         Balancing a full-time role in a different field, I managed to set aside
