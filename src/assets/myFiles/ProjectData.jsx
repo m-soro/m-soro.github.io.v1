@@ -68,7 +68,7 @@ export const ProjectData = [
     ],
     moreDetail: [
       `Watt Wise is a comprehensive utility management platform built within the Salesforce ecosystem. Our project replicates the functionality of the Salesforce Energy and Utilities Cloud without incurring additional costs, providing essential tools to manage customer accounts, utility usage, billing, and service requests. This platform features a customer portal for self-service and internal tools for efficient customer support. ⚡🌿`,
-      `🌟 My Contributions (Meter Data Management System Team) 🛠️`,
+      `🌟 My Contributions (Meter Data Management System Team) 📈🛠️`,
       `󠁛󠁛󠁛󠁝✅ Developed Custom Components: Utilized Apex, JavaScript, and CSS to display aggregated utility data in a client-side portal, enhancing account managers' ability to oversee customer utility usage.`,
       `✅ Implemented Custom Metadata Types: Facilitated accurate invoicing and billing through custom metadata types and scheduled flows.`,
       `✅ Configured Salesforce Org: Created custom objects and optimized record pages for better user experience.`,
