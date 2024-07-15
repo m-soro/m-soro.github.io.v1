@@ -25,7 +25,7 @@ export default function About() {
       </p>
       <p>
         What sets me apart? Definitely my never-give-up attitude, optimism, and
-        relentless determination. 💪
+        unrelenting determination. 💪
       </p>
       <p>
         Fluent in both English and Tagalog, I'm soaking up life in the buzzing
