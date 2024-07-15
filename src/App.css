@@ -555,19 +555,20 @@ a:focus {
   }
 
   .Home blockquote {
-    margin-top: 0.5rem;
     font-size: small;
+    margin-top: 0;
+    padding-top: 10px;
     letter-spacing: 0.5px;
   }
 
   .home-text {
-    font-size: xx-small;
+    font-size: smaller;
   }
 
   .Home h1 {
-    font-size: xx-large;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    font-size: x-large;
+    margin-top: 9rem;
+    margin-bottom: 1px;
     padding-bottom: 0;
     letter-spacing: 3px;
   }
