@@ -55,11 +55,11 @@ export default function Resume() {
         <br />
         <div className="cert-logos">
           <img
-            src="src/assets/images/z_other/pd1-logo.png"
+            src="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/z_other/pd1-logo.png?raw=true"
             alt="Salesforce Certified Platform Developer 1 Logo"
           />
           <img
-            src="src/assets/images/z_other/sys-admin-logo.png"
+            src="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/z_other/sys-admin-logo.png?raw=true"
             alt="Salesforce Certified Adminstrator Logo"
           />
         </div>
