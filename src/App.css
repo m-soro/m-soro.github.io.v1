@@ -490,6 +490,11 @@ a:focus {
   flex-direction: column;
 }
 
+.cert-logos {
+  display: flex;
+  gap: 1rem;
+}
+
 /***===== END RESUME PAGE =====***/
 
 @media screen and (max-width: 600px) {

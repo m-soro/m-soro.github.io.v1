@@ -102,7 +102,7 @@ export const ProjectData = [
       `${url}CSS${ext}`,
     ],
     demoLink: "https://awcomputing-4e9.my.salesforce.com/",
-    repoLink: "https://github.com/skillstorm-congo/20240422-Sf-AFS-Project3",
+    repoLink: "",
     repoAPI:
       "https://api.github.com/repos/skillstorm-congo/20240422-Sf-AFS-Project3",
   },

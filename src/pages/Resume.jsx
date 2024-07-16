@@ -53,6 +53,18 @@ export default function Resume() {
           </Document>
         </div>
         <br />
+        <div className="cert-logos">
+          <img
+            src="src/assets/images/z_other/pd1-logo.png"
+            alt="Salesforce Certified Platform Developer 1 Logo"
+          />
+          <img
+            src="src/assets/images/z_other/sys-admin-logo.png"
+            alt="Salesforce Certified Adminstrator Logo"
+          />
+        </div>
+        <br />
+        <br />
         <p>
           Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
         </p>

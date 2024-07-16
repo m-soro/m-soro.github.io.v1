@@ -96,14 +96,18 @@ export default function Project() {
   };
 
   const createElement = (label, data) => {
-    const timestamp = Date.parse(data);
-    const date = new Date(timestamp);
-    const formattedDate = `${date.toDateString().substring(4)}`;
-    return (
-      <p>
-        {label} {formattedDate}
-      </p>
-    );
+    if (data != "[object Promise]") {
+      console.log(data);
+      const timestamp = Date.parse(data);
+      const date = new Date(timestamp);
+      const formattedDate = `${date.toDateString().substring(4)}`;
+      return (
+        <p>
+          {label} {formattedDate}
+        </p>
+      );
+    }
+    return <p></p>;
   };
 
   return (
@@ -142,13 +146,18 @@ export default function Project() {
           <br />
           <hgroup>
             {project.moreDetail ? <div>{getMoreDetails()}</div> : <div></div>}
-            <a href={project.repoLink}>GitHub Repo</a>
+            {project.repoLink ? (
+              <a href={project.repoLink}>GitHub Repo</a>
+            ) : (
+              <p></p>
+            )}
+
             <p></p>
           </hgroup>
 
           <section>
             <hgroup>
-              {tags ? (
+              {tags.length > 0 ? (
                 <>
                   <h6>Tags</h6>
                   <ul className="Tags-Container">{createTags(tags)}</ul>
