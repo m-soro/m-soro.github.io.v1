@@ -11,8 +11,8 @@ export default function About() {
       </p>
       <p>
         Before focusing into this awesome tuition-free program, I spent
-        considerable time self-studying and working on personal projects that
-        are of interest of mine, gearing up for the challenges ahead.
+        considerable time self-studying and working on personal projects,
+        gearing up for the challenges ahead.
       </p>
       <p>
         Balancing a full-time role in a different field, I managed to set aside
