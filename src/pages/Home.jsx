@@ -1,3 +1,4 @@
+import TransitionImage from "../components/TransitionImage";
 export default function Home() {
   return (
     <div className="Home fade-in">
@@ -19,9 +20,9 @@ export default function Home() {
         </blockquote>
       </section>
       <section>
-        <img
-          src="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/z_profilePics/me_sq.png?raw=true"
-          alt=""
+        <TransitionImage
+          src="https://media.licdn.com/dms/image/v2/D4E03AQEjC03vB6hYvg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720446782122?e=1736380800&v=beta&t=iugjLJGVwJjqxE-hprHaI0CfFfvzagqq6suXFP6iGTI"
+          alt="Mark Soro"
         />
       </section>
     </div>

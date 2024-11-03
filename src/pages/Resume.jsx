@@ -3,7 +3,6 @@ import resume from "../assets/myFiles/Mark_Soro_CV.pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
 import { pdfjs, Document, Page } from "react-pdf";
-import { ResumeData } from "/src/assets/myFiles/ResumeData.jsx";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.js",
@@ -30,8 +29,8 @@ export default function Resume() {
     <div className="Resume">
       <div className="NameLocationDownload">
         <div>
-          <h4>{ResumeData.name}</h4>
-          <p>{ResumeData.location}</p>
+          <h4>Mark Soro</h4>
+          <p>Alexandria, Virginia</p>
         </div>
         <div>
           <a

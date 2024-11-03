@@ -1,9 +1,13 @@
+import TransitionImage from "../components/TransitionImage";
 export default function About() {
   return (
-    <div className="About fade-in">
-      <h1>My Tech Journey</h1>
+    <article className="About fade-in">
+      <h1>About Me</h1>
+
+      <hr></hr>
+      <br />
       <p>
-        Hey there, welcome to my side of the web! 🌐 I’m a passionate Salesforce
+        Hey there, welcome to my side of the web! 🌐 I'm a passionate Salesforce
         developer with a background in web development using the MERN stack.
         Last year, I completed a transformative four-month Software Engineering
         Certificate Program at Per Scholas, a major step in my software
@@ -35,13 +39,13 @@ export default function About() {
       </p>
       <article>
         <figure>
-          <img
+          <TransitionImage
             src="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/images/z_profilePics/me002.jpg?raw=true"
             alt="Mark Soro, in his U.S. Citizenhip ceremony"
           />
           <figcaption>In my U.S. citizenship oath taking ceremony</figcaption>
         </figure>
       </article>
-    </div>
+    </article>
   );
 }

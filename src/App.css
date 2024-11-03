@@ -100,12 +100,6 @@
   filter: grayscale(90%);
 }
 
-.Home img:hover {
-  filter: grayscale(10%);
-  transition: filter 1000ms, box-shadow 1000ms;
-  box-shadow: 2px 2px 4px 3px var(--muted-color);
-}
-
 .Home h1 {
   font-family: "DM Sans";
   padding-left: 1rem;
@@ -113,13 +107,41 @@
   margin-bottom: 0.5em;
   letter-spacing: 5px;
 }
-
 .Home blockquote {
   font-size: smaller;
   letter-spacing: 1px;
-  border-left: 0.3rem solid aqua;
+  border-left: 0.3rem solid;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(0, 255, 255, 0.6),
+      rgba(0, 255, 255, 1),
+      rgba(0, 255, 255, 0.6)
+    )
+    1;
+  animation: borderPulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  filter: drop-shadow(-3px 0 5px rgba(0, 255, 255, 0.3));
 }
-
+@keyframes borderPulse {
+  0%,
+  100% {
+    border-image: linear-gradient(
+        to bottom,
+        rgba(0, 255, 255, 0.6),
+        rgba(0, 255, 255, 1),
+        rgba(0, 255, 255, 0.6)
+      )
+      1;
+  }
+  50% {
+    border-image: linear-gradient(
+        to bottom,
+        rgba(0, 255, 255, 1),
+        rgba(0, 255, 255, 0.6),
+        rgba(0, 255, 255, 1)
+      )
+      1;
+  }
+}
 .fade-in {
   animation: fadeIn ease 1.5s;
 }
@@ -333,7 +355,6 @@ article > footer {
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
   transition: color 0.5s;
 }
-
 .NameText {
   font-family: "Zilla Slab", serif;
   font-size: 2.3em;
@@ -341,6 +362,24 @@ article > footer {
   font-style: italic;
 }
 
+.NameText a {
+  background: linear-gradient(
+    to right,
+    rgba(0, 255, 255, 0.6),
+    rgba(0, 255, 255, 1),
+    rgba(0, 255, 255, 0.6)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: textPulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  filter: drop-shadow(-2px 0 4px rgba(0, 255, 255, 0.4))
+    drop-shadow(-1px 0 8px rgba(0, 255, 255, 0.2));
+}
+
+.NameText a.active {
+  animation: textPulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
 nav {
   height: 8em;
 }
