@@ -51,10 +51,9 @@ export default function Contact() {
         <h4>Get in touch</h4>
         <br />
         <p>
-          Hey there! 👋 Whether you want to say hi, drop a comment, share how
-          you stumbled upon my page, or ask a question – I'm all ears! Your
-          feedback is greatly appreciated. Feel free to reach out; I'm excited
-          to connect with you! 🌟💬
+          Hey there! 👋 Whether you’re here to say hello, leave a comment, share
+          how you found my page, or ask a question—I’m all ears! I appreciate
+          your feedback and look forward to connecting with you.🌟💬
         </p>
         <br />
         <form ref={form} onSubmit={sendEmail}>
@@ -85,28 +84,6 @@ export default function Contact() {
           <input type="submit" value="send" className="outline send-button" />
         </form>
       </article>
-      <div>
-        <article className="email-socials-article">
-          <h4>Email and Socials</h4>
-          <br />
-          <p>
-            Hey! 🌟 Thanks for stopping by! Want to stay connected? Feel free
-            reach out on my social media links below. Let's connect and share
-            ideas! 🚀💡
-          </p>
-          <div className="Contact-Options">
-            <div>
-              <a href="mailto:napoleon_soro@rocketmail.com">Email</a>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/in/marksoro">LinkedIn</a>
-            </div>
-            <div>
-              <a href="https://github.com/m-soro/">GitHub</a>
-            </div>
-          </div>
-        </article>
-      </div>
     </div>
   );
 }
