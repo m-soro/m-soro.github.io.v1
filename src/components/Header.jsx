@@ -5,6 +5,7 @@ import About from "/src/pages/About";
 import Resume from "/src/pages/Resume";
 import Contact from "/src/pages/Contact";
 import Project from "/src/pages/Project";
+import Impact from "/src/pages/Impact";
 import { useState } from "react";
 
 export default function Header() {
@@ -40,13 +41,16 @@ export default function Header() {
                     <NavLink to="/projects">Projects</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/impact">Impact</NavLink>
                   </li>
                   <li>
                     <NavLink to="/resume">Resume</NavLink>
                   </li>
                   <li>
                     <NavLink to="/contact">Contact</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/about">About</NavLink>
                   </li>
                   <li>
                     <NavLink to="/">Home</NavLink>
@@ -61,6 +65,7 @@ export default function Header() {
           <Route exact strict path="/projects" element={<Projects />} end />
           <Route path="/projects/:projectId" element={<Project />} end />
           <Route exact strict path="/about" element={<About />} end />
+          <Route exact strict path="/impact" element={<Impact />} end />
           <Route exact strict path="/resume" element={<Resume />} end />
           <Route exact strict path="/contact" element={<Contact />} end />
         </Routes>
