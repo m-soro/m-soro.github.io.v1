@@ -9,8 +9,8 @@ export default function Impact() {
       </header>
       <p>
         Committed to delivering real value, I focus on creating high-impact
-        solutions that scale across diverse user bases. Here’s how my work has
-        made a meaningful difference:
+        solutions that scale across diverse user bases. Here’s how some of my
+        work has made a meaningful difference:
       </p>
 
       <div className="ProjectContainer" style={{ gap: "1.2em" }}>
@@ -84,7 +84,7 @@ export default function Impact() {
                   fontStyle: "italic",
                   opacity: 0.8,
                   marginTop: "auto",
-                  fontWeight: 100,
+                  fontWeight: 200,
                   alignSelf: "flex-end",
                 }}
               >

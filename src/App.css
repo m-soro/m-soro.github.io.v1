@@ -549,11 +549,19 @@ a:focus {
   flex-direction: column;
 }
 
-.cert-logos {
+.download-and-certs {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
+.cert-logos {
+  display: flex;
+  gap: 0.5rem;
+}
+.cert-logos img {
+  height: 70px;
+}
 /***===== END RESUME PAGE =====***/
 
 @media screen and (max-width: 600px) {
@@ -587,6 +595,14 @@ a:focus {
     max-height: 65vh !important;
     width: auto !important;
     cursor: auto;
+  }
+
+  .cert-logos img {
+    height: 40px;
+  }
+
+  .download-and-certs {
+    gap: 0.5rem;
   }
 }
 
@@ -654,5 +670,9 @@ a:focus {
   }
   .email-socials-article {
     width: 90vw;
+  }
+
+  .cert-logos img {
+    height: 25px;
   }
 }

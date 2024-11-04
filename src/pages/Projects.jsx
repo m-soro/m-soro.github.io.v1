@@ -39,7 +39,14 @@ export default function Projects() {
                         width="100%"
                         height={300}
                         animation="wave"
-                        sx={{ bgcolor: "rgba(255, 255, 255, 0.1)" }}
+                        sx={{
+                          bgcolor: "rgba(255, 255, 255, 0.1)",
+                          "&::after": {
+                            background:
+                              "linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent)",
+                            animation: "wave 1.6s linear 0.5s infinite",
+                          },
+                        }}
                       />
                     )}
                     <img
