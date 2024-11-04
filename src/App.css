@@ -110,17 +110,10 @@
 .Home blockquote {
   font-size: smaller;
   letter-spacing: 1px;
-  border-left: 0.3rem solid;
-  border-image: linear-gradient(
-      to bottom,
-      rgba(0, 255, 255, 0.6),
-      rgba(0, 255, 255, 1),
-      rgba(0, 255, 255, 0.6)
-    )
-    1;
-  animation: borderPulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  filter: drop-shadow(-3px 0 5px rgba(0, 255, 255, 0.3));
+  border-left: 0.1rem solid aqua;
+  animation: borderPulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+
 @keyframes borderPulse {
   0%,
   100% {
@@ -362,21 +355,48 @@ article > footer {
   font-style: italic;
 }
 
+/* For your name */
 .NameText a {
   background: linear-gradient(
     to right,
-    rgba(0, 255, 255, 0.6),
+    rgba(0, 255, 255, 0.8),
     rgba(0, 255, 255, 1),
-    rgba(0, 255, 255, 0.6)
+    rgba(0, 255, 255, 0.8)
   );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   animation: textPulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  filter: drop-shadow(-2px 0 4px rgba(0, 255, 255, 0.4))
-    drop-shadow(-1px 0 8px rgba(0, 255, 255, 0.2));
+  filter: drop-shadow(-2px 0 4px rgba(0, 255, 255, 0.6))
+    drop-shadow(-1px 0 12px rgba(0, 255, 255, 0.4))
+    drop-shadow(-1px 0 16px rgba(0, 255, 255, 0.2));
 }
 
+/* For the blockquote */
+.Home blockquote {
+  font-size: smaller;
+  letter-spacing: 1px;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.Home blockquote::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0.3rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 255, 255, 0.8),
+    rgba(0, 255, 255, 1),
+    rgba(0, 255, 255, 0.8)
+  );
+  animation: borderPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  filter: drop-shadow(0 0 4px rgba(0, 255, 255, 0.4))
+    drop-shadow(0 0 6px rgba(0, 255, 255, 0.2));
+}
 .NameText a.active {
   animation: textPulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }

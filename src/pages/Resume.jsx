@@ -1,5 +1,5 @@
 import { useState } from "react";
-import resume from "../assets/myFiles/Mark_Soro_CV.pdf";
+import resume from "../assets/myFiles/Mark_Soro_CV_cpblur.pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
 import { pdfjs, Document, Page } from "react-pdf";
@@ -34,12 +34,12 @@ export default function Resume() {
         </div>
         <div>
           <a
-            href="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/myFiles/Mark_Soro_CV.pdf?raw=true"
+            href="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/myFiles/Mark_Soro_CV_cpblur.pdf?raw=true"
             download="Mark_Soro_Software_Developer"
             role="button"
             className="outline DownloadResume"
           >
-            Download a copy
+            Download Copy
           </a>
         </div>
       </div>

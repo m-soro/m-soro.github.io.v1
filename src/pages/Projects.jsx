@@ -1,9 +1,13 @@
 import { ProjectData } from "/src/assets/myFiles/ProjectData.jsx";
 import { Link } from "react-router-dom";
 import { register } from "swiper/element/bundle";
+import { Skeleton } from "@mui/material";
+import { useState } from "react";
 register();
 
 export default function Projects() {
+  const [imageLoaded, setImageLoaded] = useState({});
+
   return (
     <div className="Projects fade-in">
       <h3>Tech Projects</h3>
@@ -29,7 +33,30 @@ export default function Projects() {
               >
                 {project.images.map((image, index) => (
                   <swiper-slide key={index}>
-                    <img src={image} alt={project.projectName} />
+                    {!imageLoaded[`${project.id}-${index}`] && (
+                      <Skeleton
+                        variant="rectangular"
+                        width="100%"
+                        height={300}
+                        animation="wave"
+                        sx={{ bgcolor: "rgba(255, 255, 255, 0.1)" }}
+                      />
+                    )}
+                    <img
+                      src={image}
+                      alt={project.projectName}
+                      style={{
+                        display: imageLoaded[`${project.id}-${index}`]
+                          ? "block"
+                          : "none",
+                      }}
+                      onLoad={() =>
+                        setImageLoaded((prev) => ({
+                          ...prev,
+                          [`${project.id}-${index}`]: true,
+                        }))
+                      }
+                    />
                   </swiper-slide>
                 ))}
               </swiper-container>
