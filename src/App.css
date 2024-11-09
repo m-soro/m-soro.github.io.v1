@@ -690,20 +690,23 @@ nav {
   }
 
   .cert-logos img {
-    height: 40px;
+    height: 45px;
   }
 
   .NameLocationDownload {
+    border: red 1px solid;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
 
-  .NameLocationDownload a {
-    font-size: small;
-  }
   .NameLocationDownload p {
     display: none;
+  }
+
+  .DownloadResume {
+    padding: 0.4em;
+    font-size: xx-small;
   }
 }
