@@ -690,7 +690,7 @@ nav {
   }
 
   .cert-logos img {
-    height: 45px;
+    height: 47px;
   }
 
   .name-location {
@@ -699,9 +699,8 @@ nav {
 
   .download-and-certs {
     width: 100%;
-    border: red 1px solid;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1.2rem;
@@ -709,6 +708,6 @@ nav {
 
   .DownloadResume {
     padding: 0.4em;
-    font-size: x-small;
+    font-size: small;
   }
 }
