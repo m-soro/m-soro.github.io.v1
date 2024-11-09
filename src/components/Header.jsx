@@ -109,16 +109,14 @@ export default function Header() {
           <ul>
             <li>
               <span
-                className="material-symbols-outlined"
+                className="material-symbols-outlined menuIcon"
                 onClick={toggleDrawer(true)}
-                style={{ cursor: "pointer" }}
               >
                 {isOpen ? "menu_open" : "menu"}
               </span>
             </li>
           </ul>
         </nav>
-
         <Drawer
           anchor="right"
           open={isOpen}
@@ -130,10 +128,16 @@ export default function Header() {
               borderLeft: "1px solid rgba(255, 255, 255, 0.1)",
             },
           }}
+          transitionDuration={600}
+          SlideProps={{
+            easing: {
+              enter: "cubic-bezier(0.4, 0, 0.2, 1)",
+              exit: "cubic-bezier(0.4, 0, 0.2, 1)",
+            },
+          }}
         >
           {navList}
         </Drawer>
-
         <Routes>
           <Route exact strict path="/" element={<Home />} end />
           <Route exact strict path="/projects" element={<Projects />} end />

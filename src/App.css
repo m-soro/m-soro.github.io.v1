@@ -447,6 +447,12 @@ nav {
   height: 8em;
 }
 
+.menuIcon {
+  cursor: pointer;
+  color: aqua;
+  transition: color 0.5s;
+}
+
 /***===== END HEADER =====***/
 /***===== FOOTER  =====***/
 
