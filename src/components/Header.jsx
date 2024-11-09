@@ -26,44 +26,68 @@ export default function Header() {
   const navList = (
     <Box
       sx={{
-        width: "200px",
+        width: "260px",
         height: "100%",
         padding: "4rem 0 2rem 2rem ",
       }}
     >
       <ul className="navList">
         <li className="navListItem">
-          <NavLink to="/projects" className="navLinkItem">
+          <NavLink
+            to="/projects"
+            className="navLinkItem"
+            onClick={() => setIsOpen(false)}
+          >
             <span className="material-symbols-outlined">code</span>
             Projects
           </NavLink>
         </li>
         <li className="navListItem">
-          <NavLink to="/impact" className="navLinkItem">
+          <NavLink
+            to="/impact"
+            className="navLinkItem"
+            onClick={() => setIsOpen(false)}
+          >
             <span className="material-symbols-outlined">trending_up</span>
             Impact
           </NavLink>
         </li>
         <li className="navListItem">
-          <NavLink to="/resume" className="navLinkItem">
+          <NavLink
+            to="/resume"
+            className="navLinkItem"
+            onClick={() => setIsOpen(false)}
+          >
             <span className="material-symbols-outlined">description</span>
             Resume
           </NavLink>
         </li>
         <li className="navListItem">
-          <NavLink to="/contact" className="navLinkItem">
+          <NavLink
+            to="/contact"
+            className="navLinkItem"
+            onClick={() => setIsOpen(false)}
+          >
             <span className="material-symbols-outlined">mail</span>
             Contact
           </NavLink>
         </li>
         <li className="navListItem">
-          <NavLink to="/about" className="navLinkItem">
+          <NavLink
+            to="/about"
+            className="navLinkItem"
+            onClick={() => setIsOpen(false)}
+          >
             <span className="material-symbols-outlined">person</span>
             About
           </NavLink>
         </li>
         <li className="navListItem">
-          <NavLink to="/" className="navLinkItem">
+          <NavLink
+            to="/"
+            className="navLinkItem"
+            onClick={() => setIsOpen(false)}
+          >
             <span className="material-symbols-outlined">home</span>
             Home
           </NavLink>
