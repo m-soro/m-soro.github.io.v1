@@ -355,8 +355,37 @@ article > footer {
 }
 
 /***===== END PROJECT*S* PAGE =====***/
-
 /***===== HEADER =====***/
+.Header .nav-list {
+  width: 200px;
+  height: 100%;
+  padding: 4rem 0 2rem 2rem;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.navListItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navLinkItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.Header .menu-icon {
+  cursor: pointer;
+}
+
 .Header .active,
 .ProjectsName:hover {
   color: aqua;
@@ -370,7 +399,6 @@ article > footer {
   font-style: italic;
 }
 
-/* For your name */
 .NameText a {
   background: linear-gradient(
     to right,
@@ -419,39 +447,7 @@ nav {
   height: 8em;
 }
 
-/* Menu styles */
-
-details[role="list"] summary::after,
-li[role="list"] > a::after {
-  width: 0;
-  height: 0;
-}
-
-#root > div > div.Header > nav > ul:nth-child(2):hover {
-  opacity: 1;
-}
-
-#root > div > div.Header > nav > ul:nth-child(2) {
-  opacity: 0.7;
-  transition: opacity 0.4s;
-}
-
-#root > div > div.Header > nav > ul:nth-child(2) > li > details > ul:hover {
-  opacity: 1;
-}
-
-#root > div > div.Header > nav > ul:nth-child(2) > li > details > ul {
-  opacity: 0.7;
-  transition: opacity 0.5s;
-}
-
-[role="link"]:focus,
-a:focus {
-  background-color: transparent;
-}
-
 /***===== END HEADER =====***/
-
 /***===== FOOTER  =====***/
 
 .Footer {

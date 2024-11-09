@@ -1,3 +1,4 @@
+import { Box, Drawer } from "@mui/material";
 import { Route, Routes, NavLink, HashRouter } from "react-router-dom";
 import Home from "/src/pages/Home";
 import Projects from "/src/pages/Projects";
@@ -11,55 +12,104 @@ import { useState } from "react";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const toggleDrawer = (open) => (event) => {
+    if (
+      event &&
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+    setIsOpen(open);
+  };
+
+  const navList = (
+    <Box
+      sx={{
+        width: "200px",
+        height: "100%",
+        padding: "4rem 0 2rem 2rem ",
+      }}
+    >
+      <ul className="navList">
+        <li className="navListItem">
+          <NavLink to="/projects" className="navLinkItem">
+            <span className="material-symbols-outlined">code</span>
+            Projects
+          </NavLink>
+        </li>
+        <li className="navListItem">
+          <NavLink to="/impact" className="navLinkItem">
+            <span className="material-symbols-outlined">trending_up</span>
+            Impact
+          </NavLink>
+        </li>
+        <li className="navListItem">
+          <NavLink to="/resume" className="navLinkItem">
+            <span className="material-symbols-outlined">description</span>
+            Resume
+          </NavLink>
+        </li>
+        <li className="navListItem">
+          <NavLink to="/contact" className="navLinkItem">
+            <span className="material-symbols-outlined">mail</span>
+            Contact
+          </NavLink>
+        </li>
+        <li className="navListItem">
+          <NavLink to="/about" className="navLinkItem">
+            <span className="material-symbols-outlined">person</span>
+            About
+          </NavLink>
+        </li>
+        <li className="navListItem">
+          <NavLink to="/" className="navLinkItem">
+            <span className="material-symbols-outlined">home</span>
+            Home
+          </NavLink>
+        </li>
+      </ul>
+    </Box>
+  );
   return (
     <HashRouter>
       <div className="Header container">
         <nav>
           <ul>
             <li className="NameText">
-              <NavLink to="/" end className="">
+              <NavLink to="/" end>
                 ./mark
               </NavLink>
             </li>
           </ul>
           <ul>
             <li>
-              <details role="list" dir="rtl">
-                <summary
-                  aria-haspopup="listbox"
-                  role="link"
-                  onClick={() => {
-                    setIsOpen(!isOpen);
-                  }}
-                >
-                  <span className="material-symbols-outlined">
-                    {isOpen ? "menu_open" : "menu"}
-                  </span>
-                </summary>
-                <ul role="listbox">
-                  <li>
-                    <NavLink to="/projects">Projects</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/impact">Impact</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/resume">Resume</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/contact">Contact</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/about">About</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/">Home</NavLink>
-                  </li>
-                </ul>
-              </details>
+              <span
+                className="material-symbols-outlined"
+                onClick={toggleDrawer(true)}
+                style={{ cursor: "pointer" }}
+              >
+                {isOpen ? "menu_open" : "menu"}
+              </span>
             </li>
           </ul>
         </nav>
+
+        <Drawer
+          anchor="right"
+          open={isOpen}
+          onClose={toggleDrawer(false)}
+          PaperProps={{
+            sx: {
+              backgroundColor: "var(--background-color)",
+              color: "var(--color)",
+              borderLeft: "1px solid rgba(255, 255, 255, 0.1)",
+            },
+          }}
+        >
+          {navList}
+        </Drawer>
+
         <Routes>
           <Route exact strict path="/" element={<Home />} end />
           <Route exact strict path="/projects" element={<Projects />} end />
