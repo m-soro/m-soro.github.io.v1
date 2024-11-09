@@ -689,7 +689,8 @@ nav {
     width: 90vw;
   }
 
-  .NameLocationDownload {
+  .NameLocationDownload h4,
+  p {
     display: none;
   }
 
