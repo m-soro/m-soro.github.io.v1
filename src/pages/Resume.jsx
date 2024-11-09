@@ -30,7 +30,7 @@ export default function Resume() {
   return (
     <div className="Resume">
       <div className="NameLocationDownload">
-        <div>
+        <div className="name-location">
           <h4>Mark Soro</h4>
           <p>Alexandria, Virginia</p>
         </div>

@@ -693,18 +693,17 @@ nav {
     height: 45px;
   }
 
-  .NameLocationDownload {
-    width: 100vw;
+  .name-location {
+    display: none;
+  }
+
+  .download-and-certs {
     border: red 1px solid;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2rem;
-  }
-
-  .NameLocationDownload p {
-    display: none;
+    margin-bottom: 1.2rem;
   }
 
   .DownloadResume {
