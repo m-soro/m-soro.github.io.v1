@@ -698,6 +698,7 @@ nav {
   }
 
   .download-and-certs {
+    width: 100%;
     border: red 1px solid;
     display: flex;
     flex-direction: row;
