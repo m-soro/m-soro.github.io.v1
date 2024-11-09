@@ -694,11 +694,13 @@ nav {
   }
 
   .NameLocationDownload {
+    width: 100vw;
     border: red 1px solid;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 2rem;
   }
 
   .NameLocationDownload p {
@@ -707,6 +709,6 @@ nav {
 
   .DownloadResume {
     padding: 0.4em;
-    font-size: xx-small;
+    font-size: x-small;
   }
 }
