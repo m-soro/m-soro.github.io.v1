@@ -693,6 +693,13 @@ nav {
     height: 40px;
   }
 
+  .NameLocationDownload {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .NameLocationDownload a {
     font-size: small;
   }
