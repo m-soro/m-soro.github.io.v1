@@ -615,7 +615,7 @@ nav {
   }
 
   .cert-logos img {
-    height: 40px;
+    height: 60px;
   }
 
   .download-and-certs {
@@ -690,6 +690,10 @@ nav {
   }
 
   .cert-logos img {
-    height: 25px;
+    height: 40px;
+  }
+
+  .NameLocationDownload p {
+    display: none;
   }
 }
