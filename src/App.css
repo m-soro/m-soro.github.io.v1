@@ -689,7 +689,11 @@ nav {
     width: 90vw;
   }
 
+  .cert-logos img {
+    height: 30px;
+  }
+
   .NameLocationDownload p {
-    display: none;
+    font-size: xx-small;
   }
 }
