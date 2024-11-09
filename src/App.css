@@ -689,14 +689,7 @@ nav {
     width: 90vw;
   }
 
-  .NameLocationDownload h4,
-  p {
+  .NameLocationDownload p {
     display: none;
-  }
-
-  .download-and-certs {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
   }
 }
