@@ -48,7 +48,7 @@ export default function Resume() {
             />
           </div>
           <a
-            href="https://github.com/m-soro/m-soro.github.io/blob/main/src/assets/myFiles/Mark_Soro_CV.pdf?raw=true"
+            href="src/assets/myFiles/Mark_Soro_CV.pdf"
             download="Mark_Soro_Software_Developer"
             role="button"
             className="outline DownloadResume"
