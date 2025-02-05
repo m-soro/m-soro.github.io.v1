@@ -21,7 +21,7 @@ export default function Home() {
       </section>
       <section>
         <TransitionImage
-          src="https://media.licdn.com/dms/image/v2/D4E03AQEjC03vB6hYvg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720446782122?e=1736380800&v=beta&t=iugjLJGVwJjqxE-hprHaI0CfFfvzagqq6suXFP6iGTI"
+          src="https://avatars.githubusercontent.com/u/63247801?v=4"
           alt="Mark Soro"
         />
       </section>

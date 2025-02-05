@@ -8,10 +8,10 @@ export default function About() {
       <br />
       <p>
         Hey there, welcome to my side of the web! 🌐 I'm a passionate Salesforce
-        developer with a background in web development using the MERN stack.
-        Last year, I completed a transformative four-month Software Engineering
-        Certificate Program at Per Scholas, a major step in my software
-        development journey.
+        developer with a background in web development using the MERN stack. I
+        completed a transformative four-month Software Engineering Certificate
+        Program at Per Scholas in 2023, a major step in my software development
+        journey.
       </p>
       <p>
         Before focusing into this awesome tuition-free program, I spent
