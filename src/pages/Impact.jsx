@@ -8,9 +8,9 @@ export default function Impact() {
         <h1>Impact Delivered</h1>
       </header>
       <p>
-        Committed to delivering real value, I focus on creating high-impact
-        solutions that scale across diverse user bases. Here’s how some of my
-        work has made a meaningful difference:
+        Committed to delivering real value, I focus on building scalable,
+        high-impact solutions that enhance efficiency and user experience.
+        Here’s how a few of my work have made a meaningful difference:
       </p>
 
       <div className="ProjectContainer" style={{ gap: "1.2em" }}>
@@ -70,7 +70,7 @@ export default function Impact() {
                 level="body-xs"
                 sx={{
                   color: "var(--muted-color)",
-                  fontWeight: 250,
+                  fontWeight: 200,
                   marginBottom: "0.3rem",
                 }}
               >
@@ -88,7 +88,7 @@ export default function Impact() {
                   alignSelf: "flex-end",
                 }}
               >
-                Federal Government Project, 2024
+                {impact.footer}
               </Typography>
             </CardContent>
           </Card>
@@ -96,10 +96,10 @@ export default function Impact() {
       </div>
       <br />
       <p>
-        Driven by a focus on real-world impact, I build solutions that go beyond
-        functionality to create real value for end-users. I’m excited to bring
-        this mindset to every project I take on, and strive to make a measurable
-        difference.
+        Driven by a focus on measurable impact, I build solutions that go beyond
+        functionality to deliver real value for end-users. I approach every
+        project with a problem-solving mindset, ensuring measurable improvements
+        in efficiency, accuracy, and user experience.
       </p>
     </article>
   );
