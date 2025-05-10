@@ -467,7 +467,7 @@ nav {
 }
 
 .Footer > p {
-  color: var(--muted-color);
+  /* color: var(--muted-color); */
   text-align: center;
   font-size: small;
   padding: 0;
